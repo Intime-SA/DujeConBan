@@ -18,11 +18,11 @@ import axios from "axios";
 function CardProducto({ elemento, botonStock, botonEliminar }) {
   return (
     <div>
-      <Card sx={{ width: 350, margin: 5 }}>
+      <Card sx={{ width: 200, margin: 5 }}>
         <CardActionArea>
           <CardMedia
             component="img"
-            height="350"
+            height="150"
             image={elemento.img}
             alt="green iguana"
           />

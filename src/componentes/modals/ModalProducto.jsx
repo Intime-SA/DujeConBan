@@ -27,8 +27,9 @@ function ModalProducto({ open, handleClose, setCargado }) {
     axios
       .post("http://localhost:5000/productos", arg)
       .then((res) => {
-        handleClose();
         setCargado(true);
+        handleClose();
+        window.location.reload();
       })
       .catch((error) => console.log(error));
   };

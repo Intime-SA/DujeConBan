@@ -8,17 +8,20 @@ import ModalProducto from "../modals/ModalProducto";
 import ProductoListado from "./ProductoListado";
 import Pedidos from "./Pedidos";
 import Vendedores from "./Vendedores";
+import Clientes from "./Clientes";
+import "./productos.css";
 
 function Productos() {
-  const [seleccion, setSeleccion] = useState(false);
   const [open, setOpen] = useState(false);
   const [abrir, setAbrir] = useState(false);
   const [abrirPedidos, setAbrirPedidos] = useState(false);
   const [abrirVendedores, setAbrirVendedores] = useState(false);
+  const [abrirClientes, setAbrirClientes] = useState(false);
 
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
+  const [seleccion, setSeleccion] = useState(false);
   const [cargado, setCargado] = useState(false);
   const [eliminado, setEliminado] = useState(false);
 
@@ -28,12 +31,27 @@ function Productos() {
     setEliminado(false);
   }, [seleccion, cargado, eliminado]);
 
-  const botonVendedores = () => setAbrirVendedores(true);
+  const botonClientes = () => {
+    setAbrirClientes(true);
+    setAbrirPedidos(false);
+    setAbrirVendedores(false);
+  };
 
-  const botonListadoPedidos = () => setAbrirPedidos(true);
+  const botonVendedores = () => {
+    setAbrirVendedores(true);
+    setAbrirClientes(false);
+    setAbrirPedidos(false);
+  };
+
+  const botonListadoPedidos = () => {
+    setAbrirPedidos(true);
+    setAbrirClientes(false);
+    setAbrirVendedores(false);
+  };
   const cerrarListadoPedidos = () => setAbrirPedidos(false);
 
   const botonListadoProductos = () => setAbrir(true);
+
   const cerrarListadoProductos = () => setAbrir(false);
 
   const botonStock = (elemento) => {
@@ -72,16 +90,19 @@ function Productos() {
         style={{
           display: "flex",
           justifyContent: "center",
+          fontSize: "3rem",
         }}
       >
-        <Button onClick={handleOpen}>Agregar Producto</Button>
+        <Button size="large" onClick={handleOpen}>
+          Agregar Producto
+        </Button>
         <Button onClick={botonListadoProductos}>Ver Productos</Button>
 
         <Button onClick={botonListadoPedidos}>VerPedidos</Button>
         <Button>Reportes</Button>
         <br />
         <Button onClick={botonVendedores}>Vendedores</Button>
-        <Button>Clientes</Button>
+        <Button onClick={botonClientes}>Clientes</Button>
         <ModalProducto
           open={open}
           handleClose={handleClose}
@@ -96,6 +117,7 @@ function Productos() {
       />
       {abrirPedidos && <Pedidos abrirPedidos={abrirPedidos} />}
       {abrirVendedores && <Vendedores />}
+      {abrirClientes && <Clientes abrirClientes={abrirClientes} />}
     </>
   );
 }

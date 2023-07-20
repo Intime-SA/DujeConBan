@@ -1,5 +1,6 @@
 import React from "react";
 import Productos from "./Productos";
+import "./header.css";
 
 function Header() {
   return (
@@ -23,10 +24,15 @@ function Header() {
           height: "300px",
         }}
       >
-        <img
-          src="https://media.licdn.com/dms/image/D4D0BAQEvYBgs5V2lhQ/company-logo_200_200/0/1682360728459?e=1697673600&v=beta&t=Im6s7_Cy12RU4pKxagWyRxKi8NEG9AELc4eBDNBWCQY"
-          alt="logo"
-        />
+        <a href="http://localhost:3000/">
+          <img
+            src="https://media.licdn.com/dms/image/D4D0BAQEvYBgs5V2lhQ/company-logo_200_200/0/1682360728459?e=1697673600&v=beta&t=Im6s7_Cy12RU4pKxagWyRxKi8NEG9AELc4eBDNBWCQY"
+            alt="logo"
+          />
+        </a>
+      </div>
+      <div>
+        <h1>Administrador - Distribuidora MDP</h1>
       </div>
       <div
         style={{

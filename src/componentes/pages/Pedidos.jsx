@@ -40,8 +40,10 @@ function Pedidos(abrirPedidos) {
         justifyContent: "center",
         alignItems: "center",
         marginLeft: "10vw",
+        flexDirection: "column",
       }}
     >
+      Pedidos
       <Box
         style={{
           display: "flex",
