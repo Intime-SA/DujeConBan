@@ -6,12 +6,13 @@ import axios, { AxiosHeaders } from "axios";
 import confetti from "canvas-confetti";
 import ModalProducto from "../modals/ModalProducto";
 import ProductoListado from "./ProductoListado";
+import Pedidos from "./Pedidos";
 
 function Productos() {
   const [seleccion, setSeleccion] = useState(false);
   const [open, setOpen] = useState(false);
   const [abrir, setAbrir] = useState(false);
-  const [listado, setListado] = useState(false);
+  const [abrirPedidos, setAbrirPedidos] = useState(false);
 
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -23,8 +24,10 @@ function Productos() {
     setSeleccion(false);
     setCargado(false);
     setEliminado(false);
-    setListado(false);
-  }, [seleccion, cargado, eliminado, listado]);
+  }, [seleccion, cargado, eliminado]);
+
+  const botonListadoPedidos = () => setAbrirPedidos(true);
+  const cerrarListadoPedidos = () => setAbrirPedidos(false);
 
   const botonListadoProductos = () => setAbrir(true);
   const cerrarListadoProductos = () => setAbrir(false);
@@ -65,13 +68,12 @@ function Productos() {
         style={{
           display: "flex",
           justifyContent: "center",
-          flexDirection: "column",
         }}
       >
         <Button onClick={handleOpen}>Agregar Producto</Button>
         <Button onClick={botonListadoProductos}>Ver Productos</Button>
 
-        <Button>Ver pedidos</Button>
+        <Button onClick={botonListadoPedidos}>VerPedidos</Button>
         <Button>Reportes</Button>
         <br />
         <Button>Vendedores</Button>
@@ -86,7 +88,6 @@ function Productos() {
         abrir={abrir}
         botonEliminar={botonEliminar}
         botonStock={botonStock}
-        setListado={setListado}
         cerrarListadoProductos={cerrarListadoProductos}
       />
     </>
