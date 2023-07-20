@@ -7,12 +7,14 @@ import confetti from "canvas-confetti";
 import ModalProducto from "../modals/ModalProducto";
 import ProductoListado from "./ProductoListado";
 import Pedidos from "./Pedidos";
+import Vendedores from "./Vendedores";
 
 function Productos() {
   const [seleccion, setSeleccion] = useState(false);
   const [open, setOpen] = useState(false);
   const [abrir, setAbrir] = useState(false);
   const [abrirPedidos, setAbrirPedidos] = useState(false);
+  const [abrirVendedores, setAbrirVendedores] = useState(false);
 
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -25,6 +27,8 @@ function Productos() {
     setCargado(false);
     setEliminado(false);
   }, [seleccion, cargado, eliminado]);
+
+  const botonVendedores = () => setAbrirVendedores(true);
 
   const botonListadoPedidos = () => setAbrirPedidos(true);
   const cerrarListadoPedidos = () => setAbrirPedidos(false);
@@ -76,7 +80,7 @@ function Productos() {
         <Button onClick={botonListadoPedidos}>VerPedidos</Button>
         <Button>Reportes</Button>
         <br />
-        <Button>Vendedores</Button>
+        <Button onClick={botonVendedores}>Vendedores</Button>
         <Button>Clientes</Button>
         <ModalProducto
           open={open}
@@ -91,6 +95,7 @@ function Productos() {
         cerrarListadoProductos={cerrarListadoProductos}
       />
       {abrirPedidos && <Pedidos abrirPedidos={abrirPedidos} />}
+      {abrirVendedores && <Vendedores />}
     </>
   );
 }
