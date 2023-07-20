@@ -35,7 +35,7 @@ function Pedidos(abrirPedidos) {
     <div
       style={{
         display: "flex",
-        height: "20vh",
+        top: "20px",
         width: "80vw",
         justifyContent: "center",
         alignItems: "center",

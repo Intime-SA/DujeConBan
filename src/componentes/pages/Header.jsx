@@ -28,7 +28,6 @@ function Header() {
           alt="logo"
         />
       </div>
-      <Productos />
       <div
         style={{
           display: "flex",

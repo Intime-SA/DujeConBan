@@ -90,6 +90,7 @@ function Productos() {
         botonStock={botonStock}
         cerrarListadoProductos={cerrarListadoProductos}
       />
+      {abrirPedidos && <Pedidos abrirPedidos={abrirPedidos} />}
     </>
   );
 }
