@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Box } from "@mui/material";
+import { Box, Button } from "@mui/material";
 import ModalVendedor from "../modals/ModalVendedor";
+import ModalCliente from "../modals/ModalCliente";
 
 function Clientes() {
   const [dataCliente, setDataCliente] = useState([]);
@@ -35,10 +36,19 @@ function Clientes() {
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
+        fontSize: "2rem",
       }}
     >
-      Clientes
-      <button onClick={botonAbrirModal}>Agregar Cliente</button>
+      <h2 style={{ margin: "1rem", fontSize: "2rem" }}>Clientes Directos</h2>
+      <Button variant="contained" disableElevation onClick={botonAbrirModal}>
+        Agregar Cliente
+      </Button>
+      <ModalCliente
+        abrirModal={abrirModal}
+        botonCerrarModal={botonCerrarModal}
+        close={close}
+        setCarga={setCarga}
+      />
       <div>
         <Box
           style={{
@@ -50,17 +60,19 @@ function Clientes() {
           <table className="table">
             <thead>
               <tr>
-                <th>ID</th>
                 <th>Nombre</th>
                 <th>Telefono</th>
+                <th>Direccion</th>
+                <th>Email</th>
               </tr>
             </thead>
             <tbody>
               {dataCliente.map((dato) => (
                 <tr key={dato.id}>
-                  <td>{dato.id}</td>
                   <td>{dato.name}</td>
                   <td>{dato.telefono}</td>
+                  <td>{dato.direccion}</td>
+                  <td>{dato.email}</td>
                 </tr>
               ))}
             </tbody>

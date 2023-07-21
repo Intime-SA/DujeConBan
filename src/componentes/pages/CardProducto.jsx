@@ -18,16 +18,16 @@ import axios from "axios";
 function CardProducto({ elemento, botonStock, botonEliminar }) {
   return (
     <div>
-      <Card sx={{ width: 200, margin: 5 }}>
+      <Card sx={{ width: 250, margin: 5 }}>
         <CardActionArea>
           <CardMedia
             component="img"
-            height="150"
+            height="250"
             image={elemento.img}
             alt="green iguana"
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography gutterBottom variant="h6" component="div">
               {elemento.name}
             </Typography>
             <Typography variant="body2" color="text.secondary">
@@ -43,12 +43,16 @@ function CardProducto({ elemento, botonStock, botonEliminar }) {
           >
             <FormGroup>
               <FormControlLabel
-                control={<Switch defaultChecked />}
+                control={<Switch size="small" defaultChecked />}
                 label="Stock"
                 onClick={() => botonStock(elemento)}
               />
             </FormGroup>
-            <Button onClick={() => botonEliminar(elemento)} variant="contained">
+            <Button
+              size="small"
+              onClick={() => botonEliminar(elemento)}
+              variant="contained"
+            >
               Eliminar
             </Button>
           </div>

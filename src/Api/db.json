@@ -31,46 +31,6 @@
       "precio": "1550",
       "stock": false,
       "id": 4
-    },
-    {
-      "name": "asd",
-      "description": "asd",
-      "img": "asd",
-      "precio": "asd",
-      "stock": false,
-      "id": 5
-    },
-    {
-      "name": "asd",
-      "description": "asd",
-      "img": "asd",
-      "precio": "asd",
-      "stock": false,
-      "id": 6
-    },
-    {
-      "name": "asd",
-      "description": "asd",
-      "img": "asd",
-      "precio": "asd",
-      "stock": false,
-      "id": 7
-    },
-    {
-      "name": "aa",
-      "description": "aa",
-      "img": "aa",
-      "precio": "aa",
-      "stock": false,
-      "id": 8
-    },
-    {
-      "name": "bb",
-      "description": "bb",
-      "img": "bb",
-      "precio": "bb",
-      "stock": false,
-      "id": 9
     }
   ],
   "vendedores": [
@@ -164,42 +124,58 @@
     {
       "id": 1,
       "name": "Carlos",
-      "telefono": "0223 5555 0908"
+      "telefono": "0223 5555 0908",
+      "direccion": "Av Pedro Luro 2133",
+      "email": "Carlos@hotmail.com"
     },
     {
       "id": 2,
       "name": "Raul",
-      "telefono": "0223 5555 0908"
+      "telefono": "0223 5555 0908",
+      "direccion": "Av Independencia 999",
+      "email": "Raul@hotmail.com"
     },
     {
       "id": 3,
       "name": "Enrique",
-      "telefono": "0223 5555 0908"
+      "telefono": "0223 5555 0908",
+      "direccion": "Av Independencia 1050",
+      "email": "Enrique@hotmail.com"
     },
     {
       "id": 4,
       "name": "Sebastian",
-      "telefono": "0223 5555 0908"
+      "telefono": "0223 0303 0908",
+      "direccion": "Moreno 2955",
+      "email": "Sebastian@hotmail.com"
     },
     {
       "id": 5,
       "name": "Santiago",
-      "telefono": "0223 5555 0908"
+      "telefono": "0223 5555 5557",
+      "direccion": "Bolivar 956",
+      "email": "Santiago@hotmail.com"
     },
     {
       "id": 6,
       "name": "Manuel",
-      "telefono": "0223 5555 0908"
+      "telefono": "0223 5555 6666",
+      "direccion": "San lorenzo 2133",
+      "email": "Manuel@hotmail.com"
     },
     {
       "id": 7,
       "name": "Enrique",
-      "telefono": "0223 5555 0908"
+      "telefono": "0223 5555 0333",
+      "direccion": "Bolivar 1006",
+      "email": "Enrique@hotmail.com"
     },
     {
       "id": 8,
       "name": "Javier",
-      "telefono": "0223 5555 0908"
+      "telefono": "0223 7578 0908",
+      "direccion": "San Lorenzo 956",
+      "email": "Javier@hotmail.com"
     }
   ],
   "pedidosVendedores": [
@@ -211,42 +187,42 @@
       "vendeor": 1
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "Pedido Vendedor",
       "description": "Harina sin TACC, Avena sin TACC, Fideos sin TACC",
       "precio": 2400,
       "vendeor": 1
     },
     {
-      "id": 1,
+      "id": 3,
       "name": "Pedido Vendedor",
       "description": "Harina sin TACC, Avena sin TACC, Fideos sin TACC",
       "precio": 2400,
       "vendeor": 1
     },
     {
-      "id": 1,
+      "id": 4,
       "name": "Pedido Vendedor",
       "description": "Harina sin TACC, Avena sin TACC, Fideos sin TACC",
       "precio": 2400,
       "vendeor": 1
     },
     {
-      "id": 1,
+      "id": 5,
       "name": "Pedido Vendedor",
       "description": "Harina sin TACC, Avena sin TACC, Fideos sin TACC",
       "precio": 2400,
       "vendeor": 1
     },
     {
-      "id": 1,
+      "id": 6,
       "name": "Pedido Vendedor",
       "description": "Harina sin TACC, Avena sin TACC, Fideos sin TACC",
       "precio": 2400,
       "vendeor": 1
     },
     {
-      "id": 1,
+      "id": 7,
       "name": "Pedido Vendedor",
       "description": "Harina sin TACC, Avena sin TACC, Fideos sin TACC",
       "precio": 2400,

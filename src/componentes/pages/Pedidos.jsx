@@ -15,7 +15,7 @@ import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import "./pedidos.css";
-import { Modal, Button, ModalManager } from "@mui/material";
+import { Modal, Button, ModalManager, Alert } from "@mui/material";
 import { Margin } from "@mui/icons-material";
 
 function Pedidos(abrirPedidos) {
@@ -31,19 +31,36 @@ function Pedidos(abrirPedidos) {
     }
   }, []);
 
+  const Estado = (prop) => {
+    if (prop === 2400) {
+      return (
+        <Alert variant="filled" severity="success">
+          Cobrado
+        </Alert>
+      );
+    } else {
+      return (
+        <Alert variant="filled" severity="info">
+          Pendiente
+        </Alert>
+      );
+    }
+  };
+
   return (
     <div
       style={{
         display: "flex",
-        top: "20px",
-        width: "80vw",
         justifyContent: "center",
         alignItems: "center",
-        marginLeft: "10vw",
         flexDirection: "column",
+        fontSize: "2rem",
       }}
     >
-      Pedidos
+      <h2 style={{ margin: "1rem", fontSize: "2rem" }}>Pedidos</h2>
+      <Button variant="contained" disableElevation>
+        Crear Pedido
+      </Button>
       <Box
         style={{
           display: "flex",
@@ -57,7 +74,7 @@ function Pedidos(abrirPedidos) {
               <th>ID</th>
               <th>Nombre</th>
               <th>Precio</th>
-              <th>Descripción</th>
+              <th>Estado</th>
             </tr>
           </thead>
           <tbody>
@@ -66,7 +83,7 @@ function Pedidos(abrirPedidos) {
                 <td>{dato.id}</td>
                 <td>{dato.name}</td>
                 <td>{dato.precio}</td>
-                <td>{dato.description}</td>
+                <td>{Estado(dato.precio)}</td>
               </tr>
             ))}
           </tbody>

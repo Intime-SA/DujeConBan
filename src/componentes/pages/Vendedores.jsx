@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Box } from "@mui/material";
+import { Box, Button } from "@mui/material";
 import ModalVendedor from "../modals/ModalVendedor";
 
 function Vendedores() {
@@ -37,8 +37,10 @@ function Vendedores() {
         flexDirection: "column",
       }}
     >
-      Vendedores
-      <button onClick={botonAbrirModal}>Agregar Vendedores</button>
+      <h2 style={{ margin: "1rem", fontSize: "2rem" }}>Vendedores</h2>
+      <Button variant="contained" disableElevation onClick={botonAbrirModal}>
+        Agregar Vendedores
+      </Button>
       <ModalVendedor
         abrirModal={abrirModal}
         botonCerrarModal={botonCerrarModal}

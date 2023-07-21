@@ -29,28 +29,36 @@ function Productos() {
     setSeleccion(false);
     setCargado(false);
     setEliminado(false);
-  }, [seleccion, cargado, eliminado]);
+  }, [seleccion, cargado, eliminado, abrir]);
 
   const botonClientes = () => {
     setAbrirClientes(true);
     setAbrirPedidos(false);
     setAbrirVendedores(false);
+    setAbrir(false);
   };
 
   const botonVendedores = () => {
     setAbrirVendedores(true);
     setAbrirClientes(false);
     setAbrirPedidos(false);
+    setAbrir(false);
   };
 
   const botonListadoPedidos = () => {
     setAbrirPedidos(true);
     setAbrirClientes(false);
     setAbrirVendedores(false);
+    setAbrir(false);
   };
   const cerrarListadoPedidos = () => setAbrirPedidos(false);
 
-  const botonListadoProductos = () => setAbrir(true);
+  const botonListadoProductos = () => {
+    setAbrir(true);
+    setAbrirPedidos(false);
+    setAbrirClientes(false);
+    setAbrirVendedores(false);
+  };
 
   const cerrarListadoProductos = () => setAbrir(false);
 
@@ -80,6 +88,7 @@ function Productos() {
     axios
       .delete(`http://localhost:5000/productos/${elemento.id}`)
       .then((res) => setEliminado(true));
+    window.location.reload();
     console.log(elemento.id);
   };
 
@@ -89,32 +98,61 @@ function Productos() {
         className="agregarPelicula"
         style={{
           display: "flex",
-          justifyContent: "center",
+          justifyContent: "space-around",
           fontSize: "3rem",
+          width: "100vw",
+          borderBottom: "solid black 1px",
         }}
       >
-        <Button size="large" onClick={handleOpen}>
-          Agregar Producto
-        </Button>
-        <Button onClick={botonListadoProductos}>Ver Productos</Button>
-
-        <Button onClick={botonListadoPedidos}>VerPedidos</Button>
-        <Button>Reportes</Button>
-        <br />
-        <Button onClick={botonVendedores}>Vendedores</Button>
-        <Button onClick={botonClientes}>Clientes</Button>
+        <div>
+          <Button
+            style={{ margin: "10px" }}
+            variant="contained"
+            disableElevation
+            size="large"
+            onClick={handleOpen}
+          >
+            Agregar Producto
+          </Button>
+          <Button
+            style={{ margin: "10px" }}
+            variant="outlined"
+            disableElevation
+            size="large"
+            onClick={handleOpen}
+          >
+            Agregar Pedidos
+          </Button>
+        </div>
+        <div>
+          <Button style={{ margin: "10px" }} onClick={botonListadoProductos}>
+            Ver Productos
+          </Button>
+          <Button style={{ margin: "10px" }} onClick={botonListadoPedidos}>
+            Ver Pedidos
+          </Button>
+          <Button style={{ margin: "10px" }}>Reportes</Button>
+          <Button style={{ margin: "10px" }} onClick={botonVendedores}>
+            Vendedores
+          </Button>
+          <Button style={{ margin: "10px" }} onClick={botonClientes}>
+            Clientes
+          </Button>
+        </div>
         <ModalProducto
           open={open}
           handleClose={handleClose}
           setCargado={setCargado}
         />
       </div>
-      <ProductoListado
-        abrir={abrir}
-        botonEliminar={botonEliminar}
-        botonStock={botonStock}
-        cerrarListadoProductos={cerrarListadoProductos}
-      />
+      {abrir && (
+        <ProductoListado
+          abrir={abrir}
+          botonEliminar={botonEliminar}
+          botonStock={botonStock}
+          cerrarListadoProductos={cerrarListadoProductos}
+        />
+      )}
       {abrirPedidos && <Pedidos abrirPedidos={abrirPedidos} />}
       {abrirVendedores && <Vendedores />}
       {abrirClientes && <Clientes abrirClientes={abrirClientes} />}

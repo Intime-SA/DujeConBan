@@ -5,7 +5,6 @@ import axios from "axios";
 import { Box, Button, Modal, Typography } from "@mui/material";
 
 function ProductoListado({
-  abrir,
   botonStock,
   botonEliminar,
   cerrarListadoProductos,
@@ -19,11 +18,19 @@ function ProductoListado({
   }, []);
 
   return (
-    <Modal
-      open={abrir}
-      aria-labelledby="modal-modal-title"
-      aria-describedby="modal-modal-description"
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "column",
+        fontSize: "2rem",
+      }}
     >
+      <h2 style={{ margin: "1rem", fontSize: "2rem" }}>Productos</h2>
+      <Button variant="contained" disableElevation>
+        Agregar Producto
+      </Button>
       <Box
         style={{
           display: "flex",
@@ -31,15 +38,6 @@ function ProductoListado({
           flexDirection: "column",
         }}
       >
-        <Typography
-          variant="h1"
-          color="white"
-          textAlign="center"
-          backgroundColor="black"
-          padding={{ padding: "50px" }}
-        >
-          Productos
-        </Typography>
         <div
           style={{
             width: "100vw",
@@ -47,6 +45,7 @@ function ProductoListado({
             flexDirection: "row",
             justifyContent: "center",
             flexWrap: "wrap",
+            
           }}
         >
           {resultadoProductos.map((elemento) => (
@@ -73,7 +72,7 @@ function ProductoListado({
           </div>
         </div>
       </Box>
-    </Modal>
+    </div>
   );
 }
 
