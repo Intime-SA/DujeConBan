@@ -35,7 +35,7 @@ function Pedidos(abrirPedidos) {
     if (prop === 2400) {
       return (
         <Alert variant="filled" severity="success">
-          Cobrado
+          Entregado
         </Alert>
       );
     } else {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -18,7 +18,7 @@ import axios from "axios";
 function CardProducto({ elemento, botonStock, botonEliminar }) {
   return (
     <div>
-      <Card sx={{ width: 250, margin: 5 }}>
+      <Card sx={{ flexWrap: "nowrap", width: 250, margin: 5 }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -43,7 +43,9 @@ function CardProducto({ elemento, botonStock, botonEliminar }) {
           >
             <FormGroup>
               <FormControlLabel
-                control={<Switch size="small" defaultChecked />}
+                control={
+                  <Switch size="small" defaultChecked={elemento.stock} />
+                }
                 label="Stock"
                 onClick={() => botonStock(elemento)}
               />

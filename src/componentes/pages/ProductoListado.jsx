@@ -1,8 +1,9 @@
-import React from "react";
+import React, { Children } from "react";
 import CardProducto from "./CardProducto";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Box, Button, Modal, Typography } from "@mui/material";
+import Marcas from "./Marcas";
 
 function ProductoListado({
   botonStock,
@@ -31,6 +32,12 @@ function ProductoListado({
       <Button variant="contained" disableElevation>
         Agregar Producto
       </Button>
+      <Marcas
+        botonStock={botonStock}
+        botonEliminar={botonEliminar}
+        setResultadoProductos={setResultadoProductos}
+      />
+
       <Box
         style={{
           display: "flex",
@@ -45,7 +52,6 @@ function ProductoListado({
             flexDirection: "row",
             justifyContent: "center",
             flexWrap: "wrap",
-            
           }}
         >
           {resultadoProductos.map((elemento) => (
@@ -61,15 +67,7 @@ function ProductoListado({
               display: "flex",
               justifyContent: "center",
             }}
-          >
-            <Button
-              onClick={cerrarListadoProductos}
-              variant="contained"
-              color="primary"
-            >
-              Cerrar
-            </Button>
-          </div>
+          ></div>
         </div>
       </Box>
     </div>

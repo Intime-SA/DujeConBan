@@ -11,12 +11,16 @@ function ModalCliente({ abrirModal, botonCerrarModal, setCarga, close }) {
   let initialValues = {
     name: "",
     telefono: "",
+    direccion: "",
+    email: "",
   };
 
   const onSubmit = (data) => {
     let arg = {
       name: data.name,
       telefono: data.telefono,
+      direccion: data.direccion,
+      email: data.email,
     };
 
     axios
@@ -69,7 +73,7 @@ function ModalCliente({ abrirModal, botonCerrarModal, setCarga, close }) {
             </Typography>
             <TextField
               id="outlined-basic"
-              label="Nombre Producto"
+              label="Nombre Cliente"
               variant="outlined"
               name="name"
               fullWidth
@@ -77,9 +81,25 @@ function ModalCliente({ abrirModal, botonCerrarModal, setCarga, close }) {
             />
             <TextField
               id="outlined-basic"
-              label="telefono"
+              label="Telefono"
               variant="outlined"
               name="telefono"
+              fullWidth
+              onChange={handleChange}
+            />
+            <TextField
+              id="outlined-basic"
+              label="Direccion"
+              variant="outlined"
+              name="direccion"
+              fullWidth
+              onChange={handleChange}
+            />
+            <TextField
+              id="outlined-basic"
+              label="email"
+              variant="outlined"
+              name="email"
               fullWidth
               onChange={handleChange}
             />

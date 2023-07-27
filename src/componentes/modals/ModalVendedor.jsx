@@ -69,7 +69,7 @@ function ModalVendedor({ abrirModal, botonCerrarModal, setCarga, close }) {
             </Typography>
             <TextField
               id="outlined-basic"
-              label="Nombre Producto"
+              label="Nombre Vendedor"
               variant="outlined"
               name="name"
               fullWidth
@@ -77,7 +77,7 @@ function ModalVendedor({ abrirModal, botonCerrarModal, setCarga, close }) {
             />
             <TextField
               id="outlined-basic"
-              label="telefono"
+              label="Telefono"
               variant="outlined"
               name="telefono"
               fullWidth
