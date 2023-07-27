@@ -63,7 +63,8 @@ function Clientes() {
                 <th>Nombre</th>
                 <th>Telefono</th>
                 <th>Direccion</th>
-                <th>Email</th>
+                <th>Dia</th>
+                <th>Zona</th>
               </tr>
             </thead>
             <tbody>
@@ -72,7 +73,8 @@ function Clientes() {
                   <td>{dato.name}</td>
                   <td>{dato.telefono}</td>
                   <td>{dato.direccion}</td>
-                  <td>{dato.email}</td>
+                  <td>{dato.dia}</td>
+                  <td>{dato.zona}</td>
                 </tr>
               ))}
             </tbody>
