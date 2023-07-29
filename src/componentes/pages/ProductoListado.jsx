@@ -32,12 +32,7 @@ function ProductoListado({
       <Button variant="contained" disableElevation>
         Agregar Producto
       </Button>
-      <Marcas
-        botonStock={botonStock}
-        botonEliminar={botonEliminar}
-        setResultadoProductos={setResultadoProductos}
-      />
-
+      <Marcas botonStock={botonStock} botonEliminar={botonEliminar} />
       <Box
         style={{
           display: "flex",

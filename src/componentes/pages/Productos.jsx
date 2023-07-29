@@ -10,6 +10,7 @@ import Pedidos from "./Pedidos";
 import Vendedores from "./Vendedores";
 import Clientes from "./Clientes";
 import "./productos.css";
+import ModalPedido from "../modals/ModalPedido";
 
 function Productos() {
   const [open, setOpen] = useState(false);
@@ -17,6 +18,7 @@ function Productos() {
   const [abrirPedidos, setAbrirPedidos] = useState(false);
   const [abrirVendedores, setAbrirVendedores] = useState(false);
   const [abrirClientes, setAbrirClientes] = useState(false);
+  const [crearPedido, setCrearPedido] = useState(false);
 
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -30,6 +32,14 @@ function Productos() {
     setCargado(false);
     setEliminado(false);
   }, [seleccion, cargado, eliminado, abrir]);
+
+  const botonCrearPedido = () => {
+    setCrearPedido(true);
+  };
+
+  const botonCerrarPedido = () => {
+    setCrearPedido(false);
+  };
 
   const botonClientes = () => {
     setAbrirClientes(true);
@@ -119,9 +129,9 @@ function Productos() {
             variant="outlined"
             disableElevation
             size="large"
-            onClick={handleOpen}
+            onClick={botonCrearPedido}
           >
-            Agregar Pedidos
+            Crear Pedido
           </Button>
         </div>
         <div>
@@ -144,6 +154,10 @@ function Productos() {
           handleClose={handleClose}
           setCargado={setCargado}
         />
+        <ModalPedido
+          crearPedido={crearPedido}
+          botonCerrarPedido={botonCerrarPedido}
+        />
       </div>
       {abrir && (
         <ProductoListado
@@ -151,6 +165,7 @@ function Productos() {
           botonEliminar={botonEliminar}
           botonStock={botonStock}
           cerrarListadoProductos={cerrarListadoProductos}
+          setAbrir={setAbrir}
         />
       )}
       {abrirPedidos && <Pedidos abrirPedidos={abrirPedidos} />}

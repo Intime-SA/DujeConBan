@@ -3,7 +3,7 @@ import axios from "axios";
 import CardProducto from "./CardProducto";
 import { Button, TextField } from "@mui/material";
 
-const Marcas = (botonStock, botonEliminar, setResultadoProductos) => {
+const Marcas = (botonStock, botonEliminar, cerrarListadoProductos) => {
   const [marca, setMarca] = useState("");
   const [productos, setProductos] = useState([]);
 
@@ -68,6 +68,7 @@ const Marcas = (botonStock, botonEliminar, setResultadoProductos) => {
           display: "flex",
           justifyContent: "center",
           flexWrap: "wrap",
+          backgroundColor: "#D1E7D3",
         }}
       >
         {productos.map((elemento) => (

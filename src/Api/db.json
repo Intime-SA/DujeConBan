@@ -13207,52 +13207,564 @@
   "pedidosVendedores": [
     {
       "id": 1,
-      "name": "Pedido Vendedor",
-      "description": "Harina sin TACC, Avena sin TACC, Fideos sin TACC",
-      "precio": 2400,
-      "vendeor": 1
+      "cliente": "asd",
+      "fecha": "27/07/2023",
+      "productos": [
+        {}
+      ],
+      "precioTotal": 54840,
+      "estado": false
     },
     {
-      "id": 2,
-      "name": "Pedido Vendedor",
-      "description": "Harina sin TACC, Avena sin TACC, Fideos sin TACC",
-      "precio": 8400,
-      "vendeor": 1
+      "cliente": "",
+      "fecha": "",
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Pedido Vendedor",
-      "description": "Harina sin TACC, Avena sin TACC, Fideos sin TACC",
-      "precio": 2400,
-      "vendeor": 1
+      "cliente": "",
+      "fecha": "",
+      "id": 3
     },
     {
-      "id": 4,
-      "name": "Pedido Vendedor",
-      "description": "Harina sin TACC, Avena sin TACC, Fideos sin TACC",
-      "precio": 7600,
-      "vendeor": 1
+      "cliente": "",
+      "fecha": "",
+      "id": 4
     },
     {
-      "id": 5,
-      "name": "Pedido Vendedor",
-      "description": "Harina sin TACC, Avena sin TACC, Fideos sin TACC",
-      "precio": 2400,
-      "vendeor": 1
+      "cliente": "",
+      "fecha": "",
+      "id": 5
     },
     {
-      "id": 6,
-      "name": "Pedido Vendedor",
-      "description": "Harina sin TACC, Avena sin TACC, Fideos sin TACC",
-      "precio": 9000,
-      "vendeor": 1
+      "cliente": "",
+      "fecha": "",
+      "id": 6
     },
     {
-      "id": 7,
-      "name": "Pedido Vendedor",
-      "description": "Harina sin TACC, Avena sin TACC, Fideos sin TACC",
-      "precio": 2400,
-      "vendeor": 1
+      "cliente": "",
+      "fecha": "",
+      "id": 7
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 8
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 9
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 10
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 11
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 12
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 13
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 14
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 15
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 16
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 17
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 18
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 19
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 20
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 21
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 22
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 23
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 24
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 25
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 26
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 27
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 28
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 29
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 30
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 31
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 32
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 33
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 34
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 35
+    },
+    {
+      "fecha": "",
+      "id": 36
+    },
+    {
+      "fecha": "",
+      "id": 37
+    },
+    {
+      "fecha": "",
+      "id": 38
+    },
+    {
+      "fecha": "",
+      "id": 39
+    },
+    {
+      "fecha": "",
+      "id": 40
+    },
+    {
+      "fecha": "",
+      "id": 41
+    },
+    {
+      "fecha": "",
+      "id": 42
+    },
+    {
+      "fecha": "",
+      "id": 43
+    },
+    {
+      "fecha": "",
+      "id": 44
+    },
+    {
+      "fecha": "",
+      "id": 45
+    },
+    {
+      "fecha": "",
+      "id": 46
+    },
+    {
+      "fecha": "",
+      "id": 47
+    },
+    {
+      "fecha": "",
+      "id": 48
+    },
+    {
+      "fecha": "",
+      "id": 49
+    },
+    {
+      "fecha": "",
+      "id": 50
+    },
+    {
+      "fecha": "",
+      "id": 51
+    },
+    {
+      "fecha": "",
+      "id": 52
+    },
+    {
+      "fecha": "",
+      "id": 53
+    },
+    {
+      "fecha": "",
+      "id": 54
+    },
+    {
+      "fecha": "",
+      "id": 55
+    },
+    {
+      "fecha": "",
+      "id": 56
+    },
+    {
+      "fecha": "",
+      "id": 57
+    },
+    {
+      "fecha": "",
+      "id": 58
+    },
+    {
+      "fecha": "",
+      "id": 59
+    },
+    {
+      "fecha": "",
+      "id": 60
+    },
+    {
+      "fecha": "",
+      "id": 61
+    },
+    {
+      "fecha": "",
+      "id": 62
+    },
+    {
+      "fecha": "",
+      "id": 63
+    },
+    {
+      "fecha": "",
+      "id": 64
+    },
+    {
+      "fecha": "",
+      "id": 65
+    },
+    {
+      "fecha": "",
+      "id": 66
+    },
+    {
+      "fecha": "",
+      "id": 67
+    },
+    {
+      "fecha": "",
+      "id": 68
+    },
+    {
+      "fecha": "",
+      "id": 69
+    },
+    {
+      "fecha": "",
+      "id": 70
+    },
+    {
+      "fecha": "",
+      "id": 71
+    },
+    {
+      "fecha": "",
+      "id": 72
+    },
+    {
+      "fecha": "",
+      "id": 73
+    },
+    {
+      "fecha": "",
+      "id": 74
+    },
+    {
+      "fecha": "",
+      "id": 75
+    },
+    {
+      "fecha": "",
+      "id": 76
+    },
+    {
+      "fecha": "",
+      "id": 77
+    },
+    {
+      "fecha": "",
+      "id": 78
+    },
+    {
+      "fecha": "",
+      "id": 79
+    },
+    {
+      "fecha": "",
+      "id": 80
+    },
+    {
+      "fecha": "",
+      "id": 81
+    },
+    {
+      "fecha": "",
+      "id": 82
+    },
+    {
+      "fecha": "",
+      "id": 83
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 84
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 85
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 86
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 87
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 88
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 89
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 90
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 91
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 92
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 93
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 94
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 95
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 96
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 97
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 98
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 99
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 100
+    },
+    {
+      "selectedOption": "",
+      "id": 101
+    },
+    {
+      "arg": {
+        "cliente": "",
+        "fecha": ""
+      },
+      "id": 102
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 103
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 104
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 105
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 106
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 107
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 108
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 109
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 110
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 111
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 112
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 113
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 114
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 115
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 116
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 117
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 118
+    },
+    {
+      "cliente": "",
+      "fecha": "",
+      "id": 119
+    },
+    {
+      "cliente": "Almacen km 11",
+      "id": 120
+    },
+    {
+      "cliente": "Amanecer Constitucion (A)",
+      "id": 121
     }
   ],
   "pedidosClientes": [

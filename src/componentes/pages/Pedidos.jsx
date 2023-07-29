@@ -32,7 +32,7 @@ function Pedidos(abrirPedidos) {
   }, []);
 
   const Estado = (prop) => {
-    if (prop === 2400) {
+    if (prop === true) {
       return (
         <Alert variant="filled" severity="success">
           Entregado
@@ -72,7 +72,8 @@ function Pedidos(abrirPedidos) {
           <thead>
             <tr>
               <th>ID</th>
-              <th>Nombre</th>
+              <th>Cliente</th>
+              <th>Fecha</th>
               <th>Precio</th>
               <th>Estado</th>
             </tr>
@@ -81,9 +82,10 @@ function Pedidos(abrirPedidos) {
             {pedidos.map((dato) => (
               <tr key={dato.id}>
                 <td>{dato.id}</td>
-                <td>{dato.name}</td>
-                <td>{dato.precio}</td>
-                <td>{Estado(dato.precio)}</td>
+                <td>{dato.cliente}</td>
+                <td>{dato.fecha}</td>
+                <td>{dato.precioTotal}</td>
+                <td>{Estado(dato.estado)}</td>
               </tr>
             ))}
           </tbody>
