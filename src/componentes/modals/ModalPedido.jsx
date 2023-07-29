@@ -6,7 +6,7 @@ import { Autocomplete, Button, TextField } from "@mui/material";
 import axios from "axios";
 import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
-import { format, parseISO } from "date-fns";
+import { parse } from "date-fns";
 
 function ModalPedido({ crearPedido, botonCerrarPedido }) {
   const [dataClientes, setDataClientes] = useState([]);
@@ -16,11 +16,14 @@ function ModalPedido({ crearPedido, botonCerrarPedido }) {
 
   const onSubmit = (data) => {
     // Formatear la fecha en el formato "yyyy-MM-dd"
+    const fechaIsoObj = new Date(data.fecha);
+    const options = { year: "numeric", month: "2-digit", day: "2-digit" };
+    const fechaSimpleStr = fechaIsoObj.toLocaleDateString(options);
 
     axios
       .post("http://localhost:5000/pedidosVendedores", {
         cliente: data.cliente,
-        fecha: data.fecha,
+        fecha: fechaSimpleStr,
       })
       .then((res) => {
         console.log(res.data);

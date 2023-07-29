@@ -13279,6 +13279,41 @@
       "cliente": "Alto Constitucion - Dietetica (*) (A)",
       "fecha": "2023-07-29T03:00:00.000Z",
       "id": 167
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "2023-07-31T03:00:00.000Z",
+      "id": 168
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "2023-07-29T03:00:00.000Z",
+      "id": 169
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "2023-07-29T03:00:00.000Z",
+      "id": 170
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "2023-07-29T03:00:00.000Z",
+      "id": 171
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "2023-07-29T03:00:00.000Z",
+      "id": 172
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "2023-07-29T03:00:00.000Z",
+      "id": 173
+    },
+    {
+      "cliente": "Alacena Tienda Natural (*) (A)",
+      "fecha": "29/7/2023",
+      "id": 174
     }
   ],
   "pedidosClientes": [
