@@ -157,6 +157,8 @@ function Productos() {
         <ModalPedido
           crearPedido={crearPedido}
           botonCerrarPedido={botonCerrarPedido}
+          setAbrirPedidos={setAbrirPedidos}
+          cerrarListadoPedidos={cerrarListadoPedidos}
         />
       </div>
       {abrir && (
@@ -169,7 +171,12 @@ function Productos() {
         />
       )}
       {abrirPedidos && <Pedidos abrirPedidos={abrirPedidos} />}
-      {abrirVendedores && <Vendedores />}
+      {abrirVendedores && (
+        <Vendedores
+          abrirVendedores={abrirVendedores}
+          setAbrirVendedores={setAbrirVendedores}
+        />
+      )}
       {abrirClientes && <Clientes abrirClientes={abrirClientes} />}
     </>
   );

@@ -6,9 +6,14 @@ import { Autocomplete, Button, TextField } from "@mui/material";
 import axios from "axios";
 import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
-import { parse } from "date-fns";
+import { parse, set } from "date-fns";
 
-function ModalPedido({ crearPedido, botonCerrarPedido }) {
+function ModalPedido({
+  crearPedido,
+  botonCerrarPedido,
+  setAbrirPedidos,
+  cerrarListadoPedidos,
+}) {
   const [dataClientes, setDataClientes] = useState([]);
   const [options, setOptions] = useState([]);
   const [selectedOption, setSelectedOption] = useState(null);
@@ -28,8 +33,8 @@ function ModalPedido({ crearPedido, botonCerrarPedido }) {
       .then((res) => {
         console.log(res.data);
         botonCerrarPedido();
-      })
-      .catch((error) => console.log(error));
+        setAbrirPedidos(true);
+      });
   };
 
   const handleChange2 = (value) => {
@@ -122,7 +127,12 @@ function ModalPedido({ crearPedido, botonCerrarPedido }) {
               onChange={handleChange2}
             />
           </DemoContainer>
-          <Button type="submit" variant="contained" color="primary">
+          <Button
+            onClick={cerrarListadoPedidos}
+            type="submit"
+            variant="contained"
+            color="primary"
+          >
             Agregar
           </Button>
         </form>

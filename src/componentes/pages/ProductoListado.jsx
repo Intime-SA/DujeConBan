@@ -29,9 +29,6 @@ function ProductoListado({
       }}
     >
       <h2 style={{ margin: "1rem", fontSize: "2rem" }}>Productos</h2>
-      <Button variant="contained" disableElevation>
-        Agregar Producto
-      </Button>
       <Marcas botonStock={botonStock} botonEliminar={botonEliminar} />
       <Box
         style={{

@@ -18,8 +18,9 @@ import "./pedidos.css";
 import { Modal, Button, ModalManager, Alert } from "@mui/material";
 import { Margin } from "@mui/icons-material";
 
-function Pedidos(abrirPedidos) {
+function Pedidos() {
   const [pedidos, setPedidos] = useState([]);
+  const pedidosInvertidos = pedidos.slice().reverse();
 
   useEffect(() => {
     try {
@@ -58,9 +59,6 @@ function Pedidos(abrirPedidos) {
       }}
     >
       <h2 style={{ margin: "1rem", fontSize: "2rem" }}>Pedidos</h2>
-      <Button variant="contained" disableElevation>
-        Crear Pedido
-      </Button>
       <Box
         style={{
           display: "flex",
@@ -78,7 +76,7 @@ function Pedidos(abrirPedidos) {
             </tr>
           </thead>
           <tbody>
-            {pedidos.map((dato) => (
+            {pedidosInvertidos.map((dato) => (
               <tr key={dato.id}>
                 <td>{dato.id}</td>
                 <td>{dato.cliente}</td>

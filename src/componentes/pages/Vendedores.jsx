@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Box, Button } from "@mui/material";
+import { Alert, Box, Button } from "@mui/material";
 import ModalVendedor from "../modals/ModalVendedor";
+import confetti from "canvas-confetti";
 
-function Vendedores() {
+function Vendedores({ setAbrirVendedores, abrirVendedores }) {
   const [dataVendedor, setDataVendedor] = useState([]);
   const [abrirModal, setAbrirModal] = useState(false);
   const [carga, setCarga] = useState(false);
+  const [seleccion, setSeleccion] = useState(false);
 
   const botonAbrirModal = () => {
     setAbrirModal(true);
@@ -16,13 +18,54 @@ function Vendedores() {
     setAbrirModal(false);
   };
 
+  const botonActivo = (elemento) => {
+    axios
+      .patch(`http://localhost:5000/vendedores/${elemento.id}`, {
+        estado: !elemento.estado,
+      })
+      .then((res) => {
+        setSeleccion(true);
+        setAbrirVendedores(true);
+      });
+    console.log(elemento.estado);
+
+    if (elemento.estado !== true) {
+      confetti({
+        zIndex: 999,
+        particleCount: 100,
+        spread: 160,
+        angle: -100,
+        origin: {
+          x: 0.5,
+          y: 0,
+        },
+      });
+    }
+  };
+
+  const Estado = (prop) => {
+    if (prop === true) {
+      return (
+        <Alert variant="filled" severity="success">
+          Activo
+        </Alert>
+      );
+    } else {
+      return (
+        <Alert variant="filled" severity="error">
+          Inactivo
+        </Alert>
+      );
+    }
+  };
+
   const close = () => setAbrirModal(false);
 
   useEffect(() => {
     axios.get("http://localhost:5000/vendedores").then((res) => {
       setDataVendedor(res.data);
     });
-  }, [carga]);
+  }, []);
 
   useEffect(() => {
     setCarga(false);
@@ -46,6 +89,7 @@ function Vendedores() {
         botonCerrarModal={botonCerrarModal}
         setCarga={setCarga}
         close={close}
+        setAbrirVendedores={setAbrirVendedores}
       />
       <div>
         <Box
@@ -61,6 +105,8 @@ function Vendedores() {
                 <th>ID</th>
                 <th>Nombre</th>
                 <th>Telefono</th>
+                <th>Estado</th>
+                <th>Acciones</th>
               </tr>
             </thead>
             <tbody>
@@ -69,6 +115,16 @@ function Vendedores() {
                   <td>{dato.id}</td>
                   <td>{dato.name}</td>
                   <td>{dato.telefono}</td>
+                  <td>{Estado(dato.estado)}</td>
+                  <td>
+                    <Button
+                      onClick={() => botonActivo(dato)}
+                      variant="outlined"
+                      color="success"
+                    >
+                      Cambiar Estado
+                    </Button>
+                  </td>
                 </tr>
               ))}
             </tbody>

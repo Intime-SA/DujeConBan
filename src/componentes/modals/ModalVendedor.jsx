@@ -7,16 +7,24 @@ import { useFormik } from "formik";
 import { Description } from "@mui/icons-material";
 import axios from "axios";
 
-function ModalVendedor({ abrirModal, botonCerrarModal, setCarga, close }) {
+function ModalVendedor({
+  abrirModal,
+  botonCerrarModal,
+  setCarga,
+  close,
+  setAbrirVendedores,
+}) {
   let initialValues = {
     name: "",
     telefono: "",
+    estado: true,
   };
 
   const onSubmit = (data) => {
     let arg = {
       name: data.name,
       telefono: data.telefono,
+      estado: true,
     };
 
     axios
@@ -24,6 +32,7 @@ function ModalVendedor({ abrirModal, botonCerrarModal, setCarga, close }) {
       .then((res) => {
         setCarga(true);
         close();
+        window.location.reload();
       })
       .catch((error) => console.log(error));
   };
@@ -44,6 +53,8 @@ function ModalVendedor({ abrirModal, botonCerrarModal, setCarga, close }) {
     boxShadow: 24,
     p: 4,
   };
+
+  setAbrirVendedores(true);
 
   return (
     <>
@@ -86,7 +97,6 @@ function ModalVendedor({ abrirModal, botonCerrarModal, setCarga, close }) {
             <Button type="submit" variant="contained" color="primary">
               Agregar
             </Button>
-            <Button onClick={botonCerrarModal}>Cerrar</Button>
           </form>
         </Box>
       </Modal>
