@@ -3,26 +3,36 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { Autocomplete, Button, TextField } from "@mui/material";
-import { useFormik } from "formik";
 import axios from "axios";
-import CalendarComponent from "../pages/CalendarComponent";
+import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
+import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+import { format, parseISO } from "date-fns";
 
 function ModalPedido({ crearPedido, botonCerrarPedido }) {
   const [dataClientes, setDataClientes] = useState([]);
   const [options, setOptions] = useState([]);
   const [selectedOption, setSelectedOption] = useState(null);
+  const [selectedOption2, setSelectedOption2] = useState();
 
   const onSubmit = (data) => {
+    // Formatear la fecha en el formato "yyyy-MM-dd"
+
     axios
       .post("http://localhost:5000/pedidosVendedores", {
         cliente: data.cliente,
+        fecha: data.fecha,
       })
       .then((res) => {
         console.log(res.data);
+        botonCerrarPedido();
       })
       .catch((error) => console.log(error));
   };
 
+  const handleChange2 = (value) => {
+    console.log(value);
+    setSelectedOption2(value);
+  };
   const handleChange = (event, value) => {
     setSelectedOption(value);
   };
@@ -33,24 +43,12 @@ function ModalPedido({ crearPedido, botonCerrarPedido }) {
     if (selectedOption) {
       const data = {
         cliente: selectedOption,
+        fecha: selectedOption2,
       };
 
       onSubmit(data);
     } else {
-      // Aquí puedes mostrar algún mensaje de error o tomar alguna acción si el cliente no ha sido seleccionado.
     }
-  };
-
-  const style = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    width: "1000px",
-    bgcolor: "background.paper",
-    border: "2px solid #000",
-    boxShadow: 24,
-    p: 4,
   };
 
   // Llamada a la API usando useEffect para que se ejecute una vez al montar el componente
@@ -69,6 +67,18 @@ function ModalPedido({ crearPedido, botonCerrarPedido }) {
   useEffect(() => {
     setOptions(dataClientes.map((cliente) => cliente.name));
   }, [dataClientes]);
+
+  const style = {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    width: "1000px",
+    bgcolor: "background.paper",
+    border: "2px solid #000",
+    boxShadow: 24,
+    p: 4,
+  };
 
   return (
     <Modal
@@ -101,7 +111,14 @@ function ModalPedido({ crearPedido, botonCerrarPedido }) {
             sx={{ width: 300 }}
             renderInput={(params) => <TextField {...params} label="Comercio" />}
           />
-          <CalendarComponent name="fecha" />
+          <DemoContainer components={["DatePicker"]}>
+            <DatePicker
+              id="fecha"
+              name="fecha"
+              value={selectedOption2}
+              onChange={handleChange2}
+            />
+          </DemoContainer>
           <Button type="submit" variant="contained" color="primary">
             Agregar
           </Button>

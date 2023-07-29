@@ -74,7 +74,6 @@ function Pedidos(abrirPedidos) {
               <th>ID</th>
               <th>Cliente</th>
               <th>Fecha</th>
-              <th>Precio</th>
               <th>Estado</th>
             </tr>
           </thead>
@@ -84,7 +83,6 @@ function Pedidos(abrirPedidos) {
                 <td>{dato.id}</td>
                 <td>{dato.cliente}</td>
                 <td>{dato.fecha}</td>
-                <td>{dato.precioTotal}</td>
                 <td>{Estado(dato.estado)}</td>
               </tr>
             ))}
