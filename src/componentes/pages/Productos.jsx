@@ -55,6 +55,8 @@ function Productos() {
     setAbrir(false);
   };
 
+  const cerrarListadoVendedores = () => setAbrirVendedores(false);
+
   const botonListadoPedidos = () => {
     setAbrirPedidos(true);
     setAbrirClientes(false);
@@ -175,6 +177,8 @@ function Productos() {
         <Vendedores
           abrirVendedores={abrirVendedores}
           setAbrirVendedores={setAbrirVendedores}
+          cerrarListadoVendedores={cerrarListadoVendedores}
+          botonVendedores={botonVendedores}
         />
       )}
       {abrirClientes && <Clientes abrirClientes={abrirClientes} />}

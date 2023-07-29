@@ -69,7 +69,7 @@
       "unidades": "12 Unidades ",
       "precio": 519.51,
       "precioBulto": 6234.12,
-      "stock": "false",
+      "stock": false,
       "oferta": "false",
       "nuevo": "false",
       "categoria": "null",
@@ -6230,7 +6230,7 @@
       "name": "Adriano",
       "telefono": "022 054 6677",
       "id": 5,
-      "estado": false
+      "estado": true
     },
     {
       "name": "Administracion",
@@ -6260,7 +6260,7 @@
       "name": "Joaquin",
       "telefono": "223 422 5981",
       "id": 4,
-      "estado": false
+      "estado": true
     },
     {
       "name": "Denisse",
@@ -6303,6 +6303,12 @@
       "telefono": "123",
       "estado": true,
       "id": 16
+    },
+    {
+      "name": "Denisse",
+      "telefono": "01124603810",
+      "estado": true,
+      "id": 17
     }
   ],
   "pedidosVendedores": [

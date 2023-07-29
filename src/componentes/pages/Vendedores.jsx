@@ -4,11 +4,14 @@ import { Alert, Box, Button } from "@mui/material";
 import ModalVendedor from "../modals/ModalVendedor";
 import confetti from "canvas-confetti";
 
-function Vendedores({ setAbrirVendedores, abrirVendedores }) {
+function Vendedores({
+  setAbrirVendedores,
+  cerrarListadoVendedores,
+  botonVendedores,
+}) {
   const [dataVendedor, setDataVendedor] = useState([]);
   const [abrirModal, setAbrirModal] = useState(false);
   const [carga, setCarga] = useState(false);
-  const [seleccion, setSeleccion] = useState(false);
 
   const botonAbrirModal = () => {
     setAbrirModal(true);
@@ -24,10 +27,10 @@ function Vendedores({ setAbrirVendedores, abrirVendedores }) {
         estado: !elemento.estado,
       })
       .then((res) => {
-        setSeleccion(true);
         setAbrirVendedores(true);
       });
-    console.log(elemento.estado);
+
+    setAbrirVendedores(false);
 
     if (elemento.estado !== true) {
       confetti({
@@ -70,6 +73,8 @@ function Vendedores({ setAbrirVendedores, abrirVendedores }) {
   useEffect(() => {
     setCarga(false);
   }, [carga]);
+
+  botonVendedores();
 
   return (
     <div
@@ -118,6 +123,7 @@ function Vendedores({ setAbrirVendedores, abrirVendedores }) {
                   <td>{Estado(dato.estado)}</td>
                   <td>
                     <Button
+                      sx={{ marginLeft: "2rem" }}
                       onClick={() => botonActivo(dato)}
                       variant="outlined"
                       color="success"

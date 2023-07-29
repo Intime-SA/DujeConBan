@@ -68,9 +68,9 @@ function ModalVendedor({
           <form
             style={{
               display: "flex",
-              justifyContent: "space-evenly",
+              justifyContent: "space-around",
               flexDirection: "column",
-              alignItems: "center",
+              alignItems: "space-around",
               height: "400px",
             }}
             onSubmit={handleSubmit}
