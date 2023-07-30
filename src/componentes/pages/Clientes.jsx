@@ -8,6 +8,7 @@ function Clientes() {
   const [dataCliente, setDataCliente] = useState([]);
   const [abrirModal, setAbrirModal] = useState(false);
   const [carga, setCarga] = useState(false);
+  const clienteInvertidos = dataCliente.slice().reverse();
 
   const botonAbrirModal = () => {
     setAbrirModal(true);
@@ -68,7 +69,7 @@ function Clientes() {
               </tr>
             </thead>
             <tbody>
-              {dataCliente.map((dato) => (
+              {clienteInvertidos.map((dato) => (
                 <tr key={dato.id}>
                   <td>{dato.name}</td>
                   <td>{dato.telefono}</td>

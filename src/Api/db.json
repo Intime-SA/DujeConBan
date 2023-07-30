@@ -46,21 +46,6 @@
       "img": "http://alfajorescerroazul.com/wp-content/uploads/2020/11/Pan-Vegano-min.png"
     },
     {
-      "id": 120,
-      "marca": "Cormillot",
-      "name": "Aceitunas Negras Descarozadas",
-      "peso": 360,
-      "medida": "Grs",
-      "unidades": "12 Unidades ",
-      "precio": 553.9,
-      "precioBulto": 6646.8,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
-      "categoria": "null",
-      "img": "https://alimentoscormillot.com/wp-content/uploads/2020/10/RENDER-Aceitunas-negras.jpg"
-    },
-    {
       "id": 135,
       "marca": "Cormillot",
       "name": "Aceituna Verde Descarozada   Red, en Sodio ",
@@ -6217,6 +6202,22 @@
       "vendedor": "ADMINISTRACION",
       "zona": "REGIONAL",
       "localidad": "MAR DEL PLATA"
+    },
+    {
+      "name": "Cliente Nuevo",
+      "telefono": "022 346 9877",
+      "direccion": "Mendoza 2070",
+      "dia": "SABADO",
+      "zona": "CENTRO",
+      "id": 321
+    },
+    {
+      "name": "Martin",
+      "telefono": "224 654 6555",
+      "direccion": "Acevedo 1894, 2 A",
+      "dia": "SABADO",
+      "zona": "CENTRO",
+      "id": 322
     }
   ],
   "vendedores": [
@@ -6224,7 +6225,7 @@
       "id": 1,
       "name": "Ramiro",
       "telefono": "011 6870 2318",
-      "estado": false
+      "estado": true
     },
     {
       "name": "Adriano",
@@ -6301,13 +6302,13 @@
     {
       "name": "asd",
       "telefono": "123",
-      "estado": true,
+      "estado": false,
       "id": 16
     },
     {
       "name": "Denisse",
       "telefono": "01124603810",
-      "estado": true,
+      "estado": false,
       "id": 17
     }
   ],
@@ -7069,6 +7070,30 @@
         "Aceituna Verde Descarozada   Red, en Sodio "
       ],
       "id": 131
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "30/7/2023",
+      "productos": [
+        "Aceituna Verde Descarozada   Red, en Sodio "
+      ],
+      "id": 132
+    },
+    {
+      "cliente": "Casa Organica (A)",
+      "fecha": "30/7/2023",
+      "productos": [
+        "Mostaza a la Antigua"
+      ],
+      "id": 133
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "12/7/2023",
+      "productos": [
+        "Galletita Sabor Coco"
+      ],
+      "id": 134
     }
   ],
   "pedidosClientes": [

@@ -12,6 +12,7 @@ function Vendedores({
   const [dataVendedor, setDataVendedor] = useState([]);
   const [abrirModal, setAbrirModal] = useState(false);
   const [carga, setCarga] = useState(false);
+  const vendedorInvertidos = dataVendedor.slice().reverse();
 
   const botonAbrirModal = () => {
     setAbrirModal(true);
@@ -115,7 +116,7 @@ function Vendedores({
               </tr>
             </thead>
             <tbody>
-              {dataVendedor.map((dato) => (
+              {vendedorInvertidos.map((dato) => (
                 <tr key={dato.id}>
                   <td>{dato.id}</td>
                   <td>{dato.name}</td>

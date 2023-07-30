@@ -4,7 +4,6 @@ import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { Button, TextField } from "@mui/material";
 import { useFormik } from "formik";
-import { Description } from "@mui/icons-material";
 import axios from "axios";
 
 function ModalCliente({ abrirModal, botonCerrarModal, setCarga, close }) {
@@ -12,7 +11,8 @@ function ModalCliente({ abrirModal, botonCerrarModal, setCarga, close }) {
     name: "",
     telefono: "",
     direccion: "",
-    email: "",
+    dia: "",
+    zona: "",
   };
 
   const onSubmit = (data) => {
@@ -20,7 +20,8 @@ function ModalCliente({ abrirModal, botonCerrarModal, setCarga, close }) {
       name: data.name,
       telefono: data.telefono,
       direccion: data.direccion,
-      email: data.email,
+      dia: data.dia,
+      zona: data.zona,
     };
 
     axios
@@ -42,7 +43,7 @@ function ModalCliente({ abrirModal, botonCerrarModal, setCarga, close }) {
     top: "50%",
     left: "50%",
     transform: "translate(-50%, -50%)",
-    width: 400,
+    width: 800,
     bgcolor: "background.paper",
     border: "2px solid #000",
     boxShadow: 24,
@@ -64,7 +65,7 @@ function ModalCliente({ abrirModal, botonCerrarModal, setCarga, close }) {
               justifyContent: "space-evenly",
               flexDirection: "column",
               alignItems: "center",
-              height: "400px",
+              height: "50vh",
             }}
             onSubmit={handleSubmit}
           >
@@ -97,9 +98,17 @@ function ModalCliente({ abrirModal, botonCerrarModal, setCarga, close }) {
             />
             <TextField
               id="outlined-basic"
-              label="email"
+              label="Dia"
               variant="outlined"
-              name="email"
+              name="dia"
+              fullWidth
+              onChange={handleChange}
+            />
+            <TextField
+              id="outlined-basic"
+              label="Zona"
+              variant="outlined"
+              name="zona"
               fullWidth
               onChange={handleChange}
             />

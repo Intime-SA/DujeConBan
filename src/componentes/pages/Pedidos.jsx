@@ -8,15 +8,21 @@ import TableCell from "@mui/material/TableCell";
 import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
-import Typography from "@mui/material/Typography";
 import Paper from "@mui/material/Paper";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import "./pedidos.css";
-import { Modal, Button, ModalManager, Alert } from "@mui/material";
+import { Modal, ModalManager, Alert } from "@mui/material";
 import { Margin } from "@mui/icons-material";
+import ModalJson from "../modals/ModalJson";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
+import Popper from "@mui/material/Popper";
+import PopupState, { bindToggle, bindPopper } from "material-ui-popup-state";
+import Fade from "@mui/material/Fade";
+import PdfConversion from "./PdfConversion";
 
 function Pedidos() {
   const [pedidos, setPedidos] = useState([]);
@@ -37,7 +43,7 @@ function Pedidos() {
     axios
       .get(`http://localhost:5000/pedidosVendedores/${element.id}`)
       .then((res) => {
-        setDataJson(res.data);
+        setDataJson(res.data.productos);
         console.log(dataJson);
       });
   };
@@ -69,6 +75,7 @@ function Pedidos() {
       }}
     >
       <h2 style={{ margin: "1rem", fontSize: "2rem" }}>Pedidos</h2>
+
       <Box
         style={{
           display: "flex",
@@ -93,8 +100,43 @@ function Pedidos() {
                 <td>{dato.cliente}</td>
                 <td>{dato.fecha}</td>
                 <td>{Estado(dato.estado)}</td>
-                <td style={{ textAlign: "center" }}>
+                <td
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-around",
+                    alignItems: "center",
+                    width: "500px",
+                    textAlign: "center",
+                  }}
+                >
+                  <PdfConversion dataJson={dataJson} />
+                  <PopupState variant="popper" popupId="demo-popup-popper">
+                    {(popupState) => (
+                      <div>
+                        <Button
+                          sx={{ margin: "1rem" }}
+                          onClick={() => descargarJson(dato)}
+                          variant="contained"
+                          {...bindToggle(popupState)}
+                        >
+                          Vista
+                        </Button>
+                        <Popper {...bindPopper(popupState)} transition>
+                          {({ TransitionProps }) => (
+                            <Fade {...TransitionProps} timeout={350}>
+                              <Paper>
+                                <Typography sx={{ p: 2 }}>
+                                  <h3>Productos del Pedido: {dataJson}</h3>
+                                </Typography>
+                              </Paper>
+                            </Fade>
+                          )}
+                        </Popper>
+                      </div>
+                    )}
+                  </PopupState>
                   <Button
+                    sx={{ margin: "1rem" }}
                     onClick={() => descargarJson(dato)}
                     variant="outlined"
                   >
