@@ -21,6 +21,7 @@ import { Margin } from "@mui/icons-material";
 function Pedidos() {
   const [pedidos, setPedidos] = useState([]);
   const pedidosInvertidos = pedidos.slice().reverse();
+  const [dataJson, setDataJson] = useState([]);
 
   useEffect(() => {
     try {
@@ -31,6 +32,15 @@ function Pedidos() {
       console.log("Error:", error);
     }
   }, []);
+
+  const descargarJson = (element) => {
+    axios
+      .get(`http://localhost:5000/pedidosVendedores/${element.id}`)
+      .then((res) => {
+        setDataJson(res.data);
+        console.log(dataJson);
+      });
+  };
 
   const Estado = (prop) => {
     if (prop === true) {
@@ -73,6 +83,7 @@ function Pedidos() {
               <th>Cliente</th>
               <th>Fecha</th>
               <th>Estado</th>
+              <th style={{ textAlign: "center" }}>Acciones</th>
             </tr>
           </thead>
           <tbody>
@@ -82,6 +93,21 @@ function Pedidos() {
                 <td>{dato.cliente}</td>
                 <td>{dato.fecha}</td>
                 <td>{Estado(dato.estado)}</td>
+                <td style={{ textAlign: "center" }}>
+                  <Button
+                    onClick={() => descargarJson(dato)}
+                    variant="outlined"
+                  >
+                    Detalle
+                    <span
+                      style={{ marginLeft: "1rem" }}
+                      id="export"
+                      className="material-symbols-outlined"
+                    >
+                      system_update_alt
+                    </span>
+                  </Button>
+                </td>
               </tr>
             ))}
           </tbody>

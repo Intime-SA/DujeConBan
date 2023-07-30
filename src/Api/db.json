@@ -6224,13 +6224,13 @@
       "id": 1,
       "name": "Ramiro",
       "telefono": "011 6870 2318",
-      "estado": true
+      "estado": false
     },
     {
       "name": "Adriano",
       "telefono": "022 054 6677",
       "id": 5,
-      "estado": true
+      "estado": false
     },
     {
       "name": "Administracion",
@@ -6271,7 +6271,7 @@
     {
       "name": "Ramiro Martin",
       "telefono": "1168702318",
-      "estado": true,
+      "estado": false,
       "id": 11
     },
     {
@@ -6317,7 +6317,21 @@
       "cliente": "asd",
       "fecha": "27/07/2023",
       "productos": [
-        {}
+        {
+          "id": 186,
+          "marca": "Dimax",
+          "name": "Budin Con Chip de Choclate",
+          "peso": 185,
+          "medida": "Grs",
+          "unidades": "18 Unidades ",
+          "precio": " 610,18 ",
+          "precioBulto": 10983.24,
+          "stock": "true",
+          "oferta": "false",
+          "nuevo": "false",
+          "categoria": "null",
+          "img": "https://www.natuvida.com.ar/img/articulos/7798144941305.jpg"
+        }
       ],
       "precioTotal": 54840,
       "estado": false
@@ -6741,6 +6755,320 @@
       "cliente": "Autoservicio Girasol",
       "fecha": "12/7/2023",
       "id": 85
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "29/7/2023",
+      "id": 86
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "6/7/2023",
+      "id": 87
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "29/7/2023",
+      "id": 88
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "29/7/2023",
+      "id": 89
+    },
+    {
+      "cliente": "Despensa Los Girasoles",
+      "fecha": "5/7/2023",
+      "id": 90
+    },
+    {
+      "cliente": "Alacena Tienda Natural (*) (A)",
+      "fecha": "29/7/2023",
+      "id": 91
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "4/7/2023",
+      "id": 92
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "13/7/2023",
+      "id": 93
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "29/7/2023",
+      "id": 94
+    },
+    {
+      "cliente": "Alacena Tienda Natural (*) (A)",
+      "fecha": "29/7/2023",
+      "id": 95
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "5/7/2023",
+      "id": 96
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "31/7/2023",
+      "id": 97
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "28/7/2023",
+      "id": 98
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "31/7/2023",
+      "id": 99
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "31/7/2023",
+      "id": 100
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "28/7/2023",
+      "productos": [
+        {}
+      ],
+      "id": 101
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "30/7/2023",
+      "productos": [
+        null
+      ],
+      "id": 102
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "31/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 103
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "31/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 104
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "31/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 105
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "27/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 106
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "26/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 107
+    },
+    {
+      "cliente": "Almacen km 11",
+      "fecha": "24/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 108
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "30/7/2023",
+      "productos": "",
+      "id": 109
+    },
+    {
+      "cliente": "Alacena Tienda Natural (*) (A)",
+      "fecha": "30/7/2023",
+      "productos": "",
+      "id": 110
+    },
+    {
+      "cliente": "Alacena Tienda Natural (*) (A)",
+      "fecha": "23/7/2023",
+      "id": 111
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "30/7/2023",
+      "productos": [
+        null
+      ],
+      "id": 112
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "30/7/2023",
+      "productos": [
+        null
+      ],
+      "id": 113
+    },
+    {
+      "cliente": "Alacena Tienda Natural (*) (A)",
+      "fecha": "30/7/2023",
+      "productos": [
+        null
+      ],
+      "id": 114
+    },
+    {
+      "cliente": "Alacena Tienda Natural (*) (A)",
+      "fecha": "31/7/2023",
+      "productos": [
+        null
+      ],
+      "id": 115
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "16/7/2023",
+      "productos": [
+        null
+      ],
+      "id": 116
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "31/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 117
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "31/7/2023",
+      "productos": [
+        null
+      ],
+      "id": 118
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "31/7/2023",
+      "productos": [
+        null
+      ],
+      "id": 119
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "30/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 120
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "30/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 121
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "3/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 122
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "30/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 123
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "31/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 124
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "31/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 125
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "30/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 126
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "30/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 127
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "30/7/2023",
+      "productos": [
+        ""
+      ],
+      "id": 128
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "30/7/2023",
+      "productos": "Pan de Molde Sin Tacc",
+      "id": 129
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "30/7/2023",
+      "productos": [
+        "Pan De Molde Vegano"
+      ],
+      "id": 130
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "30/7/2023",
+      "productos": [
+        "Aceituna Verde Descarozada   Red, en Sodio "
+      ],
+      "id": 131
     }
   ],
   "pedidosClientes": [
