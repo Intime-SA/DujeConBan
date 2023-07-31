@@ -19,6 +19,7 @@ function ModalPedido({
   const [dataProductos, setDataProductos] = useState([]);
   const [options2, setOptions2] = useState([]);
   const [selectedOption3, setSelectedOption3] = useState();
+  const [selectedOptionsArray, setSelectedOptionsArray] = useState([]);
 
   // Función que se pasará como prop al componente hijo
   const onSubmit = (data) => {
@@ -31,13 +32,22 @@ function ModalPedido({
       .post("http://localhost:5000/pedidosVendedores", {
         cliente: data.cliente,
         fecha: fechaSimpleStr,
-        productos: [selectedOption3],
+        productos: selectedOptionsArray,
       })
       .then((res) => {
         console.log(res.data);
         botonCerrarPedido();
         setAbrirPedidos(true);
       });
+  };
+
+  const handleChange3 = (event, value) => {
+    setSelectedOption3(value);
+    console.log(selectedOption3);
+
+    if (value && !selectedOptionsArray.some((item) => item.name === value)) {
+      setSelectedOptionsArray([...selectedOptionsArray, { name: value }]);
+    }
   };
 
   const handleChange2 = (value) => {
@@ -78,11 +88,6 @@ function ModalPedido({
   useEffect(() => {
     setOptions(dataClientes.map((cliente) => cliente.name));
   }, [dataClientes]);
-
-  const handleChange3 = (event, value) => {
-    setSelectedOption3(value);
-    console.log(selectedOption3);
-  };
 
   useEffect(() => {
     axios
@@ -167,6 +172,11 @@ function ModalPedido({
               <TextField {...params} label="Escribe el Producto" />
             )}
           />
+          <ul>
+            {selectedOptionsArray.map((item, index) => (
+              <li key={index}>{item.name}</li>
+            ))}
+          </ul>
           <Button
             onClick={cerrarListadoPedidos}
             type="submit"

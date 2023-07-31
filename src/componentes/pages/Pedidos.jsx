@@ -22,12 +22,18 @@ import Button from "@mui/material/Button";
 import Popper from "@mui/material/Popper";
 import PopupState, { bindToggle, bindPopper } from "material-ui-popup-state";
 import Fade from "@mui/material/Fade";
-import PdfConversion from "./PdfConversion";
+import jsPDF from "jspdf";
+import "jspdf-autotable";
+import confetti from "canvas-confetti";
+import CheckIcon from "@mui/icons-material/Check";
+import ToggleButton from "@mui/material/ToggleButton";
+import styled from "@emotion/styled";
 
 function Pedidos() {
   const [pedidos, setPedidos] = useState([]);
   const pedidosInvertidos = pedidos.slice().reverse();
-  const [dataJson, setDataJson] = useState([]);
+  const [cambioEstado, setCambioEstado] = useState(false);
+  const [selected, setSelected] = useState(false);
 
   useEffect(() => {
     try {
@@ -37,18 +43,67 @@ function Pedidos() {
     } catch (error) {
       console.log("Error:", error);
     }
-  }, []);
+  }, [cambioEstado]);
 
-  const descargarJson = (element) => {
-    axios
-      .get(`http://localhost:5000/pedidosVendedores/${element.id}`)
-      .then((res) => {
-        setDataJson(res.data.productos);
-        console.log(dataJson);
-      });
+  function convertObjectToPdf(dataObject) {
+    const doc = new jsPDF();
+
+    doc.setFontSize(12);
+    doc.text(`Productos del Pedido`, 105, 10, {
+      align: "center",
+    });
+
+    const tableData = dataObject.map((item, index) => [
+      index + 1,
+      JSON.stringify(item),
+    ]);
+    doc.autoTable({
+      startY: 20,
+      head: [["#", "Datos"]],
+      body: tableData,
+    });
+
+    doc.save("archivo.pdf");
+  }
+
+  const descargarJson = async (element) => {
+    try {
+      const res = await axios
+        .get(`http://localhost:5000/pedidosVendedores/${element.id}`)
+        .then((res) => {
+          convertObjectToPdf(res.data.productos);
+        });
+
+      // Llamar a convertObjectToPdf después de que se haya completado la petición
+    } catch (error) {
+      console.error("Error al obtener datos JSON:", error);
+    }
   };
 
-  const Estado = (prop) => {
+  const color = (estado) => {
+    let entregado = "success";
+    let pendiente = "secondary";
+
+    if (estado) {
+      return entregado;
+    } else {
+      return pendiente;
+    }
+  };
+
+  const botonActivo = (elemento) => {
+    axios
+      .patch(`http://localhost:5000/pedidosVendedores/${elemento.id}`, {
+        estado: !elemento.estado,
+      })
+      .then((res) => {
+        setCambioEstado(true);
+      });
+
+    setCambioEstado(false);
+  };
+
+  function Estado(prop) {
     if (prop === true) {
       return (
         <Alert variant="filled" severity="success">
@@ -57,12 +112,16 @@ function Pedidos() {
       );
     } else {
       return (
-        <Alert variant="filled" severity="info">
+        <Alert
+          style={{ display: "flex", justifyContent: "center" }}
+          variant="filled"
+          severity="info"
+        >
           Pendiente
         </Alert>
       );
     }
-  };
+  }
 
   return (
     <div
@@ -75,7 +134,6 @@ function Pedidos() {
       }}
     >
       <h2 style={{ margin: "1rem", fontSize: "2rem" }}>Pedidos</h2>
-
       <Box
         style={{
           display: "flex",
@@ -89,7 +147,7 @@ function Pedidos() {
               <th>ID</th>
               <th>Cliente</th>
               <th>Fecha</th>
-              <th>Estado</th>
+              <th style={{ textAlign: "center" }}>Estado</th>
               <th style={{ textAlign: "center" }}>Acciones</th>
             </tr>
           </thead>
@@ -99,7 +157,7 @@ function Pedidos() {
                 <td>{dato.id}</td>
                 <td>{dato.cliente}</td>
                 <td>{dato.fecha}</td>
-                <td>{Estado(dato.estado)}</td>
+                <td style={{ textAlign: "center" }}>{Estado(dato.estado)}</td>
                 <td
                   style={{
                     display: "flex",
@@ -109,13 +167,11 @@ function Pedidos() {
                     textAlign: "center",
                   }}
                 >
-                  <PdfConversion dataJson={dataJson} />
-                  <PopupState variant="popper" popupId="demo-popup-popper">
+                  {/* <PopupState variant="popper" popupId="demo-popup-popper">
                     {(popupState) => (
                       <div>
                         <Button
                           sx={{ margin: "1rem" }}
-                          onClick={() => descargarJson(dato)}
                           variant="contained"
                           {...bindToggle(popupState)}
                         >
@@ -134,11 +190,12 @@ function Pedidos() {
                         </Popper>
                       </div>
                     )}
-                  </PopupState>
+                  </PopupState> */}
                   <Button
                     sx={{ margin: "1rem" }}
                     onClick={() => descargarJson(dato)}
-                    variant="outlined"
+                    variant="contained"
+                    color={color(dato.estado)}
                   >
                     Detalle
                     <span
@@ -149,6 +206,16 @@ function Pedidos() {
                       system_update_alt
                     </span>
                   </Button>
+                  <ToggleButton
+                    value={selected}
+                    onClick={() => botonActivo(dato)}
+                    selected={selected}
+                    onChange={() => {
+                      setSelected(!selected);
+                    }}
+                  >
+                    <CheckIcon />
+                  </ToggleButton>
                 </td>
               </tr>
             ))}

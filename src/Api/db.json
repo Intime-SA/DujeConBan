@@ -6335,32 +6335,37 @@
         }
       ],
       "precioTotal": 54840,
-      "estado": false
+      "estado": true
     },
     {
       "cliente": "Alacena Tienda Natural (*) (A)",
       "fecha": "30/7/2023",
-      "id": 2
+      "id": 2,
+      "estado": true
     },
     {
       "cliente": "Casa Munuera",
       "fecha": "30/7/2023",
-      "id": 3
+      "id": 3,
+      "estado": true
     },
     {
       "cliente": "Verduleria Rey de la Economia",
       "fecha": "29/7/2023",
-      "id": 4
+      "id": 4,
+      "estado": true
     },
     {
       "cliente": "El Buen Bife",
       "fecha": "31/7/2023",
-      "id": 5
+      "id": 5,
+      "estado": true
     },
     {
       "cliente": "Despensa Las Marias",
       "fecha": "31/7/2023",
-      "id": 6
+      "id": 6,
+      "estado": true
     },
     {
       "cliente": "Almacen Homero",
@@ -6370,22 +6375,26 @@
     {
       "cliente": "Alto Constitucion - Dietetica (*) (A)",
       "fecha": "29/7/2023",
-      "id": 8
+      "id": 8,
+      "estado": true
     },
     {
       "cliente": "Almacen Brela",
       "fecha": "29/7/2023",
-      "id": 9
+      "id": 9,
+      "estado": true
     },
     {
       "cliente": "Almacen Homero",
       "fecha": "29/7/2023",
-      "id": 10
+      "id": 10,
+      "estado": true
     },
     {
       "cliente": "Auteservicio Uriel",
       "fecha": "29/7/2023",
-      "id": 11
+      "id": 11,
+      "estado": true
     },
     {
       "cliente": "Almacen Homero",
@@ -6510,12 +6519,14 @@
     {
       "cliente": "Despensa Los Girasoles",
       "fecha": "28/7/2023",
-      "id": 36
+      "id": 36,
+      "estado": true
     },
     {
       "cliente": "Alto Constitucion - Dietetica (*) (A)",
       "fecha": "6/7/2023",
-      "id": 37
+      "id": 37,
+      "estado": true
     },
     {
       "cliente": "Almacen Brela",
@@ -6525,7 +6536,8 @@
     {
       "cliente": "Alto Constitucion - Dietetica (*) (A)",
       "fecha": "1/7/2023",
-      "id": 39
+      "id": 39,
+      "estado": true
     },
     {
       "cliente": "Almacen Brela",
@@ -6545,7 +6557,8 @@
     {
       "cliente": "Almacen Brela",
       "fecha": "29/7/2023",
-      "id": 43
+      "id": 43,
+      "estado": true
     },
     {
       "cliente": "Almacen Brela",
@@ -6575,7 +6588,8 @@
     {
       "cliente": "Auteservicio Uriel",
       "fecha": "1/7/2023",
-      "id": 49
+      "id": 49,
+      "estado": true
     },
     {
       "cliente": "Autoservicio Girasol",
@@ -6625,7 +6639,8 @@
     {
       "cliente": "Autoservicio Girasol",
       "fecha": "19/7/2023",
-      "id": 59
+      "id": 59,
+      "estado": true
     },
     {
       "cliente": "Amanecer Constitucion (A)",
@@ -6645,7 +6660,8 @@
     {
       "cliente": "Cabrales Constitucion (*)",
       "fecha": "2/7/2023",
-      "id": 63
+      "id": 63,
+      "estado": true
     },
     {
       "cliente": "Almacen Brela",
@@ -6700,7 +6716,8 @@
     {
       "cliente": "Amanecer Constitucion (A)",
       "fecha": "27/7/2023",
-      "id": 74
+      "id": 74,
+      "estado": true
     },
     {
       "cliente": "Auteservicio Uriel",
@@ -6720,7 +6737,8 @@
     {
       "cliente": "Alto Constitucion - Dietetica (*) (A)",
       "fecha": "29/7/2023",
-      "id": 78
+      "id": 78,
+      "estado": true
     },
     {
       "cliente": "Almacen Brela",
@@ -7094,6 +7112,61 @@
         "Galletita Sabor Coco"
       ],
       "id": 134
+    },
+    {
+      "cliente": "Alto Constitucion - Dietetica (*) (A)",
+      "fecha": "6/7/2023",
+      "productos": [
+        "Pimentón Ahumado Dulce"
+      ],
+      "id": 135,
+      "estado": false
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "4/7/2023",
+      "productos": [
+        "Alfajores Negros de Zapallo",
+        "Pimentón Ahumado Dulce",
+        "Galletita Sabor Coco",
+        "Mostaza a la Antigua"
+      ],
+      "id": 136,
+      "estado": true
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "31/7/2023",
+      "productos": [
+        {
+          "name": "Pimentón Ahumado Dulce"
+        },
+        {
+          "name": "Galletita Sabor Coco"
+        },
+        {
+          "name": "Mostaza Sin Sal"
+        },
+        {
+          "name": "Salsa Pizza Light"
+        }
+      ],
+      "id": 137,
+      "estado": true
+    },
+    {
+      "cliente": "Almacen km 11",
+      "fecha": "11/7/2023",
+      "productos": [
+        {
+          "name": "Alfajores Negros de Zapallo"
+        },
+        {
+          "name": "Galletita Sabor Coco"
+        }
+      ],
+      "id": 138,
+      "estado": true
     }
   ],
   "pedidosClientes": [
