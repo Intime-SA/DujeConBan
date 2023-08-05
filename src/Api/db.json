@@ -6218,6 +6218,14 @@
       "dia": "SABADO",
       "zona": "CENTRO",
       "id": 322
+    },
+    {
+      "name": "El Viejito",
+      "telefono": "0223 345 4444",
+      "direccion": "Bolivar y Mendoza",
+      "dia": "MARTES",
+      "zona": "CENTRO",
+      "id": 323
     }
   ],
   "vendedores": [
@@ -6308,8 +6316,14 @@
     {
       "name": "Denisse",
       "telefono": "01124603810",
-      "estado": false,
+      "estado": true,
       "id": 17
+    },
+    {
+      "name": "Denisse",
+      "telefono": "0223 456 7777",
+      "estado": true,
+      "id": 18
     }
   ],
   "pedidosVendedores": [
@@ -7166,7 +7180,282 @@
         }
       ],
       "id": 138,
+      "estado": false
+    },
+    {
+      "cliente": "Despensa MDP",
+      "fecha": "31/7/2023",
+      "productos": [
+        {
+          "name": "Pan De Molde Vegano"
+        }
+      ],
+      "id": 139
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "31/7/2023",
+      "productos": [],
+      "id": 140,
       "estado": true
+    },
+    {
+      "cliente": "Almacen Brela",
+      "fecha": "31/7/2023",
+      "productos": [
+        {
+          "name": " Yerba Adelga Mate Edulcorada "
+        },
+        {
+          "name": "Pan de Molde Sin Tacc"
+        },
+        {
+          "name": "Aceituna Verde Descarozada   Red, en Sodio "
+        }
+      ],
+      "id": 141,
+      "estado": true
+    },
+    {
+      "cliente": "El Viejito",
+      "fecha": "31/7/2023",
+      "productos": [
+        {
+          "name": "Aceituna Verde Descarozada   Red, en Sodio "
+        }
+      ],
+      "id": 142,
+      "estado": true
+    },
+    {
+      "cliente": "Casa Munuera",
+      "fecha": "22/8/2023",
+      "productos": [
+        {
+          "name": " Yerba Adelga Mate Edulcorada "
+        },
+        {
+          "name": "Aceituna Verde Descarozada   Red, en Sodio "
+        },
+        {
+          "name": "Aderezo Para Ensalada  Clasico Pet"
+        },
+        {
+          "name": "Salsa Pizza Light"
+        },
+        {
+          "name": "Galletita Sabor Coco"
+        },
+        {
+          "name": "Pimentón Ahumado Dulce"
+        }
+      ],
+      "id": 143,
+      "estado": true
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "2/8/2023",
+      "productos": [
+        {
+          "cantidades": "4"
+        },
+        {
+          "cantidades": "5"
+        },
+        {
+          "cantidades": "1"
+        }
+      ],
+      "id": 144
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "31/8/2023",
+      "productos": [
+        {
+          "name": "Aceituna Verde Descarozada   Red, en Sodio  Cormillot 360Grs 519.51"
+        },
+        {
+          "cantidades": "4"
+        }
+      ],
+      "id": 145
+    },
+    {
+      "cliente": "Alto Constitucion - Dietetica (*) (A)",
+      "fecha": "31/8/2023",
+      "productos": [
+        [
+          {
+            "name": "Pan De Molde Vegano Cerro Azul 450Grs 966"
+          },
+          {
+            "cantidades": "5"
+          }
+        ]
+      ],
+      "id": 146
+    },
+    {
+      "cliente": "Auteservicio Uriel",
+      "fecha": "18/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": "Aderezo Para Ensalada  Clasico Pet Cormillot 500Cc 258.92"
+          },
+          {
+            "Cantidad": "4"
+          }
+        ]
+      ],
+      "id": 147
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "2/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": "Aceituna Verde Descarozada   Red, en Sodio  Cormillot 360Grs 519.51"
+          },
+          {
+            "Cantidad": "5"
+          }
+        ]
+      ],
+      "id": 148
+    },
+    {
+      "cliente": "Alto Constitucion - Dietetica (*) (A)",
+      "fecha": "1/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": "Pan de Molde Sin Tacc Cerro Azul 450Grs 966"
+          },
+          {
+            "Cantidad": "4"
+          }
+        ]
+      ],
+      "id": 149
+    },
+    {
+      "cliente": "Alto Constitucion - Dietetica (*) (A)",
+      "fecha": "7/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": "Pan De Molde Vegano Cerro Azul 450Grs 966"
+          },
+          {
+            "Cantidad": ""
+          }
+        ]
+      ],
+      "id": 150
+    },
+    {
+      "cliente": "Amanecer Constitucion (A)",
+      "fecha": "1/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": "Aceituna Verde Descarozada   Red, en Sodio  Cormillot 360Grs 519.51"
+          },
+          {
+            "Cantidad": "1"
+          }
+        ]
+      ],
+      "id": 151
+    },
+    {
+      "cliente": "Alto Constitucion - Dietetica (*) (A)",
+      "fecha": "14/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": " Yerba Adelga Mate Edulcorada  Adelgamate 500Grs 634.82"
+          },
+          {
+            "Cantidad": "1"
+          }
+        ]
+      ],
+      "id": 152
+    },
+    {
+      "cliente": "Almacen Homero",
+      "fecha": "24/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": "Pan de Molde Sin Tacc Cerro Azul 450Grs 966"
+          },
+          {
+            "Cantidad": "1"
+          }
+        ]
+      ],
+      "id": 153
+    },
+    {
+      "cliente": "Amanecer Constitucion (A)",
+      "fecha": "22/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": "Pan De Molde Vegano Cerro Azul 450Grs 966"
+          },
+          {
+            "Cantidad": "1"
+          }
+        ]
+      ],
+      "id": 154,
+      "estado": true
+    },
+    {
+      "cliente": "Alacena Tienda Natural (*) (A)",
+      "fecha": "21/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": "Aderezo Para Ensalada  Clasico Pet Cormillot 500Cc 258.92"
+          },
+          {
+            "Cantidad": "10"
+          }
+        ],
+        [
+          {
+            "Producto": "Pan de Molde Sin Tacc Cerro Azul 450Grs 966"
+          },
+          {
+            "Cantidad": "10"
+          }
+        ],
+        [
+          {
+            "Producto": "Salsa Filetto Light   Cormillot 340Grs 272.73"
+          },
+          {
+            "Cantidad": "20"
+          }
+        ],
+        [
+          {
+            "Producto": "Pan de Molde Sin Tacc Cerro Azul 450Grs 966"
+          },
+          {
+            "Cantidad": "12"
+          }
+        ]
+      ],
+      "id": 155
     }
   ],
   "pedidosClientes": [

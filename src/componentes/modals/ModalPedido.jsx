@@ -45,8 +45,22 @@ function ModalPedido({
     setSelectedOption3(value);
     console.log(selectedOption3);
 
-    if (value && !selectedOptionsArray.some((item) => item.name === value)) {
-      setSelectedOptionsArray([...selectedOptionsArray, { name: value }]);
+    if (value !== true) {
+      let unidades = prompt("Ingrese cantidad de unidades");
+
+      if (value && !selectedOptionsArray.some((item) => item === value)) {
+        setSelectedOptionsArray([
+          ...selectedOptionsArray,
+          [{ Producto: value }],
+        ]);
+
+        if (unidades !== null) {
+          setSelectedOptionsArray([
+            ...selectedOptionsArray,
+            [{ Producto: value }, { Cantidad: unidades }],
+          ]);
+        }
+      }
     }
   };
 
@@ -102,7 +116,19 @@ function ModalPedido({
 
   // Filtrar los elementos que coinciden con el texto ingresado
   useEffect(() => {
-    setOptions2(dataProductos.map((producto) => producto.name));
+    setOptions2(
+      dataProductos.map(
+        (producto) =>
+          producto.name +
+          " " +
+          producto.marca +
+          " " +
+          producto.peso +
+          producto.medida +
+          " " +
+          producto.precio
+      )
+    );
   }, [dataProductos]);
 
   const style = {
@@ -131,47 +157,64 @@ function ModalPedido({
             justifyContent: "space-evenly",
             flexDirection: "column",
             alignItems: "center",
-            height: "600px",
+            height: "80vh",
           }}
           onSubmit={handleSubmit}
         >
-          <Typography variant="h6" color="primary">
-            Crear Pedido
-          </Typography>
-          <div sx={{ display: "flex", width: "2000px" }}>
-            <Autocomplete
-              disablePortal
-              id="cliente"
-              options={options}
-              name="cliente"
-              value={selectedOption}
-              onChange={handleChange}
-              sx={{ width: 300 }}
-              renderInput={(params) => (
-                <TextField {...params} label="Escribe el Comercio" />
-              )}
-            />
-            <DemoContainer components={["DatePicker"]}>
-              <DatePicker
-                id="fecha"
-                name="fecha"
-                value={selectedOption2}
-                onChange={handleChange2}
-              />
+          <h3 style={{ fontSize: "3rem" }}>Crear Pedido</h3>
+          <div sx={{ display: "flex" }}>
+            <DemoContainer
+              sx={{ display: "flex", alignItems: "center", margin: "0.5rem" }}
+              components={["DatePicker"]}
+            >
+              <div>
+                Fecha de Entrega:
+                <DatePicker
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    margin: "0.5rem",
+                  }}
+                  id="fecha"
+                  name="fecha"
+                  value={selectedOption2}
+                  onChange={handleChange2}
+                />
+              </div>
+              <div>
+                Seleccionar Comercio:
+                <Autocomplete
+                  disablePortal
+                  id="cliente"
+                  options={options}
+                  name="cliente"
+                  value={selectedOption}
+                  onChange={handleChange}
+                  sx={{ width: 300, margin: "0.5rem" }}
+                  renderInput={(params) => (
+                    <TextField {...params} label="Escribe el Comercio" />
+                  )}
+                />
+              </div>
             </DemoContainer>
           </div>
-          <Autocomplete
-            disablePortal
-            id="productos"
-            options={options2}
-            name="productos"
-            value={selectedOption3}
-            onChange={handleChange3}
-            fullWidth
-            renderInput={(params) => (
-              <TextField {...params} label="Escribe el Producto" />
-            )}
-          />
+          <div style={{ width: "100%" }}>
+            <h3 style={{ fontSize: "2rem", textAlign: "left" }}>
+              Seleccionar Productos
+            </h3>
+            <Autocomplete
+              disablePortal
+              id="productos"
+              options={options2}
+              name="productos"
+              value={selectedOption3}
+              onChange={handleChange3}
+              fullWidth
+              renderInput={(params) => (
+                <TextField {...params} label="Escribe el Producto" />
+              )}
+            />
+          </div>
           <ul>
             {selectedOptionsArray.map((item, index) => (
               <li key={index}>{item.name}</li>
