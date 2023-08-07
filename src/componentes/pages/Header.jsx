@@ -32,10 +32,9 @@ function Header() {
         </a>
       </div>
       <div>
-        <h1>Distribuidora Alimentos Naturales MDP</h1>
-        <div style={{ display: "flex", justifyContent: "space-around" }}>
+        <h1>Distribuidora Alimentos Naturales</h1>
+        <div style={{ display: "flex", justifyContent: "center" }}>
           <h2>Sistema de ventas</h2>
-          <h2>Administrador</h2>
         </div>
       </div>
       <div

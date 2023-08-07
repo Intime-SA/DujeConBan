@@ -128,6 +128,7 @@ function Pedidos() {
         }}
       >
         {render && <VistaWeb data={data} />}
+
         <table className="table">
           <thead>
             <tr>

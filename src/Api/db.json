@@ -24,7 +24,7 @@
       "unidades": "12 Unidades",
       "precio": 966,
       "precioBulto": 11592,
-      "stock": "true",
+      "stock": true,
       "oferta": "false",
       "nuevo": "false",
       "categoria": "null",
@@ -1029,7 +1029,7 @@
       "unidades": "12 Unidades",
       "precio": 917,
       "precioBulto": 11004,
-      "stock": "false",
+      "stock": false,
       "oferta": "false",
       "nuevo": "false",
       "categoria": "null",
@@ -6344,7 +6344,8 @@
           {}
         ]
       ],
-      "id": 177
+      "id": 177,
+      "estado": true
     },
     {
       "cliente": "Alto Constitucion - Dietetica (*) (A) - Av. Constitución 5680",
@@ -6363,7 +6364,126 @@
           {}
         ]
       ],
-      "id": 178
+      "id": 178,
+      "estado": true
+    },
+    {
+      "cliente": "Almacen Brela - Av tejedor 901",
+      "fecha": "9/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Salsa Pizza Light",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "32"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pimentón Ahumado Dulce",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "23"
+          },
+          {}
+        ]
+      ],
+      "id": 179,
+      "estado": true
+    },
+    {
+      "cliente": "Almacen Homero - Av. Constitucion 8797",
+      "fecha": "11/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Mostaza Sin Sal",
+              844
+            ]
+          },
+          {
+            "Cantidad": "3"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pimentón Ahumado Dulce",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pan de Molde Sin Tacc",
+              966
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ]
+      ],
+      "id": 180
+    },
+    {
+      "cliente": "Almacen km 11 - Av libertad 6702",
+      "fecha": "8/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Pimentón Ahumado Dulce",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pasta de Mani",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Premezcla Universal Dulce",
+              853.77
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ]
+      ],
+      "id": 181
     }
   ],
   "pedidosClientes": [
