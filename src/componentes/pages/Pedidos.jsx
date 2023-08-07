@@ -27,16 +27,9 @@ import "jspdf-autotable";
 import confetti from "canvas-confetti";
 import CheckIcon from "@mui/icons-material/Check";
 import ToggleButton from "@mui/material/ToggleButton";
-import styled from "@emotion/styled";
-import {
-  PDFViewer,
-  Document,
-  Page,
-  Text,
-  View,
-  StyleSheet,
-} from "@react-pdf/renderer";
-import _, { forEach } from "lodash";
+import { PDFDownloadLink, StyleSheet } from "@react-pdf/renderer";
+import ModalPDF from "../modals/ModalPDF";
+import VistaWeb from "./VistaWeb";
 
 function Pedidos() {
   const [pedidos, setPedidos] = useState([]);
@@ -44,7 +37,7 @@ function Pedidos() {
   const [cambioEstado, setCambioEstado] = useState(false);
   const [selected, setSelected] = useState(false);
   const [data, setData] = useState([]);
-  const [pedido, setPedido] = useState();
+  const [render, setRender] = useState(false);
 
   useEffect(() => {
     try {
@@ -56,123 +49,15 @@ function Pedidos() {
     }
   }, [cambioEstado]);
 
-  const styles = StyleSheet.create({
-    page: {
-      flexDirection: "row",
-      backgroundColor: "#E4E4E4",
-    },
-    container: {
-      flex: 1,
-      margin: 32,
-      padding: 32,
-      border: "1 solid #000",
-    },
-    row: {
-      flexDirection: "row",
-      borderBottom: "1 solid #000",
-      alignItems: "center",
-      height: 32,
-    },
-    cell: {
-      flex: 1,
-      textAlign: "center",
-    },
-  });
-
-  function convertirObjetoAPdf(dataObject) {
-    const doc = new jsPDF();
-
-    // Constantes para estilos y posicionamiento
-    const tamañoFuenteTitulo = 40;
-    const tamañoFuenteEncabezado = 20;
-    const tamañoFuenteNormal = 12;
-    const fuenteNegrita = "helvetica";
-    const fuenteNormal = "helvetica";
-    const posiciónInicioTabla = 150;
-    const x = 1000; // Coordenada X (horizontal) de la imagen en el PDF
-    const y = 1000; // Coordenada Y (vertical) de la imagen en el PDF
-    const ancho = 500; // Ancho de la imagen en el PDF
-    const alto = 500; // Alto de la imagen en el PDF
-
-    // Agregar la imagen al PD
-
-    doc.setFontSize(tamañoFuenteTitulo);
-    doc.setFont(fuenteNegrita, "bold");
-    doc.setFont(fuenteNormal, "normal");
-
-    doc.setFontSize(tamañoFuenteEncabezado);
-    doc.setFont(fuenteNormal, "italic");
-
-    doc.setFontSize(tamañoFuenteNormal);
-
-    function quitarComillas(texto) {
-      // Utilizamos una expresión regular para encontrar las comillas (simples o dobles) y reemplazarlas con una cadena vacía
-      // También eliminamos los espacios innecesarios
-      return texto.replace(/['{}"]/g, "");
-    }
-
-    const columnas = ["Listado", "Unidad"];
-
-    function recorrerArray(objet) {
-      for (let i = 0; i < objet.length; i++) {
-        const element = objet[i];
-        return element;
-      }
-    }
-
-    function agregarArray(arr, obj1, obj2) {
-      arr.push(obj1);
-      arr.push(obj2);
-      console.log(arr);
-    }
-
-    let prod;
-    let cant;
-
-    const newArray = [];
-
-    const datosTabla = dataObject.map((item) => {
-      prod = recorrerArray(item[0]);
-      cant = recorrerArray(item[1]);
-      agregarArray(newArray, prod, cant);
-      return [
-        quitarComillas(JSON.stringify(item[0])),
-        quitarComillas(JSON.stringify(item[1])),
-      ];
-    });
-
-    // Configuración de las columnas utilizando objetos
-
-    doc.autoTable({
-      startY: posiciónInicioTabla,
-      head: [columnas],
-      body: datosTabla,
-      styles: {
-        fillColor: [128, 206, 214], // Color de fondo (en este caso, azul)
-        fontSize: 10, // Tamaño de fuente
-        fontStyle: "bold", // Estilo de fuente (negrita)
-      },
-    });
-    var imageUrl =
-      "https://scontent.fmdq6-1.fna.fbcdn.net/v/t39.30808-6/277579593_660204662063497_2104655870613909459_n.jpg?_nc_cat=108&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=u37a-wjdn5sAX84wc0f&_nc_ht=scontent.fmdq6-1.fna&oh=00_AfCOVdQDN5BGotqcMTZeY7NQ1nNO3eMt6fZkPStCh5dQ5A&oe=64D2D9D2";
-
-    // Agrega la imagen al PDF
-    doc.addImage(imageUrl, "JPEG", 10, 10, 100, 100); // (imagen, formato, x, y, ancho, alto)
-
-    // Guarda o muestra el PDF (esto muestra el PDF en una nueva ventana del navegador)
-    doc.output("dataurlnewwindow");
-    doc.save(`${pedido}-.pdf`);
-  }
-
   const descargarJson = async (element) => {
     try {
       const res = await axios
         .get(`http://localhost:5000/pedidosVendedores/${element.id}`)
         .then((res) => {
           console.log(res.data.productos);
-          setData(res.data.productos);
-          convertirObjetoAPdf(data);
-          setPedido(res.data.id);
+          setData(res.data);
+          setRender(true);
+          window.scrollTo({ top: 300, behavior: "smooth" });
         });
 
       // Llamar a convertObjectToPdf después de que se haya completado la petición
@@ -242,6 +127,7 @@ function Pedidos() {
           flexDirection: "column",
         }}
       >
+        {render && <VistaWeb data={data} />}
         <table className="table">
           <thead>
             <tr>
@@ -268,30 +154,6 @@ function Pedidos() {
                     textAlign: "center",
                   }}
                 >
-                  {/* <PopupState variant="popper" popupId="demo-popup-popper">
-                    {(popupState) => (
-                      <div>
-                        <Button
-                          sx={{ margin: "1rem" }}
-                          variant="contained"
-                          {...bindToggle(popupState)}
-                        >
-                          Vista
-                        </Button>
-                        <Popper {...bindPopper(popupState)} transition>
-                          {({ TransitionProps }) => (
-                            <Fade {...TransitionProps} timeout={350}>
-                              <Paper>
-                                <Typography sx={{ p: 2 }}>
-                                  <h3>Productos del Pedido: {dataJson}</h3>
-                                </Typography>
-                              </Paper>
-                            </Fade>
-                          )}
-                        </Popper>
-                      </div>
-                    )}
-                  </PopupState> */}
                   <Button
                     sx={{ margin: "1rem" }}
                     onClick={() => descargarJson(dato)}
@@ -326,4 +188,5 @@ function Pedidos() {
     </div>
   );
 }
+
 export default Pedidos;

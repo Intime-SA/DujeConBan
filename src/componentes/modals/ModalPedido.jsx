@@ -6,6 +6,7 @@ import { Autocomplete, Button, TextField } from "@mui/material";
 import axios from "axios";
 import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+import { Text } from "@react-pdf/renderer";
 function ModalPedido({
   crearPedido,
   botonCerrarPedido,
@@ -42,11 +43,10 @@ function ModalPedido({
   };
 
   const handleChange3 = (event, value) => {
-    setSelectedOption3(value);
-    console.log(selectedOption3);
-
-    if (value !== true) {
+    if (value !== null) {
       let unidades = prompt("Ingrese cantidad de unidades");
+
+      setSelectedOption3(value.precio);
 
       if (value && !selectedOptionsArray.some((item) => item === value)) {
         setSelectedOptionsArray([
@@ -57,11 +57,16 @@ function ModalPedido({
         if (unidades !== null) {
           setSelectedOptionsArray([
             ...selectedOptionsArray,
-            [{ Producto: value }, { Cantidad: unidades }],
+            [
+              { Producto: value },
+              { Cantidad: unidades },
+              { Precio: opciones.precio },
+            ],
           ]);
         }
       }
     }
+    console.log(selectedOptionsArray);
   };
 
   const handleChange2 = (value) => {
@@ -100,7 +105,9 @@ function ModalPedido({
 
   // Filtrar los elementos que coinciden con el texto ingresado
   useEffect(() => {
-    setOptions(dataClientes.map((cliente) => cliente.name));
+    setOptions(
+      dataClientes.map((cliente) => cliente.name + " - " + cliente.direccion)
+    );
   }, [dataClientes]);
 
   useEffect(() => {
@@ -117,19 +124,18 @@ function ModalPedido({
   // Filtrar los elementos que coinciden con el texto ingresado
   useEffect(() => {
     setOptions2(
-      dataProductos.map(
-        (producto) =>
-          producto.name +
-          " " +
-          producto.marca +
-          " " +
-          producto.peso +
-          producto.medida +
-          " " +
-          producto.precio
-      )
+      opciones.map((propiedad) => {
+        return [propiedad.name, propiedad.precio];
+      })
     );
   }, [dataProductos]);
+
+  const opciones = dataProductos.map((producto) => {
+    return {
+      name: producto.name,
+      precio: producto.precio,
+    };
+  });
 
   const style = {
     position: "absolute",
@@ -215,11 +221,15 @@ function ModalPedido({
               )}
             />
           </div>
-          <ul>
-            {selectedOptionsArray.map((item, index) => (
-              <li key={index}>{item.name}</li>
-            ))}
-          </ul>
+
+          {selectedOptionsArray.map((item, index) => (
+            <ul key={index}>
+              <li style={{ display: "flex", justifyContent: "space-between" }}>
+                {item[0].Producto}..........{item[1].Cantidad}
+              </li>
+            </ul>
+          ))}
+
           <Button
             onClick={cerrarListadoPedidos}
             type="submit"
