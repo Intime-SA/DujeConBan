@@ -3,6 +3,7 @@ import { Document, Image, Page, Text, View } from "@react-pdf/renderer";
 import { Button } from "@mui/material";
 
 const ModalPDF = ({ data }) => {
+  cambio;
   return (
     <Document>
       <Page size="A4">
