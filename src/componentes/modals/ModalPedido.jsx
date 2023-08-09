@@ -222,13 +222,39 @@ function ModalPedido({
             />
           </div>
 
-          {selectedOptionsArray.map((item, index) => (
+          {/* {selectedOptionsArray.map((item, index) => ( 
             <ul key={index}>
               <li style={{ display: "flex", justifyContent: "space-between" }}>
                 {item[0].Producto}..........{item[1].Cantidad}
               </li>
-            </ul>
-          ))}
+          </ul>)}*/}
+
+          <table style={{ width: "30vw" }} className="table">
+            <thead>
+              <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Unidades</th>
+              </tr>
+            </thead>
+            <tbody>
+              {selectedOptionsArray.map((item, index) => (
+                <tr key={index}>
+                  <td>
+                    <h4 style={{ color: "black" }}>{item[0].Producto}</h4>{" "}
+                  </td>
+                  <td>
+                    <h4 style={{ color: "black" }}>
+                      {parseFloat(item[0].Producto[1]).toFixed(2)}
+                    </h4>{" "}
+                  </td>
+                  <td>
+                    <h4 style={{ color: "black" }}>{item[1].Cantidad}</h4>{" "}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
 
           <Button
             onClick={cerrarListadoPedidos}

@@ -2,10 +2,12 @@ import { Button } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import ModalPDF from "../modals/ModalPDF";
 import { PDFDownloadLink, StyleSheet, PDFViewer } from "@react-pdf/renderer";
+import ReactDOM from "react-dom";
 
 const VistaWeb = ({ data }) => {
   const [descarga, setDescarga] = useState(false);
   const [totalPrice, setTotalPrice] = useState(0);
+  const [abrir, setAbrir] = useState(false);
 
   useEffect(() => {
     // Calculate the total price when data changes
@@ -19,6 +21,7 @@ const VistaWeb = ({ data }) => {
 
   return (
     <div style={{ paddingBottom: "250px" }}>
+      {/* <PDFViewer>{abrir && <ModalPDF data={data} />}</PDFViewer> */}
       <div
         style={{
           display: "flex",
@@ -105,7 +108,16 @@ const VistaWeb = ({ data }) => {
         <h2>Total Orden: $ {parseFloat(totalPrice).toFixed(2)}</h2>
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <Button variant="contained">Descargar PDF</Button>
+        <PDFDownloadLink
+          document={<ModalPDF data={data} />}
+          fileName="pedido.pdf"
+        >
+          {({ blob, url, loading, error }) => (
+            <Button variant="contained">
+              {loading ? "Generando PDF..." : "Descargar PDF"}
+            </Button>
+          )}
+        </PDFDownloadLink>
       </div>
     </div>
   );

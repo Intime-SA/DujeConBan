@@ -6440,7 +6440,8 @@
           {}
         ]
       ],
-      "id": 180
+      "id": 180,
+      "estado": true
     },
     {
       "cliente": "Almacen km 11 - Av libertad 6702",
@@ -6483,7 +6484,144 @@
           {}
         ]
       ],
-      "id": 181
+      "id": 181,
+      "estado": true
+    },
+    {
+      "cliente": "Almacen Brela - Av tejedor 901",
+      "fecha": "9/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Con Sal",
+              265.73
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pan De Molde Vegano",
+              966
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Alfajores Negros de Zapallo",
+              3132
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ]
+      ],
+      "id": 182,
+      "estado": true
+    },
+    {
+      "cliente": "Cabrales Constitucion (*) - Constitucion 4274",
+      "fecha": "10/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              " Yerba Adelga Mate Edulcorada ",
+              634.82
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pan De Molde Vegano",
+              966
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              " Yerba Adelga Mate Edulcorada ",
+              634.82
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Alfajores Negros de Zapallo",
+              3132
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Mantequilla de Mani",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "6"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Mostaza Sin Sal",
+              844
+            ]
+          },
+          {
+            "Cantidad": "7"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Premezcla Bizcochuelo de Vanilla",
+              660.4
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ]
+      ],
+      "id": 183,
+      "estado": true
     }
   ],
   "pedidosClientes": [
