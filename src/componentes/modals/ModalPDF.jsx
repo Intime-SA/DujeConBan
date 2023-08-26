@@ -84,7 +84,6 @@ const styles = StyleSheet.create({
   header: {
     display: "flex",
     justifyContent: "space-between",
-    marginBottom: "100px",
     marginLeft: "10px",
     marginRight: "10px",
   },
@@ -104,7 +103,9 @@ const styles = StyleSheet.create({
   },
   endJustify: {
     display: "flex",
-    justifyContent: "flex-end",
+    flexDirection: "row",
+    justifyContent: "space-around",
+    alignItems: "center",
   },
   infoBlock: {
     marginTop: 20,
@@ -126,7 +127,7 @@ const ModalPDF = ({ data }) => {
     // Calculate the total price when data changes
     let totalPrice = 0;
     data.productos.forEach((producto) => {
-      const price = producto[1].Cantidad * producto[0].Producto[1];
+      const price = producto[1].Cantidad * producto[0].Producto[7];
       totalPrice += price;
     });
     setTotalPrice(totalPrice);
@@ -176,10 +177,6 @@ const ModalPDF = ({ data }) => {
               <Text style={styles.textColum2}>
                 {data ? data.cliente : "no cargo la info"}
               </Text>
-              <Text style={{ marginTop: "40px" }}>Fecha de Entrega: </Text>
-              <Text style={styles.textColum2}>
-                {data ? data.fecha : "no cargo la info"}
-              </Text>
             </View>
           </View>
           <View style={styles.table}>
@@ -211,14 +208,26 @@ const ModalPDF = ({ data }) => {
                       fontSize: "10px",
                     }}
                   >
-                    {producto[0].Producto[0]}
+                    {producto[0].Producto[0] +
+                      " " +
+                      producto[0].Producto[2] +
+                      " " +
+                      producto[0].Producto[4] +
+                      producto[0].Producto[5]}
                   </Text>
                 </View>
                 <View
                   style={{ ...styles.tableCell, flex: 1, fontSize: "10px" }}
                 >
                   <Text style={{ color: "black" }}>
-                    {parseFloat(producto[0].Producto[1]).toFixed(2)}
+                    {parseFloat(producto[0].Producto[7])
+                      .toFixed(2)
+                      .toLocaleString("es-AR", {
+                        style: "currency",
+                        currency: "ARS",
+                        minimumFractionDigits: 2,
+                        maximumFractionDigits: 2,
+                      })}
                   </Text>
                 </View>
                 <View
@@ -229,18 +238,38 @@ const ModalPDF = ({ data }) => {
                 <View style={{ ...styles.tableCell, flex: 1 }}>
                   <Text style={{ color: "black" }}>
                     ${" "}
-                    {parseFloat(
-                      producto[1].Cantidad * producto[0].Producto[1]
-                    ).toFixed(2)}
+                    {parseFloat(producto[1].Cantidad * producto[0].Producto[7])
+                      .toFixed(2)
+                      .toLocaleString("es-AR", {
+                        style: "currency",
+                        currency: "ARS",
+                        minimumFractionDigits: 2,
+                        maximumFractionDigits: 2,
+                      })}
                   </Text>
                 </View>
               </View>
             ))}
           </View>
           <View style={styles.endJustify}>
-            <Text style={styles.textColum3}>
-              Total Orden: $ {parseFloat(totalPrice).toFixed(2)}
-            </Text>
+            <View>
+              <Text>Fecha de Entrega:</Text>
+              <Text style={styles.textColum2}>
+                {data ? data.fecha : "no cargo la info"}
+              </Text>
+            </View>
+            <View>
+              <Text>Total Orden: $</Text>
+
+              <Text style={styles.textColum3}>
+                {parseFloat(totalPrice).toFixed(2).toLocaleString("es-AR", {
+                  style: "currency",
+                  currency: "ARS",
+                  minimumFractionDigits: 2,
+                  maximumFractionDigits: 2,
+                })}
+              </Text>
+            </View>
           </View>
         </View>
       </Page>

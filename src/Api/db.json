@@ -9,9 +9,9 @@
       "unidades": "12 Unidades ",
       "precio": 634.82,
       "precioBulto": 7617.84,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "data:image/jpeg;base64,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"
     },
@@ -25,8 +25,8 @@
       "precio": 966,
       "precioBulto": 11592,
       "stock": true,
-      "oferta": "false",
-      "nuevo": "false",
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "http://alfajorescerroazul.com/wp-content/uploads/2020/11/Pan-Clasico-min.png"
     },
@@ -39,9 +39,9 @@
       "unidades": "12 Unidades",
       "precio": 966,
       "precioBulto": 11592,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "http://alfajorescerroazul.com/wp-content/uploads/2020/11/Pan-Vegano-min.png"
     },
@@ -55,8 +55,8 @@
       "precio": 519.51,
       "precioBulto": 6234.12,
       "stock": false,
-      "oferta": "false",
-      "nuevo": "false",
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://alimentoscormillot.com/wp-content/uploads/2020/10/RENDER-Aceitunas-verdes.jpg"
     },
@@ -69,9 +69,9 @@
       "unidades": "12 Unidades",
       "precio": 258.92,
       "precioBulto": 3107.04,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://alimentoscormillot.com/wp-content/uploads/2020/10/RENDER-Aderezo-clasico-light.-768x768.jpg"
     },
@@ -84,9 +84,9 @@
       "unidades": "12 Unidades ",
       "precio": 272.73,
       "precioBulto": 3272.76,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://alimentoscormillot.com/wp-content/uploads/2020/10/Salsa-fileto-light.jpg"
     },
@@ -99,9 +99,9 @@
       "unidades": "12 Unidades ",
       "precio": 272.73,
       "precioBulto": 3272.76,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://alimentoscormillot.com/wp-content/uploads/2020/10/Salsa-para-pizza-light.jpg"
     },
@@ -114,9 +114,9 @@
       "unidades": "12 Unidades",
       "precio": 844,
       "precioBulto": 10128,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://almacencamposverdes.com.ar/wp-content/uploads/2019/01/arytza-mostaza-sin-sal-premium-kosher-gluten-free-400-g__14016.1640800585.jpg"
     },
@@ -129,9 +129,9 @@
       "unidades": "20 Unidades ",
       "precio": 403.17,
       "precioBulto": 8063.4,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://almacencamposverdes.com.ar/wp-content/uploads/2019/01/coco.png"
     },
@@ -144,9 +144,9 @@
       "unidades": "12 Unidades",
       "precio": 1143,
       "precioBulto": 13716,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://almacencamposverdes.com.ar/wp-content/uploads/2021/05/db93c64e6c11e59202f3727cacf8082c-416x378.jpeg"
     },
@@ -159,9 +159,9 @@
       "unidades": "12 Unidades",
       "precio": 3132,
       "precioBulto": 3132,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://almaverdesaludable.com/wp-content/uploads/2022/03/celienergy_zapallo_negro_almaverdesaludable.jpg"
     },
@@ -174,9 +174,9 @@
       "unidades": "12 Unidades ",
       "precio": 265.73,
       "precioBulto": 3188.76,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://ardiaprod.vtexassets.com/arquivos/ids/227218-800-auto?v=637931503204830000&width=800&height=auto&aspect=true"
     },
@@ -189,9 +189,9 @@
       "unidades": "24 Unidades ",
       "precio": 346.8,
       "precioBulto": 8323.2,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://camelo.com.ar/wp-content/uploads/2021/07/10140a78-12a6-4350-97c5-a4e6d4f56f09-6d0e8abfca67e32c3b16091813400176-640-0-e1642625638391.jpg"
     },
@@ -204,9 +204,9 @@
       "unidades": "12 Unidades ",
       "precio": 532.01,
       "precioBulto": 6384.12,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://carrefourar.vtexassets.com/arquivos/ids/240167-800-auto?v=637846891423900000&width=800&height=auto&aspect=true"
     },
@@ -219,9 +219,9 @@
       "unidades": "12 Unidades ",
       "precio": 532.01,
       "precioBulto": 6384.12,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://carrefourar.vtexassets.com/arquivos/ids/240168-800-auto?v=637846891431700000&width=800&height=auto&aspect=true"
     },
@@ -234,9 +234,9 @@
       "unidades": "25 Unidades ",
       "precio": 661.95,
       "precioBulto": 16548.75,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://carrefourar.vtexassets.com/arquivos/ids/332934-800-auto?v=638212284954500000&width=800&height=auto&aspect=true"
     },
@@ -249,9 +249,9 @@
       "unidades": "10 Unidades ",
       "precio": 961.31,
       "precioBulto": 24032.75,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://carrefourar.vtexassets.com/arquivos/ids/332935-800-auto?v=638212285515930000&width=800&height=auto&aspect=true"
     },
@@ -264,9 +264,9 @@
       "unidades": "12 Unidades",
       "precio": 489.34,
       "precioBulto": 5453.16,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/608x608/products/5449/14566/Cormillot_-_Mermelada_-_Durazno_-_390g__18428.1653651528.jpg?c=2"
     },
@@ -279,9 +279,9 @@
       "unidades": "12 Unidades",
       "precio": 731.8,
       "precioBulto": 8781.6,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://cocoonfoods.com.ar/wp-content/uploads/2019/06/choco-768x768.png"
     },
@@ -294,9 +294,9 @@
       "unidades": "12 Unidades",
       "precio": 731.8,
       "precioBulto": 8781.6,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://cocoonfoods.com.ar/wp-content/uploads/2019/06/sinaz-768x768.png"
     },
@@ -309,9 +309,9 @@
       "unidades": "12 Unidades",
       "precio": 731.8,
       "precioBulto": 8781.6,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://cocoonfoods.com.ar/wp-content/uploads/2020/09/galeriacoco1-768x768.png"
     },
@@ -324,9 +324,9 @@
       "unidades": "12 Unidades",
       "precio": 731.8,
       "precioBulto": 8781.6,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://cocoonfoods.com.ar/wp-content/uploads/2021/11/producto-vainilla-768x768.jpg"
     },
@@ -339,9 +339,9 @@
       "unidades": "44 Unidades ",
       "precio": " 510,09 ",
       "precioBulto": 22443.96,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d22fxaf9t8d39k.cloudfront.net/4a42bd6557adb6460401dbadd6d908057b3fad65963485199c390db0c1641f4d53978.jpeg"
     },
@@ -354,9 +354,9 @@
       "unidades": "12 Unidades",
       "precio": 1216,
       "precioBulto": 14592,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d2r9epyceweg5n.cloudfront.net/stores/001/066/460/products/mayo-ajo1-4b71d497596180a9e915896577558228-640-0.png"
     },
@@ -369,9 +369,9 @@
       "unidades": "15 Unidades ",
       "precio": 884.43,
       "precioBulto": 13266.45,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d2r9epyceweg5n.cloudfront.net/stores/001/089/207/products/61-225f5eb70df3a99c6916039218220441-480-0.png"
     },
@@ -384,9 +384,9 @@
       "unidades": "12 Unidades",
       "precio": 1139.54,
       "precioBulto": 13674.48,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d2r9epyceweg5n.cloudfront.net/stores/001/100/132/products/6994-f111-1418073b1ebd0468e615970876796846-1024-1024__81163-16026803771-d7044d3258837324d116360523172109-640-0.jpg"
     },
@@ -399,9 +399,9 @@
       "unidades": "12 Unidades ",
       "precio": 660.6,
       "precioBulto": 7927.2,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d2r9epyceweg5n.cloudfront.net/stores/001/132/089/products/delicel-premezcla-pan1-ce027b1fa72a5e4fa315447158129311-640-01-f35270985ec89bcc0615846242189278-640-01-6208eea7d4ca14ac7e16105633915496-480-0.jpg"
     },
@@ -414,9 +414,9 @@
       "unidades": "12 Unidades ",
       "precio": 331.5,
       "precioBulto": 3978,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d2r9epyceweg5n.cloudfront.net/stores/001/132/089/products/g-x1-15a023ce802de99d9815866426940963-480-0.jpg"
     },
@@ -429,9 +429,9 @@
       "unidades": "12 Unidades",
       "precio": 731.8,
       "precioBulto": 8781.6,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d2r9epyceweg5n.cloudfront.net/stores/001/132/089/products/original1-91e1db71f72c3c0fdd15850066021576-640-0.png"
     },
@@ -444,9 +444,9 @@
       "unidades": "24 Unidades ",
       "precio": 346.8,
       "precioBulto": 8323.2,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d2r9epyceweg5n.cloudfront.net/stores/001/132/089/products/s-queso1-e4a13c96b92562d0ce15866424624745-640-0.jpg"
     },
@@ -459,9 +459,9 @@
       "unidades": "12 Unidades",
       "precio": 810.81,
       "precioBulto": 5453.16,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d2r9epyceweg5n.cloudfront.net/stores/001/151/835/products/77930460078691-f29c24144684dc5a3216587967958043-1024-1024.jpg"
     },
@@ -474,9 +474,9 @@
       "unidades": "20 Unidades ",
       "precio": 403.17,
       "precioBulto": 8063.4,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d2r9epyceweg5n.cloudfront.net/stores/001/541/857/products/delicel-chocolate1-6bc23779771427c32b16814081068665-480-0.webp"
     },
@@ -489,9 +489,9 @@
       "unidades": "20 Unidades",
       "precio": 403.17,
       "precioBulto": 8063.4,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d2r9epyceweg5n.cloudfront.net/stores/001/541/857/products/galleta-delicel-limon-200-gr1-8624317b48e1bcd28a16814079797879-480-0.webp"
     },
@@ -504,9 +504,9 @@
       "unidades": " 12 Unidades ",
       "precio": 865.75,
       "precioBulto": 10389,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d2r9epyceweg5n.cloudfront.net/stores/002/103/313/products/14021-be063c72cb0739097516678523578912-1024-1024.png"
     },
@@ -519,9 +519,9 @@
       "unidades": "18 Unidades ",
       "precio": 403.17,
       "precioBulto": 8063.4,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d2r9epyceweg5n.cloudfront.net/stores/003/007/436/products/galletitas-sabor-a-miel-delicel11-a092ac1dfad1dc840416885788841614-1024-1024.webp"
     },
@@ -534,9 +534,9 @@
       "unidades": "12 Unidades ",
       "precio": 689.11,
       "precioBulto": 8269.32,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/029/111/products/rebozador1-4ee9ab93c9559a0a3416407471793292-640-0.webp"
     },
@@ -549,9 +549,9 @@
       "unidades": "20 Unidades",
       "precio": 403.17,
       "precioBulto": 8063.4,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/040/363/products/pepas-batata1-60e0962ceb7556ecff16851007638930-640-0.webp"
     },
@@ -564,9 +564,9 @@
       "unidades": "20 Unidades ",
       "precio": 403.17,
       "precioBulto": 8063.4,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/040/363/products/pepas-membrillo1-d3b0be48cc49e8882316851007641323-640-0.webp"
     },
@@ -579,9 +579,9 @@
       "unidades": "1 Display ",
       "precio": 3049.2,
       "precioBulto": 3049.2,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/058/870/products/delc17_1-5cc9bcb64c12b1f3b016698410285660-1024-1024.webp"
     },
@@ -594,9 +594,9 @@
       "unidades": "12 Unidades ",
       "precio": 660.4,
       "precioBulto": 7924.8,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/127/840/products/premezcla-biscochuelo-choco1-ae68fb55b6a353ef3c16032952080260-1024-1024.jpg"
     },
@@ -609,9 +609,9 @@
       "unidades": "12 Unidades ",
       "precio": 660.4,
       "precioBulto": 7924.8,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/127/840/products/premezcla-biscochuelo-choco1-ae68fb55b6a353ef3c16032952080260-1024-1024.jpg"
     },
@@ -624,9 +624,9 @@
       "unidades": "24 Unidades ",
       "precio": 346.8,
       "precioBulto": 8323.2,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/127/840/products/sopa-de-espinaca-x-50gr-bon-wert1-07f32699f48685908716554950215114-1024-1024.jpg"
     },
@@ -639,9 +639,9 @@
       "unidades": "12 Unidades",
       "precio": 871.2,
       "precioBulto": 10454.4,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/138/724/products/curry1-7e13b2a9fd815745bd16396710764689-640-0.webp"
     },
@@ -654,9 +654,9 @@
       "unidades": "12 Unidades",
       "precio": 871.2,
       "precioBulto": 10454.4,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/138/724/products/curry-picante1-ecec194f422e73428f16401925912327-640-0.webp"
     },
@@ -669,9 +669,9 @@
       "unidades": "18 Unidades ",
       "precio": 526.83,
       "precioBulto": 10536.6,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/138/724/products/delicel-kids-galles1-5a4d3a7ae5c6a93f6d16675929841179-640-0.webp"
     },
@@ -684,9 +684,9 @@
       "unidades": "12 Unidades ",
       "precio": 265.73,
       "precioBulto": 3188.76,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/144/045/products/sin-titulo41-4cc7ce8701ecb3c2e515905021160382-640-0.webp"
     },
@@ -699,9 +699,9 @@
       "unidades": "20 Unidades ",
       "precio": 382.5,
       "precioBulto": 7650,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/167/320/products/bon-wert-caldo-tienda-sin-gluten-carne1-b48270d7523a6a0dc415877202374243-640-01-de86c9e35f687adb9016378118527228-640-0.png"
     },
@@ -714,9 +714,9 @@
       "unidades": "24 Unidades ",
       "precio": 346.8,
       "precioBulto": 8323.2,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/167/320/products/bon-wert-sopa-esparrago-50g-401-5e750d0e8592483a3915920820802322-1024-10241-b43cfca24392e8eb9a16372866597583-640-0.jpg"
     },
@@ -729,9 +729,9 @@
       "unidades": "24 Unidades ",
       "precio": 346.8,
       "precioBulto": 8323.2,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/167/320/products/bon-wert-sopa-tienda-sin-gluten-arvejas1-5a9f36dd3e252076bb15877201200472-640-01-9bf1472b3c21c2c40d16372856160199-640-0.png"
     },
@@ -744,9 +744,9 @@
       "unidades": "24 Unidades ",
       "precio": 357,
       "precioBulto": 8568,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/167/320/products/bon-wert-sopa-tienda-sin-gluten-choclo1-12f6e2a9159b293eb315877199985887-480-01-e144f6cbd9ef5e401416372862817337-640-0.png"
     },
@@ -759,9 +759,9 @@
       "unidades": "30 Unidades ",
       "precio": 1125.43,
       "precioBulto": 33762.9,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/167/320/products/coco-rallado-abucel1-0081d8c56d57f2092f16304268835521-640-0.jpg"
     },
@@ -774,9 +774,9 @@
       "unidades": "12 Unidades",
       "precio": 1071,
       "precioBulto": 12852,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/175/558/products/231993_salsa-arytza-alioli-x-340-g_imagen-11-dd87bf496def5e3f9c16803603858882-640-0.webp"
     },
@@ -789,9 +789,9 @@
       "unidades": "12 Unidades",
       "precio": 1268.5,
       "precioBulto": 15222,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/176/450/products/mostaza-al-aloj1-23e32ebe36892c7d7e16630006294618-640-0.jpg"
     },
@@ -804,9 +804,9 @@
       "unidades": "12 Unidades ",
       "precio": 634.82,
       "precioBulto": 7617.84,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/176/840/products/ym-adelgamate-compuesta-con-frutos-del-bosque-500gr-001-38aaad2bb1ac54b54516333576208897-640-0.webp"
     },
@@ -819,9 +819,9 @@
       "unidades": "12 Unidades ",
       "precio": 634.82,
       "precioBulto": 7617.84,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/176/840/products/ym-adelgamate-compuesta-con-limon-500gr-001-48b687d9805d3ab72116334735992422-640-0.webp"
     },
@@ -834,9 +834,9 @@
       "unidades": "12 Unidades ",
       "precio": 634.82,
       "precioBulto": 7617.84,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/176/840/products/ym-adelgamate-naranja-500gr-001-fa31291be5fc05502616333552170461-640-0.webp"
     },
@@ -849,9 +849,9 @@
       "unidades": "12 Unidades ",
       "precio": 634.82,
       "precioBulto": 7617.84,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/176/840/products/ym-adelgamate-tradicional-compuesta-500gr-001-1224d904ad3857b4fc16043207770840-640-0.webp"
     },
@@ -864,9 +864,9 @@
       "unidades": "12 Unidades",
       "precio": 1252,
       "precioBulto": 15024,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/301/922/products/arytza-salsa-criolla-3601-0eec653083d288903216655191977836-480-0.jpg"
     },
@@ -879,9 +879,9 @@
       "unidades": "44 Unidades ",
       "precio": " 562,35 ",
       "precioBulto": 24743.4,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/338/283/products/dimaxbizc2001-453e3b4c75994908bb16038085666778-640-0.jpg"
     },
@@ -894,9 +894,9 @@
       "unidades": "44 Unidades ",
       "precio": " 809,98 ",
       "precioBulto": 35639.12,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/338/283/products/dimaxfajitas2001-da2a7afd6c0667320615998760214850-640-0.jpg"
     },
@@ -909,9 +909,9 @@
       "unidades": "44 Unidades ",
       "precio": " 522,99 ",
       "precioBulto": 23011.56,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/338/283/products/dimaxpepabatatacaja1-37b3536a37be46b00016003569983821-640-0.jpg"
     },
@@ -924,9 +924,9 @@
       "unidades": "44 Unidades ",
       "precio": " 492,98 ",
       "precioBulto": 21691.12,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/338/283/products/dimaxpepasm2001-c0440d142003691c4a15998759405222-640-0.jpg"
     },
@@ -939,9 +939,9 @@
       "unidades": " 30 Unidades ",
       "precio": 865.75,
       "precioBulto": 25972.5,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/434/490/products/blue06_1-9d2f115dd2c385872516027090430614-1024-10241-f6cfdd3e2df0522fb716086523390207-640-0.webp"
     },
@@ -954,9 +954,9 @@
       "unidades": "12 Unidades",
       "precio": 3132,
       "precioBulto": 3132,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/658/159/products/celienergy-nuez1-1216562f1d1e942ad016210143735919-640-0.png"
     },
@@ -969,9 +969,9 @@
       "unidades": "15 Unidades ",
       "precio": 853.77,
       "precioBulto": 12806.55,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/093/780/products/2321-ed36e4d63f93e1572416151999839238-1024-1024.webp"
     },
@@ -984,9 +984,9 @@
       "unidades": "10 Unidades ",
       "precio": 284.42,
       "precioBulto": 3413.04,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/093/780/products/whatsapp-image-2021-10-12-at-09-24-041-6deeef15a8d05bbf7c16340437666967-640-0.webp"
     },
@@ -999,9 +999,9 @@
       "unidades": "12 Unidades",
       "precio": 799,
       "precioBulto": 9588,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/093/780/products/whatsapp-image-2022-05-05-at-8-24-44-am1-c7d810a66e63fe4bab16517535083392-640-0.webp"
     },
@@ -1014,9 +1014,9 @@
       "unidades": "12 Unidades",
       "precio": 826,
       "precioBulto": 9912,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/093/780/products/whatsapp-image-2022-05-05-at-8-25-02-am1-a3cb4ba99e34968cc416517539866643-640-0.webp"
     },
@@ -1030,8 +1030,8 @@
       "precio": 917,
       "precioBulto": 11004,
       "stock": false,
-      "oferta": "false",
-      "nuevo": "false",
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/093/780/products/whatsapp-image-2022-05-05-at-8-25-11-am1-e49236d14a215bb3e016517540265147-640-0.webp"
     },
@@ -1044,9 +1044,9 @@
       "unidades": "12 Unidades",
       "precio": 889,
       "precioBulto": 10668,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/093/780/products/whatsapp-image-2022-05-05-at-8-25-21-am1-d762431862ff40171416517540717289-1024-1024.webp"
     },
@@ -1059,9 +1059,9 @@
       "unidades": "12 Unidades",
       "precio": 944,
       "precioBulto": 11328,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/093/780/products/whatsapp-image-2022-05-05-at-8-25-38-am1-36b247db7c82831efb16517541292316-640-0.webp"
     },
@@ -1074,9 +1074,9 @@
       "unidades": "12 Unidades ",
       "precio": 660.4,
       "precioBulto": 7924.8,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/093/780/products/whatsapp-image-2022-10-08-at-19-01-54-21-fea0c7b35011df38a716652686127508-1024-1024.webp"
     },
@@ -1089,9 +1089,9 @@
       "unidades": "12 Unidades ",
       "precio": 2970,
       "precioBulto": 2970,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/099/082/products/alfajor-cerro-azul-mousse-limon1-9ee36075679e14a18c16859350810596-1024-1024.webp"
     },
@@ -1104,9 +1104,9 @@
       "unidades": "15 Unidades ",
       "precio": " 1.149,13 ",
       "precioBulto": 17236.95,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/099/082/products/dimax-premezcla-1-kg1-dce0918eeabe43cc9b15863572458813-1024-1024.webp"
     },
@@ -1119,9 +1119,9 @@
       "unidades": "12 Unidades ",
       "precio": " 846,87 ",
       "precioBulto": 15243.66,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/099/082/products/dimax-sin-tacc-pan-rallado-500-gs11-2ae9e0b50aaefe3c0e16884638623803-1024-1024.webp"
     },
@@ -1134,9 +1134,9 @@
       "unidades": "12 Unidades",
       "precio": 771.38,
       "precioBulto": 9256.56,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/186/318/products/thumb-2022-09-14t123948-311-21-b03f9cabe3cdb78b8416692970828618-640-0.webp"
     },
@@ -1149,9 +1149,9 @@
       "unidades": "44 Unidades ",
       "precio": " 492,94 ",
       "precioBulto": 21689.36,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/798/865/products/50091425-e81d5ebd5aabe5793015886172557039-1024-1024.webp"
     },
@@ -1164,9 +1164,9 @@
       "unidades": "12 Unidades ",
       "precio": 438.91,
       "precioBulto": 5266.92,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/859/729/products/120-grs-mani-con-cascara1-aa37a503d61224bd5c16613610740106-1024-1024.png"
     },
@@ -1179,9 +1179,9 @@
       "unidades": "12 Unidades",
       "precio": 518.14,
       "precioBulto": 5453.16,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://demo01.catalogoqr.ar/wp-content/uploads/2022/05/3451-CORMILLOT-MERMELADA-HIGO-SIN-AZUCAR-390-GR.jpg"
     },
@@ -1194,9 +1194,9 @@
       "unidades": "12 Unidades ",
       "precio": 880.53,
       "precioBulto": 10566.36,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://dieteticacuencaybeiro.com.ar/wp-content/uploads/2021/07/delicel-premezcla-noquis1-4a1558270395dac54015876102501611-1024-1024-768x768.png"
     },
@@ -1209,9 +1209,9 @@
       "unidades": "20 Unidades ",
       "precio": 403.17,
       "precioBulto": 8063.4,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://dieteticamari.com/wp-content/uploads/2020/06/delicel-cookieschips-768x768.jpg"
     },
@@ -1224,9 +1224,9 @@
       "unidades": "20 Unidades ",
       "precio": 403.17,
       "precioBulto": 8063.4,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://dieteticamari.com/wp-content/uploads/2020/06/delicel-cookiesnaranja-768x768.jpg"
     },
@@ -1239,9 +1239,9 @@
       "unidades": "12 Unidades ",
       "precio": 3795,
       "precioBulto": 3795,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://dieteticamari.com/wp-content/uploads/2021/12/cerroazul-moussevainilla-vegano3.jpg"
     },
@@ -1254,9 +1254,9 @@
       "unidades": " 18 Unidades ",
       "precio": 865.75,
       "precioBulto": 15583.5,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://dieteticamultisueltos.com/wp-content/uploads/2020/07/dedalitos-sin-tacc-blue-patna-gurumarket1-f94e99a0138791996215834236904693-1024-1024.jpg"
     },
@@ -1269,9 +1269,9 @@
       "unidades": " 18 Unidades ",
       "precio": 865.75,
       "precioBulto": 15583.5,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://dieteticamultisueltos.com/wp-content/uploads/2020/07/fetuccini-sin-tacc-blue-patna-gurumarket1-347c278f21a7a9275615931753286346-1024-1024.jpg"
     },
@@ -1284,9 +1284,9 @@
       "unidades": "18 Unidades ",
       "precio": " 610,18 ",
       "precioBulto": 10983.24,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://dimaxalimentos.com.ar/wp-content/uploads/2023/07/Bud.-Frutas-min.jpg"
     },
@@ -1299,9 +1299,9 @@
       "unidades": "20 Unidades",
       "precio": 192.39,
       "precioBulto": 3847.8,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://elbanquito.com.ar/wp-content/uploads/2020/06/Crisppino-Jamon-50grs-el-banquito-market.jpg"
     },
@@ -1314,9 +1314,9 @@
       "unidades": "20 Unidades",
       "precio": 192.39,
       "precioBulto": 3847.8,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://elbanquito.com.ar/wp-content/uploads/2020/06/Crisppino-Queso-50-Grs-el-banquito-market.jpg"
     },
@@ -1329,9 +1329,9 @@
       "unidades": "100 Unidades ",
       "precio": " 366,80 ",
       "precioBulto": 36680,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://elbanquito.com.ar/wp-content/uploads/2020/06/Dimax-Palitos-Salados-75Grs-el-banquito-market.jpg"
     },
@@ -1344,9 +1344,9 @@
       "unidades": "12 Unidades ",
       "precio": 3795,
       "precioBulto": 3795,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://elbanquito.com.ar/wp-content/uploads/2020/08/cerroazulddl.jpg"
     },
@@ -1359,9 +1359,9 @@
       "unidades": "12 Unidades",
       "precio": 3795,
       "precioBulto": 3795,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://elbanquito.com.ar/wp-content/uploads/2020/08/cerroazulmousefresas.jpg"
     },
@@ -1374,9 +1374,9 @@
       "unidades": "12 Unidades ",
       "precio": 454.43,
       "precioBulto": 5453.16,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://elbanquito.com.ar/wp-content/uploads/2020/08/cormillot-dulce-de-membrillo-light-sin-tacc-x-430-grs-el-banquito-market.jpg"
     },
@@ -1389,9 +1389,9 @@
       "unidades": "12 Unidades ",
       "precio": 2970,
       "precioBulto": 2970,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://elbanquito.com.ar/wp-content/uploads/2021/04/cerroazulddl1-1.jpg"
     },
@@ -1404,9 +1404,9 @@
       "unidades": "20 Unidades ",
       "precio": 382.5,
       "precioBulto": 7650,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://glutenfreemarket.com.ar/wp-content/uploads/2021/09/BonWert_CaldoVerduraSinSal.jpg"
     },
@@ -1419,9 +1419,9 @@
       "unidades": "15 Unidades ",
       "precio": 543.95,
       "precioBulto": 8159.25,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://glutenfreemarket.com.ar/wp-content/uploads/2021/09/Celidarina_HarinaMaiz-768x768.jpg"
     },
@@ -1434,9 +1434,9 @@
       "unidades": "10 Unidades ",
       "precio": 284.42,
       "precioBulto": 3413.04,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://glutenfreemarket.com.ar/wp-content/uploads/2021/09/MiniArrocitas_FinasHierbas.jpg"
     },
@@ -1449,9 +1449,9 @@
       "unidades": "30 Unidades",
       "precio": 2669,
       "precioBulto": 80070,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://holofood.com.ar/wp-content/uploads/2022/11/HF30005000.jpg"
     },
@@ -1464,9 +1464,9 @@
       "unidades": "12 Unidades",
       "precio": 1016,
       "precioBulto": 12192,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://holofood.com.ar/wp-content/uploads/2022/12/Arytza-Mostaza-ahumada-480x480.jpg"
     },
@@ -1479,9 +1479,9 @@
       "unidades": "12 Unidades",
       "precio": 1107,
       "precioBulto": 13284,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://holofood.com.ar/wp-content/uploads/2022/12/Arytza-Salsa-caesar-480x480.jpg"
     },
@@ -1494,9 +1494,9 @@
       "unidades": "1 Unidades ",
       "precio": 3225.17,
       "precioBulto": 3225.17,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_639022-MLA46740763376_072021-F.webp"
     },
@@ -1509,9 +1509,9 @@
       "unidades": "1 Unidades ",
       "precio": 5148.87,
       "precioBulto": 5148.87,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_646246-MLA48712981371_122021-F.webp"
     },
@@ -1524,9 +1524,9 @@
       "unidades": "24 Unidades",
       "precio": 879,
       "precioBulto": 21096,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_656014-MLA44305828475_122020-F.webp"
     },
@@ -1539,9 +1539,9 @@
       "unidades": "24 Unidades",
       "precio": 767.15,
       "precioBulto": 18411.6,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_657277-MLA44306298319_122020-F.webp"
     },
@@ -1554,9 +1554,9 @@
       "unidades": "24 Unidades",
       "precio": 879,
       "precioBulto": 21096,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_657277-MLA44306298319_122020-F.webp"
     },
@@ -1569,9 +1569,9 @@
       "unidades": "24 Unidades",
       "precio": 879,
       "precioBulto": 21096,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_676068-MLA44306795932_122020-F.webp"
     },
@@ -1584,9 +1584,9 @@
       "unidades": "24 Unidades",
       "precio": 1011.9,
       "precioBulto": 24285.6,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_731417-MLA49315588139_032022-F.webp"
     },
@@ -1599,9 +1599,9 @@
       "unidades": "12 Unidades",
       "precio": 1230.34,
       "precioBulto": 14764.08,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_764107-MLA70661511415_072023-F.webp"
     },
@@ -1614,9 +1614,9 @@
       "unidades": "12 Unidades",
       "precio": 223.51,
       "precioBulto": 2682.12,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_777057-MLA47856264182_102021-F.webp"
     },
@@ -1629,9 +1629,9 @@
       "unidades": "12 Unidades",
       "precio": 356.41,
       "precioBulto": 5453.16,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_779784-MLA48832928159_012022-F.webp"
     },
@@ -1644,9 +1644,9 @@
       "unidades": "12 Unidades",
       "precio": 940.85,
       "precioBulto": 11290.2,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_779829-MLA40901657298_022020-F.webp"
     },
@@ -1659,9 +1659,9 @@
       "unidades": "24 Unidades",
       "precio": 879,
       "precioBulto": 21096,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_803633-MLA49306930383_032022-F.webp"
     },
@@ -1674,9 +1674,9 @@
       "unidades": "12 Unidades",
       "precio": 1268.5,
       "precioBulto": 15222,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_803741-MLA48843036499_012022-F.webp"
     },
@@ -1689,9 +1689,9 @@
       "unidades": "24 Unidades",
       "precio": 879,
       "precioBulto": 21096,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_807602-MLA47980672514_102021-F.webp"
     },
@@ -1704,9 +1704,9 @@
       "unidades": "24 Unidades",
       "precio": 879,
       "precioBulto": 21096,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_808156-MLA44306768472_122020-F.webp"
     },
@@ -1719,9 +1719,9 @@
       "unidades": "12 Unidades",
       "precio": 224.65,
       "precioBulto": 2695.8,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_808400-MLA47856270969_102021-F.webp"
     },
@@ -1734,9 +1734,9 @@
       "unidades": "12 Unidades ",
       "precio": 801.92,
       "precioBulto": 9623.04,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_825351-MLA47856310436_102021-F.webp"
     },
@@ -1749,9 +1749,9 @@
       "unidades": "12 Unidades",
       "precio": 1217.18,
       "precioBulto": 14606.16,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_837930-MLA48357353652_112021-F.webp"
     },
@@ -1764,9 +1764,9 @@
       "unidades": "24 Unidades",
       "precio": 879,
       "precioBulto": 21096,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_839978-MLA49316120621_032022-F.webp"
     },
@@ -1779,9 +1779,9 @@
       "unidades": "15 Unidades ",
       "precio": 637.06,
       "precioBulto": 9555.9,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_846196-MLA49737163172_042022-F.webp"
     },
@@ -1794,9 +1794,9 @@
       "unidades": "12 Unidades",
       "precio": 379.25,
       "precioBulto": 5453.16,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_874141-MLA51789085044_102022-F.webp"
     },
@@ -1809,9 +1809,9 @@
       "unidades": "12 Unidades",
       "precio": 1217.18,
       "precioBulto": 14606.16,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_884747-MLA46304652253_062021-F.webp"
     },
@@ -1824,9 +1824,9 @@
       "unidades": "12 Unidades",
       "precio": 1139.54,
       "precioBulto": 13674.48,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_916137-MLA48842970529_012022-F.webp"
     },
@@ -1839,9 +1839,9 @@
       "unidades": "24 Unidades",
       "precio": 879,
       "precioBulto": 21096,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_926946-MLA49315786141_032022-F.webp"
     },
@@ -1854,9 +1854,9 @@
       "unidades": "12 Unidades",
       "precio": 1217.18,
       "precioBulto": 14606.16,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_945481-MLA50012954294_052022-F.webp"
     },
@@ -1869,9 +1869,9 @@
       "unidades": "24 Unidades",
       "precio": 879,
       "precioBulto": 21096,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_982538-MLA44306458696_122020-F.webp"
     },
@@ -1884,9 +1884,9 @@
       "unidades": " 18 Unidades ",
       "precio": 865.75,
       "precioBulto": 15583.5,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_982945-MLA51244335942_082022-F.webp"
     },
@@ -1899,9 +1899,9 @@
       "unidades": "1 Unidades ",
       "precio": 2319.67,
       "precioBulto": 2319.67,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_2X_988599-MLA45218180696_032021-F.webp"
     },
@@ -1914,9 +1914,9 @@
       "unidades": "12 Unidades ",
       "precio": 252.13,
       "precioBulto": 3025.56,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_765264-MLA52284232558_112022-O.webp"
     },
@@ -1929,9 +1929,9 @@
       "unidades": "12 Unidades ",
       "precio": 272.73,
       "precioBulto": 3272.76,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://http2.mlstatic.com/D_NQ_NP_864252-MLA47856262563_102021-O.webp"
     },
@@ -1944,9 +1944,9 @@
       "unidades": "24 Unidades ",
       "precio": 346.8,
       "precioBulto": 8323.2,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://i0.wp.com/matchalife.ar/wp-content/uploads/2022/05/BON-WERT-Sopa-Instantanea-de-Cebolla-Deshidratada-50G.png?resize=768%2C1075&ssl=1"
     },
@@ -1959,9 +1959,9 @@
       "unidades": "10 Unidades ",
       "precio": 284.42,
       "precioBulto": 3413.04,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://i0.wp.com/www.alpuntodeventa.com.ar/wp-content/uploads/0270-1.jpg?fit=1200%2C1200&ssl=1&_ga=2.172818662.432252778.1690494058-470484696.1690494058"
     },
@@ -1974,9 +1974,9 @@
       "unidades": "12 Unidades ",
       "precio": 265.73,
       "precioBulto": 3188.76,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://i0.wp.com/www.alpuntodeventa.com.ar/wp-content/uploads/10705_7790531.jpg?fit=600%2C600&ssl=1"
     },
@@ -1989,9 +1989,9 @@
       "unidades": "12 Unidades",
       "precio": 1289,
       "precioBulto": 15468,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://images.rappi.com.ar/products/63dd2f94-9d72-4369-bd66-8d1727808765.png?e=webp&d=900x750&q=30"
     },
@@ -2004,9 +2004,9 @@
       "unidades": "12 Unidades",
       "precio": 1139.54,
       "precioBulto": 13674.48,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://jumboargentina.vtexassets.com/arquivos/ids/180881-800-auto?v=636383403508200000&width=800&height=auto&aspect=true"
     },
@@ -2019,9 +2019,9 @@
       "unidades": "6 Unidades",
       "precio": 1276.66,
       "precioBulto": 7659.96,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://jumboargentina.vtexassets.com/arquivos/ids/717360-800-auto?v=637981617809200000&width=800&height=auto&aspect=true"
     },
@@ -2034,9 +2034,9 @@
       "unidades": "6 Unidades",
       "precio": 1276.66,
       "precioBulto": 7659.96,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://jumboargentina.vtexassets.com/arquivos/ids/717361-800-auto?v=637981617812030000&width=800&height=auto&aspect=true"
     },
@@ -2049,9 +2049,9 @@
       "unidades": "12 Unidades",
       "precio": 3132,
       "precioBulto": 3132,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://jumboargentina.vtexassets.com/arquivos/ids/762552-800-auto?v=638068017757070000&width=800&height=auto&aspect=true"
     },
@@ -2064,9 +2064,9 @@
       "unidades": "44 Unidades ",
       "precio": " 602,33 ",
       "precioBulto": 26502.52,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://kikimarket.com.ar/wp-content/uploads/2021/03/caja-biscuits-x-120-grs-dimax-kiki-market-tienda-natural-dietetica-herboristeria-villa-carlos-paz-min.jpg"
     },
@@ -2079,9 +2079,9 @@
       "unidades": "44 Unidades ",
       "precio": " 492,52 ",
       "precioBulto": 21670.88,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://kikimarket.com.ar/wp-content/uploads/2021/03/caja-saladitas-x-200-grs-dimax-kiki-market-tienda-natural-dietetica-herboristeria-villa-carlos-paz-min.jpg"
     },
@@ -2094,9 +2094,9 @@
       "unidades": "44 Unidades ",
       "precio": " 492,98 ",
       "precioBulto": 21691.12,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://kikimarket.com.ar/wp-content/uploads/2021/04/caja-pepas-chocolate-x-160-grs-dimax-kiki-market-tienda-natural-dietetica-herboristeria-villa-carlos-paz.jpg"
     },
@@ -2109,9 +2109,9 @@
       "unidades": "44 Unidades ",
       "precio": " 479,01 ",
       "precioBulto": 21076.44,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://kikimarket.com.ar/wp-content/uploads/2021/04/caja-pepa-vainilla-x-200-grs-dimax-kiki-market-tienda-natural-dietetica-herboristeria-villa-carlos-paz.jpg"
     },
@@ -2124,9 +2124,9 @@
       "unidades": "12 Unidades",
       "precio": 1107,
       "precioBulto": 13284,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://lascameliaslp.com.ar/wp-content/uploads/mayo-clasica-e1645548818581-600x640.jpg"
     },
@@ -2139,9 +2139,9 @@
       "unidades": "25 Unidades",
       "precio": 789.75,
       "precioBulto": 19743.75,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://latiendadelceliaco.com.ar/wp-content/uploads/2021/03/AZUCAR-IMPALPABLE-X-500G.-ABUCEL.jpg"
     },
@@ -2154,9 +2154,9 @@
       "unidades": "24 Unidades ",
       "precio": 357,
       "precioBulto": 8568,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://latiendadelceliaco.com.ar/wp-content/uploads/2021/04/SOPA-DE-ZAPALLO-X-55G.-BON-WERT.jpg"
     },
@@ -2169,9 +2169,9 @@
       "unidades": "12 Unidades ",
       "precio": 265.73,
       "precioBulto": 3188.76,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://masonlineprod.vtexassets.com/arquivos/ids/163928-800-auto?v=637835134825570000&width=800&height=auto&aspect=true"
     },
@@ -2184,9 +2184,9 @@
       "unidades": "24 Unidades ",
       "precio": 377.74,
       "precioBulto": 9065.76,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://masonlineprod.vtexassets.com/arquivos/ids/202729-800-auto?v=637845216328170000&width=800&height=auto&aspect=true"
     },
@@ -2199,9 +2199,9 @@
       "unidades": "12 Unidades ",
       "precio": 252.13,
       "precioBulto": 3025.56,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://masonlineprod.vtexassets.com/arquivos/ids/207032-800-auto?v=637850836802300000&width=800&height=auto&aspect=true"
     },
@@ -2214,9 +2214,9 @@
       "unidades": "12 Unidades ",
       "precio": 252.13,
       "precioBulto": 3025.56,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://masonlineprod.vtexassets.com/arquivos/ids/207033-800-auto?v=637850836805270000&width=800&height=auto&aspect=true"
     },
@@ -2229,9 +2229,9 @@
       "unidades": "12 Unidades",
       "precio": 679.42,
       "precioBulto": 5453.16,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://plataforma.supersimple.com.ar/Panelcontenidos/Contenidos/1631905656-0-0.webp"
     },
@@ -2244,9 +2244,9 @@
       "unidades": "12 Unidades",
       "precio": 419.8,
       "precioBulto": 5453.16,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://plataforma.supersimple.com.ar/Panelcontenidos/Contenidos/1631905656-0-0.webp"
     },
@@ -2259,9 +2259,9 @@
       "unidades": "12 Unidades",
       "precio": 707.73,
       "precioBulto": 5453.16,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://plataforma.supersimple.com.ar/Panelcontenidos/Contenidos/1634920382-0-0.webp"
     },
@@ -2274,9 +2274,9 @@
       "unidades": "12 Unidades",
       "precio": 477.72,
       "precioBulto": 5453.16,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://roldanonline.com.ar/wp-content/uploads/2020/07/7793046007722.jpg"
     },
@@ -2289,9 +2289,9 @@
       "unidades": "16 Unidades",
       "precio": 2975,
       "precioBulto": 47600,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://scontent.fepa7-1.fna.fbcdn.net/v/t1.6435-9/51661669_1227075067441944_6070549008579821568_n.png?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=ssRd9vilG2kAX8KIJX0&_nc_ht=scontent.fepa7-1.fna&oh=00_AfAi9O1owU87TwqBBAHDWV2JfPOctg42ENcrKHE7swfWhg&oe=64EB341A"
     },
@@ -2304,9 +2304,9 @@
       "unidades": "24 Unidades ",
       "precio": " 510,04 ",
       "precioBulto": 9180.72,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://statics.dinoonline.com.ar/imagenes/full_600x600_ma/3420327_f.jpg"
     },
@@ -2319,9 +2319,9 @@
       "unidades": "12 Unidades",
       "precio": 356.41,
       "precioBulto": 5453.16,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://statics.dinoonline.com.ar/imagenes/large_460x460/2080480_l.jpg"
     },
@@ -2334,9 +2334,9 @@
       "unidades": "30 Unidades ",
       "precio": " 750,82 ",
       "precioBulto": 22524.6,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://thefoodmarketar.vtexassets.com/arquivos/ids/155770-800-auto?v=637825346351900000&width=800&height=auto&aspect=true"
     },
@@ -2349,9 +2349,9 @@
       "unidades": "12 Unidades",
       "precio": 3132,
       "precioBulto": 3132,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://thefoodmarketar.vtexassets.com/arquivos/ids/156767-800-auto?v=637830354032330000&width=800&height=auto&aspect=true"
     },
@@ -2364,9 +2364,9 @@
       "unidades": "20 Unidades",
       "precio": 192.39,
       "precioBulto": 3847.8,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://thefoodmarketar.vtexassets.com/arquivos/ids/160837-800-auto?v=638212389266900000&width=800&height=auto&aspect=true"
     },
@@ -2379,9 +2379,9 @@
       "unidades": "12 Unidades",
       "precio": 1162,
       "precioBulto": 13944,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://tienda.elgranel.com.ar/wp-content/uploads/2022/11/img_66141-0a526d0a6d2934e69216574776345093-1024-1024-768x768.jpg"
     },
@@ -2394,9 +2394,9 @@
       "unidades": "12 Unidades",
       "precio": 1089,
       "precioBulto": 13068,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://tusuper.com.ar/image/cache/catalog/P2022/Julio/GGRMT/Arytza%20Chimichurri%20Etiqueta%20Negra%20Frasco%20360gr-800x800.jpg"
     },
@@ -2409,9 +2409,9 @@
       "unidades": " 18 Unidades ",
       "precio": 865.75,
       "precioBulto": 15583.5,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.aldeaecologica.com.ar/wp-content/uploads/2021/11/blue-patna-coditos.jpg"
     },
@@ -2424,9 +2424,9 @@
       "unidades": "15 Unidades ",
       "precio": 842.16,
       "precioBulto": 12632.4,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.aldeaecologica.com.ar/wp-content/uploads/2021/11/celidarina-harina-de-trigo-sarraceno.png"
     },
@@ -2439,9 +2439,9 @@
       "unidades": "12 Unidades ",
       "precio": 2970,
       "precioBulto": 2970,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.aldeaecologica.com.ar/wp-content/uploads/2021/11/cerro-azul-mousse-chocolate.jpg"
     },
@@ -2454,9 +2454,9 @@
       "unidades": "20 Unidades ",
       "precio": 382.5,
       "precioBulto": 7650,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.bonwert.com.ar/wp-content/uploads/2019/01/caldo-gallina-granulado.jpeg"
     },
@@ -2469,9 +2469,9 @@
       "unidades": "24 Unidades ",
       "precio": 346.8,
       "precioBulto": 8323.2,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.bonwert.com.ar/wp-content/uploads/2019/01/pollo.jpeg"
     },
@@ -2484,9 +2484,9 @@
       "unidades": "20 Unidades ",
       "precio": 382.5,
       "precioBulto": 7650,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.bonwert.com.ar/wp-content/uploads/2022/04/verduras.jpeg"
     },
@@ -2499,9 +2499,9 @@
       "unidades": "24 Unidades ",
       "precio": 785.89,
       "precioBulto": 18861.36,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.croppers.com.ar/timthumb/aHR0cHM6Ly93d3cuY3JvcHBlcnMuY29tLmFyL2Fzc2V0L2ltZy91cGxvYWRzLzE2MjIxMjI2MjYyNTVfR29fTmF0dXJhbF9CZXJyaWVzLnBuZw==/500/800/"
     },
@@ -2514,9 +2514,9 @@
       "unidades": "9 Unidades ",
       "precio": 171.7,
       "precioBulto": 1545.3,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.croppers.com.ar/timthumb/aHR0cHM6Ly93d3cuY3JvcHBlcnMuY29tLmFyL2Fzc2V0L2ltZy91cGxvYWRzLzE2MjYyODUyNTkyODFfMTAwX1Rvc3RhZG9fc2FsYWRvLnBuZw==/500/800/"
     },
@@ -2529,9 +2529,9 @@
       "unidades": "6 Unidades ",
       "precio": 1082.63,
       "precioBulto": 6495.78,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.croppers.com.ar/timthumb/aHR0cHM6Ly93d3cuY3JvcHBlcnMuY29tLmFyL2Fzc2V0L2ltZy91cGxvYWRzLzE2Mzk1OTY5MjY0NDFfVG9zdGFkbyBpbnRlcmlvci5wbmc=/500/800/"
     },
@@ -2544,9 +2544,9 @@
       "unidades": "6 Unidades",
       "precio": 2380.78,
       "precioBulto": 14284.68,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.framsmarket.com.ar/wp-content/uploads/2020/03/vn09.jpg"
     },
@@ -2559,9 +2559,9 @@
       "unidades": "8 Unidades",
       "precio": 666.6,
       "precioBulto": 5332.8,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.ifeelgood.com.ar/img/articulos/2021/06/leche_de_quinoa_original_biba_1lt_imagen1.jpg"
     },
@@ -2574,9 +2574,9 @@
       "unidades": "12 Unidades",
       "precio": 3132,
       "precioBulto": 3132,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.ifeelgood.com.ar/img/articulos/2021/07/alfajor_blanco_de_membrillo_y_avellanas_celienergy_50gr_imagen1.jpg"
     },
@@ -2589,9 +2589,9 @@
       "unidades": "8 Unidades",
       "precio": 666.6,
       "precioBulto": 5332.8,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.ifeelgood.com.ar/img/articulos/2021/10/leche_de_almendras_original_biba_1lt_imagen1.jpg"
     },
@@ -2604,9 +2604,9 @@
       "unidades": "8 Unidades",
       "precio": 503.85,
       "precioBulto": 4030.8,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.ifeelgood.com.ar/img/articulos/2021/10/leche_de_avena_original_biba_1lt_imagen1.jpg"
     },
@@ -2619,9 +2619,9 @@
       "unidades": "8 Unidades",
       "precio": 545.33,
       "precioBulto": 4362.64,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.ifeelgood.com.ar/img/articulos/bebida_vegetal_de_coco_dale_coco_1_lt_sin_lactosa_1_thumb1.jpg"
     },
@@ -2634,9 +2634,9 @@
       "unidades": "12 Unidades ",
       "precio": 660.4,
       "precioBulto": 7924.8,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.ifeelgood.com.ar/img/articulos/harina_premezcla_pizza_delicel_500gr_100_sin_tacc_imagen1.jpg"
     },
@@ -2649,9 +2649,9 @@
       "unidades": "20 Unidades",
       "precio": 192.39,
       "precioBulto": 3847.8,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.ifeelgood.com.ar/img/articulos/snacks_arroz_ciboulette_imagen1.jpg"
     },
@@ -2664,9 +2664,9 @@
       "unidades": "12 Unidades",
       "precio": 1189,
       "precioBulto": 14268,
-      "stock": "false",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": false,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.jardinorganico.com.ar/upload/productos/Barbacoa%20370%20Gr.JPG"
     },
@@ -2679,9 +2679,9 @@
       "unidades": "20 Unidades ",
       "precio": 403.17,
       "precioBulto": 8063.4,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.maubon.com.ar/database/articulos/fotos/274/BIZCOCHOS%20SALADOS%20DELICEL_180%20gr_1.jpg"
     },
@@ -2694,9 +2694,9 @@
       "unidades": "10 Unidades ",
       "precio": 284.42,
       "precioBulto": 3413.04,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.mialmacenamigo.com.ar/wp-content/uploads/0278-1.jpg"
     },
@@ -2709,9 +2709,9 @@
       "unidades": "18 Unidades ",
       "precio": " 610,18 ",
       "precioBulto": 10983.24,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.natuvida.com.ar/img/articulos/7798144940568.jpg"
     },
@@ -2724,9 +2724,9 @@
       "unidades": "18 Unidades ",
       "precio": " 583,64 ",
       "precioBulto": 10505.52,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.natuvida.com.ar/img/articulos/7798144941053.jpg"
     },
@@ -2739,9 +2739,9 @@
       "unidades": "18 Unidades ",
       "precio": " 610,18 ",
       "precioBulto": 10983.24,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.natuvida.com.ar/img/articulos/7798144941305.jpg"
     },
@@ -2754,9 +2754,9 @@
       "unidades": "1 Unidad ",
       "precio": 6606.6,
       "precioBulto": 6606.6,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.natyvos.com.ar/wp-content/uploads/2021/06/20210607_134242-768x768.jpg"
     },
@@ -2769,9 +2769,9 @@
       "unidades": "24 Unidades ",
       "precio": 785.89,
       "precioBulto": 18861.36,
-      "stock": "true",
-      "oferta": "false",
-      "nuevo": "false",
+      "stock": true,
+      "oferta": false,
+      "nuevo": false,
       "categoria": "null",
       "img": "https://www.tyna.com.ar/assets/archivos/recortadas/45550_9f752d38b9.webp"
     }
@@ -6322,7 +6322,7 @@
     {
       "name": "Denisse",
       "telefono": "0223 456 7777",
-      "estado": false,
+      "estado": true,
       "id": 18
     }
   ],
@@ -6529,7 +6529,7 @@
         ]
       ],
       "id": 182,
-      "estado": true
+      "estado": false
     },
     {
       "cliente": "Cabrales Constitucion (*) - Constitucion 4274",
@@ -6621,7 +6621,2807 @@
         ]
       ],
       "id": 183,
+      "estado": false
+    },
+    {
+      "cliente": "Dietetica Natura Colon (A) - Av. Colon 2547",
+      "fecha": "11/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Aderezo Para Ensalada  Clasico Pet",
+              258.92
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Aceituna Verde Descarozada   Red, en Sodio ",
+              519.51
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Aderezo Para Ensalada  Clasico Pet",
+              258.92
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Salsa Pizza Light",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": ""
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Alfajores Negros de Zapallo",
+              3132
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ]
+      ],
+      "id": 184,
+      "estado": false
+    },
+    {
+      "cliente": "Despensa Strobel - Strobel 5790",
+      "fecha": "11/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Pan de Molde Sin Tacc",
+              966
+            ]
+          },
+          {
+            "Cantidad": "12"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Aderezo Para Ensalada  Clasico Pet",
+              258.92
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pimentón Ahumado Dulce",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ]
+      ],
+      "id": 185,
       "estado": true
+    },
+    {
+      "cliente": "Almacen Homero - Av. Constitucion 8797",
+      "fecha": "3/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Pan de Molde Sin Tacc",
+              966
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ]
+      ],
+      "id": 186
+    },
+    {
+      "cliente": "Almacen Homero - Av. Constitucion 8797",
+      "fecha": "1/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Pimentón Ahumado Dulce",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ]
+      ],
+      "id": 187,
+      "estado": true
+    },
+    {
+      "cliente": "Autoservicio Girasol - Della Paolera 1410",
+      "fecha": "10/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Salsa Pizza Light",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Galletita Sabor Coco",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pasta de Mani",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ]
+      ],
+      "id": 188,
+      "estado": true
+    },
+    {
+      "cliente": "Auteservicio Uriel - Av. Constitucion 8996",
+      "fecha": "17/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Pan De Molde Vegano",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Galletita Sabor Coco",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ]
+      ],
+      "id": 189
+    },
+    {
+      "cliente": "Alto Constitucion - Dietetica (*) (A) - Av. Constitución 5680",
+      "fecha": "24/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Pan de Molde Sin Tacc",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Alfajores Negros de Zapallo",
+              " $",
+              3132
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pasta de Mani",
+              " $",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "3"
+          },
+          {}
+        ]
+      ],
+      "id": 190
+    },
+    {
+      "cliente": "Amanecer Constitucion (A) - Constitucion 6182",
+      "fecha": "17/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Salsa Pizza Light",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pasta de Mani",
+              " $",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ]
+      ],
+      "id": 191
+    },
+    {
+      "cliente": "Gold Chile - Chile 1098",
+      "fecha": "24/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Con Sal",
+              " $",
+              265.73
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pasta de Mani",
+              " $",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ]
+      ],
+      "id": 192
+    },
+    {
+      "cliente": "Gold Chile - Chile 1098",
+      "fecha": "24/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Con Sal",
+              " $",
+              265.73
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pasta de Mani",
+              " $",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Salsa Pizza Light",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ]
+      ],
+      "id": 193
+    },
+    {
+      "cliente": "Amanecer Constitucion (A) - Constitucion 6182",
+      "fecha": "17/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Mayonesa Al Ajo",
+              " $",
+              1216
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Rebozador",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Salsa Pizza Light",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "3"
+          },
+          {}
+        ]
+      ],
+      "id": 194
+    },
+    {
+      "cliente": "Lumos - Constitucion 7314",
+      "fecha": "11/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Galletita Sabor Coco",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pasta de Mani",
+              " $",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pan De Molde Vegano",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ]
+      ],
+      "id": 195
+    },
+    {
+      "cliente": "Almacen Homero - Av. Constitucion 8797",
+      "fecha": "11/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Pan De Molde Vegano",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Con Sal",
+              " $",
+              265.73
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pan de Molde Sin Tacc",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Rebozador",
+              " $",
+              689.11
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ]
+      ],
+      "id": 196
+    },
+    {
+      "cliente": "Almacen km 11 - Av libertad 6702",
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Pan De Molde Vegano",
+              " $",
+              966,
+              " ",
+              "Cerro Azul"
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Galletita Sabor Coco",
+              " $",
+              403.17,
+              " ",
+              "Delicel"
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Salsa Pizza Light",
+              " $",
+              272.73,
+              " ",
+              "Cormillot"
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pimentón Ahumado Dulce",
+              " $",
+              1143,
+              " ",
+              "Arytza"
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Alfajor de Mani",
+              " $",
+              3132,
+              " ",
+              "Celienergy"
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ]
+      ],
+      "id": 197
+    },
+    {
+      "cliente": "Autoservicio Los 5 Pinos Constitucion - Constitucion 6213",
+      "fecha": "19/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Salsa Pizza Light",
+              " $",
+              272.73,
+              " ",
+              "Cormillot"
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Caja Chocomiel",
+              " $",
+              " 510,09 ",
+              " ",
+              "Dimax"
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pan De Molde Vegano",
+              " $",
+              966,
+              " ",
+              "Cerro Azul"
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Salsa Pizza Light",
+              " $",
+              272.73,
+              " ",
+              "Cormillot"
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ]
+      ],
+      "id": 198
+    },
+    {
+      "cliente": "Almacen Homero - Av. Constitucion 8797",
+      "fecha": "19/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Pan De Molde Vegano",
+              " $",
+              966,
+              " ",
+              "Cerro Azul"
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Alfajores Negros de Zapallo",
+              " $",
+              3132,
+              " ",
+              "Celienergy"
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Leche de Almendras Chocolate",
+              " $",
+              731.8,
+              " ",
+              "COCOON"
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Pimentón Ahumado Dulce",
+              " $",
+              1143,
+              " ",
+              "Arytza"
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ]
+      ],
+      "id": 199,
+      "estado": false
+    },
+    {
+      "cliente": "El Buen Bife - Malvinas 710 ",
+      "fecha": "19/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              " ",
+              "Pan De Molde Vegano",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              " ",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              " ",
+              "Galletitas de Vainilla",
+              " ",
+              500,
+              "Grs",
+              " $",
+              961.31
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              " ",
+              "Galletita Pepas Membrillo",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "8"
+          },
+          {}
+        ]
+      ],
+      "id": 200
+    },
+    {
+      "cliente": "Meraki 2 (*) - Alvarado 3085",
+      "fecha": "19/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Arytza",
+              " ",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Premezcla Universal Panaderia y Reposteria",
+              " ",
+              500,
+              "Grs",
+              " $",
+              660.4
+            ]
+          },
+          {
+            "Cantidad": "21"
+          },
+          {}
+        ]
+      ],
+      "id": 201,
+      "estado": true
+    },
+    {
+      "cliente": "Amanecer Constitucion (A) - Constitucion 6182",
+      "fecha": "18/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan De Molde Vegano",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "7"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ]
+      ],
+      "id": 202
+    },
+    {
+      "cliente": "Amanecer Constitucion (A) - Constitucion 6182",
+      "fecha": "18/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan De Molde Vegano",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "7"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ]
+      ],
+      "id": 203
+    },
+    {
+      "cliente": "Almacen Brela - Av tejedor 901",
+      "fecha": "18/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan De Molde Vegano",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "7"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan De Molde Vegano",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ]
+      ],
+      "id": 204,
+      "estado": true
+    },
+    {
+      "cliente": "Alacena Tienda Natural (*) (A) - Ortega y gasset 688 2234553847",
+      "fecha": "Invalid Date",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ]
+      ],
+      "id": 205
+    },
+    {
+      "cliente": [
+        "Alacena Tienda Natural (*) (A) - Ortega y gasset 688 - Tel: 2234553847"
+      ],
+      "fecha": "3/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ]
+      ],
+      "id": 206,
+      "estado": true
+    },
+    {
+      "cliente": [
+        "Almacen Homero - Av. Constitucion 8797 - Tel: 2235925878"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Celienergy",
+              "-",
+              "Alfajores Negros de Zapallo",
+              " ",
+              "-",
+              "-",
+              " $",
+              3132
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ]
+      ],
+      "id": 207,
+      "estado": true
+    },
+    {
+      "cliente": [
+        "Alacena Tienda Natural (*) (A) - Ortega y gasset 688 - Tel: 2234553847"
+      ],
+      "fecha": "14/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ]
+      ],
+      "id": 208,
+      "estado": true
+    },
+    {
+      "cliente": [
+        "Almacen Homero - Av. Constitucion 8797 - Tel: 2235925878"
+      ],
+      "fecha": "14/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "3"
+          },
+          {}
+        ]
+      ],
+      "id": 209,
+      "estado": true
+    },
+    {
+      "cliente": [
+        "Almacen Homero - Av. Constitucion 8797 - Tel: 2235925878"
+      ],
+      "fecha": "17/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "ARROCITAS",
+              "-",
+              "Con Sal",
+              " ",
+              101,
+              "Grs",
+              " $",
+              265.73
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Celidarina",
+              "-",
+              "Premezcla Universal Salada",
+              " ",
+              500,
+              "Grs",
+              " $",
+              884.43
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ]
+      ],
+      "id": 210,
+      "estado": false
+    },
+    {
+      "cliente": [
+        "Despensa Los Girasoles - Ituzaingo 5788 - Tel: 2236330064"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan De Molde Vegano",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "ARROCITAS",
+              "-",
+              "Con Sal",
+              " ",
+              101,
+              "Grs",
+              " $",
+              265.73
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Dimax",
+              "-",
+              "Caja Chocomiel",
+              " ",
+              200,
+              "Grs",
+              " $",
+              " 510,09 "
+            ]
+          },
+          {
+            "Cantidad": "3"
+          },
+          {}
+        ]
+      ],
+      "id": 211
+    },
+    {
+      "cliente": [
+        "Almacen Homero - Av. Constitucion 8797 - Tel: 2235925878"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Dimax",
+              "-",
+              "Caja Biscuit",
+              " ",
+              120,
+              "Grs",
+              " $",
+              " 602,33 "
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "ARROCITAS",
+              "-",
+              "TOST sin sal - Cerialko",
+              " ",
+              120,
+              "Grs",
+              " $",
+              252.13
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Brennan",
+              "-",
+              "Mostaza A La Cerveza",
+              " ",
+              200,
+              "Grs",
+              " $",
+              1268.5
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ]
+      ],
+      "id": 212
+    },
+    {
+      "cliente": [
+        "Auteservicio Uriel - Av. Constitucion 8996 - Tel: 2235585403"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan De Molde Vegano",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "3"
+          },
+          {}
+        ]
+      ],
+      "id": 213
+    },
+    {
+      "fecha": "3/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ]
+      ],
+      "id": 214
+    },
+    {
+      "cliente": "Alacena Tienda Natural (*) (A) - Ortega y gasset 688 - Tel: 2234553847 - ID: 1",
+      "fecha": "3/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ]
+      ],
+      "id": 215
+    },
+    {
+      "cliente": "Almacen km 11 - Av libertad 6702 - Tel: undefined - ID: 4",
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ]
+      ],
+      "id": 216
+    },
+    {
+      "cliente": [
+        "Almacen Homero - Av. Constitucion 8797 - Tel: 2235925878 - ID: 3"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Croppers",
+              "-",
+              "Pasta de Mani",
+              " ",
+              310,
+              "Grs",
+              " $",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "3"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ]
+      ],
+      "id": 217
+    },
+    {
+      "cliente": "Almacen Homero - Av. Constitucion 8797 - Tel: 2235925878 - ID: 3",
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Croppers",
+              "-",
+              "Pasta de Mani",
+              " ",
+              310,
+              "Grs",
+              " $",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "3"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ]
+      ],
+      "id": 218
+    },
+    {
+      "cliente": "Alacena Tienda Natural (*) (A) - Ortega y gasset 688 - Tel: 2234553847 - ID: 1",
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Croppers",
+              "-",
+              "Pasta de Mani",
+              " ",
+              310,
+              "Grs",
+              " $",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "3"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ]
+      ],
+      "id": 219
+    },
+    {
+      "cliente": [
+        "Alacena Tienda Natural (*) (A) - Ortega y gasset 688 - Tel: 2234553847 - ID: 1"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Croppers",
+              "-",
+              "Pasta de Mani",
+              " ",
+              310,
+              "Grs",
+              " $",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "3"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ]
+      ],
+      "id": 220
+    },
+    {
+      "cliente": [
+        "Autoservicio Girasol - Della Paolera 1410 - Tel: undefined - ID: 8"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Croppers",
+              "-",
+              "Pasta de Mani",
+              " ",
+              310,
+              "Grs",
+              " $",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "3"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ]
+      ],
+      "id": 221
+    },
+    {
+      "cliente": [
+        "Autoservicio Girasol - Della Paolera 1410 - Tel: undefined - ID: 8"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Croppers",
+              "-",
+              "Pasta de Mani",
+              " ",
+              310,
+              "Grs",
+              " $",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "3"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ]
+      ],
+      "id": 222
+    },
+    {
+      "cliente": "Almacen km 11 - Av libertad 6702 - Tel: undefined - ID: 4",
+      "fecha": "23/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ]
+      ],
+      "id": 223
+    },
+    {
+      "cliente": [
+        "Alacena Tienda Natural (*) (A) - Ortega y gasset 688 - Tel: 2234553847 - ID: 1"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan De Molde Vegano",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ]
+      ],
+      "id": 224
+    },
+    {
+      "cliente": [
+        "Alacena Tienda Natural (*) (A) - Ortega y gasset 688 - Tel: 2234553847 - ID: 1"
+      ],
+      "fecha": "25/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan De Molde Vegano",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ]
+      ],
+      "id": 225
+    },
+    {
+      "cliente": [
+        "Almacen Homero"
+      ],
+      "fecha": "31/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan De Molde Vegano",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ]
+      ],
+      "id": 226
+    },
+    {
+      "cliente": [
+        "Almacen Brela - Av tejedor 901 - Tel: undefined - ID: 2"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan De Molde Vegano",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": ""
+          },
+          {}
+        ]
+      ],
+      "id": 227
+    },
+    {
+      "cliente": [
+        "Almacen Brela"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": 0
+          },
+          {}
+        ]
+      ],
+      "id": 228
+    },
+    {
+      "cliente": [
+        "Amanecer Constitucion (A)"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": 0
+          },
+          {}
+        ]
+      ],
+      "id": 229
+    },
+    {
+      "cliente": [
+        "Alto Constitucion - Dietetica (*) (A)"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "4"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {}
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Premezcla Universal Panaderia y Reposteria",
+              " ",
+              500,
+              "Grs",
+              " $",
+              660.4
+            ]
+          },
+          {
+            "Cantidad": "12"
+          },
+          {}
+        ]
+      ],
+      "id": 230
+    },
+    {
+      "cliente": [
+        "Almacen km 11"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan De Molde Vegano",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "2"
+          }
+        ]
+      ],
+      "id": 231
+    },
+    {
+      "cliente": [
+        "Almacen km 11"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "2"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ]
+      ],
+      "id": 232
+    },
+    {
+      "cliente": [
+        "Alacena Tienda Natural (*) (A)"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "6"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "5"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Croppers",
+              "-",
+              "Pasta de Mani",
+              " ",
+              310,
+              "Grs",
+              " $",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ]
+      ],
+      "id": 233
+    },
+    {
+      "cliente": [
+        "Almacen km 11"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Croppers",
+              "-",
+              "Pasta de Mani",
+              " ",
+              310,
+              "Grs",
+              " $",
+              532.01
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "2"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Galletitas de Vainilla",
+              " ",
+              500,
+              "Grs",
+              " $",
+              961.31
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Alfajor De Limon Vegano",
+              " ",
+              "-",
+              "-",
+              " $",
+              2970
+            ]
+          },
+          {
+            "Cantidad": "6"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Dimax",
+              "-",
+              "Premezcla Universal",
+              " ",
+              1,
+              "Kg",
+              " $",
+              " 1.149,13 "
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {},
+          {
+            "Descuento": "15"
+          }
+        ]
+      ],
+      "id": 234
     }
   ],
   "pedidosClientes": [

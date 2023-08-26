@@ -12,9 +12,9 @@ import Paper from "@mui/material/Paper";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import { useEffect, useState } from "react";
-import axios from "axios";
+import axios, { Axios } from "axios";
 import "./pedidos.css";
-import { Modal, ModalManager, Alert } from "@mui/material";
+import { Modal, ModalManager, Alert, Fab } from "@mui/material";
 import { Margin } from "@mui/icons-material";
 import ModalJson from "../modals/ModalJson";
 import Typography from "@mui/material/Typography";
@@ -30,6 +30,8 @@ import ToggleButton from "@mui/material/ToggleButton";
 import { PDFDownloadLink, StyleSheet } from "@react-pdf/renderer";
 import ModalPDF from "../modals/ModalPDF";
 import VistaWeb from "./VistaWeb";
+import EditIcon from "@mui/icons-material/Edit";
+import { useGlobalState } from "../components/Context"; // Importa el hook
 
 function Pedidos() {
   const [pedidos, setPedidos] = useState([]);
@@ -38,6 +40,7 @@ function Pedidos() {
   const [selected, setSelected] = useState(false);
   const [data, setData] = useState([]);
   const [render, setRender] = useState(false);
+  const [idCliente, setIdCliente] = useState("");
 
   useEffect(() => {
     try {
@@ -109,6 +112,41 @@ function Pedidos() {
     }
   }
 
+  let linkWsp = ``;
+
+  async function envioMensaje(nombre, id) {
+    console.log(nombre[0]);
+    try {
+      const clientesResponse = await axios.get(
+        `http://localhost:5000/clientes`
+      );
+      const clienteEncontrado = clientesResponse.data.find(
+        (cliente) => cliente.name === nombre[0]
+      );
+
+      if (!clienteEncontrado) {
+        console.log(`Cliente con nombre ${nombre} no encontrado.`);
+        return;
+      }
+
+      const idCliente = clienteEncontrado.id;
+      const phoneNumberResponse = await axios.get(
+        `http://localhost:5000/clientes/${idCliente}`
+      );
+      const phoneNumber = phoneNumberResponse.data.telefono;
+
+      const message = `Te paso el detalle del pedido ID: ${id}`;
+      const encodedMessage = encodeURIComponent(message);
+      const linkWsp = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
+
+      console.log(linkWsp);
+
+      window.location.href = linkWsp;
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  }
+
   return (
     <div
       style={{
@@ -127,7 +165,7 @@ function Pedidos() {
           flexDirection: "column",
         }}
       >
-        {render && <VistaWeb data={data} />}
+        {render && <VistaWeb data={data} idCliente={idCliente} />}
 
         <table className="table">
           <thead>
@@ -142,36 +180,51 @@ function Pedidos() {
           <tbody>
             {pedidosInvertidos.map((dato) => (
               <tr key={dato.id}>
-                <td>{dato.id}</td>
-                <td>{dato.cliente}</td>
-                <td>{dato.fecha}</td>
-                <td style={{ textAlign: "center" }}>{Estado(dato.estado)}</td>
+                <td style={{ flex: 1 }}>{dato.id}</td>
+                <td style={{ flex: 3, width: "25vw" }}>{dato.cliente}</td>
+                <td style={{ flex: 1 }}>{dato.fecha}</td>
+                <td style={{ textAlign: "center", flex: 2 }}>
+                  {Estado(dato.estado)}
+                </td>
                 <td
                   style={{
                     display: "flex",
-                    justifyContent: "space-around",
+                    justifyContent: "center",
                     alignItems: "center",
-                    width: "500px",
+                    width: "25vw",
                     textAlign: "center",
                   }}
                 >
+                  <Fab size="small" color="secondary" aria-label="edit">
+                    <EditIcon />
+                  </Fab>
+                  <button
+                    style={{
+                      background: "none",
+                      border: "0px",
+                      marginTop: "6px",
+                      cursor: "pointer",
+                    }}
+                    onClick={() => envioMensaje(dato.cliente, dato.id)}
+                  >
+                    <img
+                      style={{ width: "70px" }}
+                      src="https://live.mrf.io/statics/i/ps/www.muycomputer.com/wp-content/uploads/2012/10/whatsapp.jpg?width=1200&enable=upscale"
+                      alt="wsp"
+                      id="wsp"
+                    />
+                  </button>
                   <Button
                     sx={{ margin: "1rem" }}
                     onClick={() => descargarJson(dato)}
                     variant="contained"
                     color={color(dato.estado)}
                   >
-                    Detalle
-                    <span
-                      style={{ marginLeft: "1rem" }}
-                      id="export"
-                      className="material-symbols-outlined"
-                    >
-                      system_update_alt
-                    </span>
+                    Detalle{" "}
+                    <span class="material-symbols-outlined">search</span>
                   </Button>
                   <ToggleButton
-                    value={selected}
+                    value="check"
                     onClick={() => botonActivo(dato)}
                     selected={selected}
                     onChange={() => {

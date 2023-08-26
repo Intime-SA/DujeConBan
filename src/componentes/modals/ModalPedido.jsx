@@ -7,6 +7,9 @@ import axios from "axios";
 import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import { Text } from "@react-pdf/renderer";
+import "@mui/material/styles";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+
 function ModalPedido({
   crearPedido,
   botonCerrarPedido,
@@ -21,6 +24,23 @@ function ModalPedido({
   const [options2, setOptions2] = useState([]);
   const [selectedOption3, setSelectedOption3] = useState();
   const [selectedOptionsArray, setSelectedOptionsArray] = useState([]);
+  const [cantidad, setCantidad] = useState(0);
+  const [descuento, setDescuento] = useState(0);
+  const [newItem, setNewItem] = useState();
+  const [producto, setProducto] = useState();
+
+  const theme = createTheme({
+    components: {
+      MuiAutocomplete: {
+        styleOverrides: {
+          option: {
+            fontFamily: "Arial, sans-serif", // Cambia la fuente de las opciones
+            // Otras propiedades de estilo que quieras ajustar
+          },
+        },
+      },
+    },
+  });
 
   // Función que se pasará como prop al componente hijo
   const onSubmit = (data) => {
@@ -31,7 +51,7 @@ function ModalPedido({
 
     axios
       .post("http://localhost:5000/pedidosVendedores", {
-        cliente: data.cliente,
+        cliente: selectedOption,
         fecha: fechaSimpleStr,
         productos: selectedOptionsArray,
       })
@@ -42,31 +62,32 @@ function ModalPedido({
       });
   };
 
+  const confirmarProducto = () => {
+    setSelectedOptionsArray([...selectedOptionsArray, newItem]);
+  };
+
   const handleChange3 = (event, value) => {
     if (value !== null) {
-      let unidades = prompt("Ingrese cantidad de unidades");
-
+      setProducto(value);
+      console.log(value);
       setSelectedOption3(value.precio);
-
-      if (value && !selectedOptionsArray.some((item) => item === value)) {
-        setSelectedOptionsArray([
-          ...selectedOptionsArray,
-          [{ Producto: value }],
-        ]);
-
-        if (unidades !== null) {
-          setSelectedOptionsArray([
-            ...selectedOptionsArray,
-            [
-              { Producto: value },
-              { Cantidad: unidades },
-              { Precio: opciones.precio },
-            ],
-          ]);
-        }
-      }
     }
-    console.log(selectedOptionsArray);
+    setCantidad(0);
+  };
+
+  const handleChange4 = (event) => {
+    const value = event.target.value;
+    setCantidad(value);
+  };
+  const handleChange5 = (event) => {
+    const value = event.target.value;
+    setDescuento(value);
+    setNewItem([
+      { Producto: producto },
+      { Cantidad: cantidad },
+      { Precio: opciones.precio },
+      { Descuento: descuento },
+    ]);
   };
 
   const handleChange2 = (value) => {
@@ -105,9 +126,7 @@ function ModalPedido({
 
   // Filtrar los elementos que coinciden con el texto ingresado
   useEffect(() => {
-    setOptions(
-      dataClientes.map((cliente) => cliente.name + " - " + cliente.direccion)
-    );
+    setOptions(dataClientes.map((cliente) => [cliente.name]));
   }, [dataClientes]);
 
   useEffect(() => {
@@ -123,17 +142,38 @@ function ModalPedido({
 
   // Filtrar los elementos que coinciden con el texto ingresado
   useEffect(() => {
+    const filteredOptions = opciones.filter(
+      (propiety) => propiety.stock === true
+    );
     setOptions2(
-      opciones.map((propiedad) => {
-        return [propiedad.name, propiedad.precio];
+      filteredOptions.map((propiedad) => {
+        return [
+          propiedad.marca,
+          "-",
+          propiedad.name,
+          " ",
+          propiedad.peso,
+          propiedad.medida,
+          " $",
+          propiedad.precio,
+        ];
       })
     );
   }, [dataProductos]);
+
+  function quitarComas(objt) {
+    const objeto = objt.replace(/,/g, "");
+    return objeto;
+  }
 
   const opciones = dataProductos.map((producto) => {
     return {
       name: producto.name,
       precio: producto.precio,
+      stock: producto.stock,
+      marca: producto.marca,
+      peso: producto.peso,
+      medida: producto.medida,
     };
   });
 
@@ -208,18 +248,42 @@ function ModalPedido({
             <h3 style={{ fontSize: "2rem", textAlign: "left" }}>
               Seleccionar Productos
             </h3>
-            <Autocomplete
-              disablePortal
-              id="productos"
-              options={options2}
-              name="productos"
-              value={selectedOption3}
-              onChange={handleChange3}
-              fullWidth
-              renderInput={(params) => (
-                <TextField {...params} label="Escribe el Producto" />
-              )}
-            />
+            <ThemeProvider theme={theme}>
+              <Autocomplete
+                disablePortal
+                id="productos"
+                options={options2}
+                name="productos"
+                value={selectedOption3}
+                onChange={handleChange3}
+                fullWidth
+                renderInput={(params) => {
+                  quitarComas(params.inputProps.value);
+
+                  return <TextField {...params} label="Escribe el Producto" />;
+                }}
+              />
+              <TextField
+                sx={{ width: 300, margin: "1rem" }}
+                disablePortal
+                id="cantidad"
+                name="cantidad"
+                value={cantidad} // Asignamos el valor del estado aquí
+                onChange={handleChange4}
+                label="Cantidad de Unidades"
+              />
+
+              <TextField
+                sx={{ width: 300, margin: "1rem" }}
+                disablePortal
+                id="cantidad"
+                name="descuento"
+                value={descuento} // Asignamos el valor del estado aquí
+                onChange={handleChange5}
+                label="Descuento %"
+              />
+              <Button onClick={confirmarProducto}>Agregar</Button>
+            </ThemeProvider>
           </div>
 
           {/* {selectedOptionsArray.map((item, index) => ( 
@@ -241,11 +305,18 @@ function ModalPedido({
               {selectedOptionsArray.map((item, index) => (
                 <tr key={index}>
                   <td>
-                    <h4 style={{ color: "black" }}>{item[0].Producto}</h4>{" "}
+                    <h4 style={{ color: "black" }}>
+                      {item[0].Producto[0] +
+                        item[0].Producto[1] +
+                        item[0].Producto[2] +
+                        item[0].Producto[3] +
+                        item[0].Producto[4] +
+                        item[0].Producto[5]}
+                    </h4>{" "}
                   </td>
                   <td>
                     <h4 style={{ color: "black" }}>
-                      {parseFloat(item[0].Producto[1]).toFixed(2)}
+                      {parseFloat(item[0].Producto[7]).toFixed(2)}
                     </h4>{" "}
                   </td>
                   <td>
