@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from "react";
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { Autocomplete, Button, TextField } from "@mui/material";
 import axios from "axios";
 import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
-import { Text } from "@react-pdf/renderer";
 import "@mui/material/styles";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import PreVisualizadorPedido from "../pages/PreVisualizadorPedido";
+import { Grid } from "@mui/material";
+import { DataGrid } from "@mui/x-data-grid";
 
 function ModalPedido({
   crearPedido,
@@ -62,6 +63,21 @@ function ModalPedido({
       });
   };
 
+  const eliminarProducto = (index) => {
+    const updatedArray = [...selectedOptionsArray];
+    updatedArray.splice(index, 1);
+    setSelectedOptionsArray(updatedArray);
+  };
+
+  useEffect(() => {
+    setNewItem([
+      { Producto: producto },
+      { Cantidad: cantidad },
+      { Precio: opciones.precio },
+      { Descuento: descuento },
+    ]);
+  }, [cantidad, producto, descuento]);
+
   const confirmarProducto = () => {
     setSelectedOptionsArray([...selectedOptionsArray, newItem]);
   };
@@ -72,7 +88,6 @@ function ModalPedido({
       console.log(value);
       setSelectedOption3(value.precio);
     }
-    setCantidad(0);
   };
 
   const handleChange4 = (event) => {
@@ -82,12 +97,6 @@ function ModalPedido({
   const handleChange5 = (event) => {
     const value = event.target.value;
     setDescuento(value);
-    setNewItem([
-      { Producto: producto },
-      { Cantidad: cantidad },
-      { Precio: opciones.precio },
-      { Descuento: descuento },
-    ]);
   };
 
   const handleChange2 = (value) => {
@@ -176,6 +185,44 @@ function ModalPedido({
       medida: producto.medida,
     };
   });
+
+  const correctColumns = [
+    { field: "id", width: 20 },
+    { field: "Producto", width: 380 },
+    { field: "Cantidad", width: 100 },
+    { field: "Precio", width: 100 },
+    { field: "Descuento", width: 100 },
+    {
+      field: "Acciones",
+      width: 100,
+      renderCell: (params) => (
+        <Button
+          onClick={() => {
+            eliminarProducto(params.id); // Aquí usamos params.id para obtener el id de la fila
+          }}
+        >
+          <span className="material-symbols-outlined">delete</span>
+        </Button>
+      ),
+    },
+  ];
+
+  const objeto = selectedOptionsArray.map((elemento, index) => ({
+    id: index,
+    Producto:
+      elemento[0].Producto[0] +
+      elemento[0].Producto[1] +
+      elemento[0].Producto[2] +
+      elemento[0].Producto[3] +
+      elemento[0].Producto[4] +
+      elemento[0].Producto[5],
+    Cantidad: elemento[1].Cantidad,
+    Precio: "$ " + elemento[0].Producto[7].toFixed(2),
+    Descuento: elemento[3].Descuento + " %",
+  }));
+  console.log(objeto);
+
+  const rows = objeto;
 
   const style = {
     position: "absolute",
@@ -282,7 +329,19 @@ function ModalPedido({
                 onChange={handleChange5}
                 label="Descuento %"
               />
-              <Button onClick={confirmarProducto}>Agregar</Button>
+              <Button onClick={confirmarProducto}>
+                <span
+                  style={{
+                    fontSize: "2.5rem",
+                    display: "flex",
+                    alignItems: "center",
+                    marginTop: "1rem",
+                  }}
+                  class="material-symbols-outlined"
+                >
+                  add
+                </span>
+              </Button>
             </ThemeProvider>
           </div>
 
@@ -292,40 +351,54 @@ function ModalPedido({
                 {item[0].Producto}..........{item[1].Cantidad}
               </li>
           </ul>)}*/}
-
-          <table style={{ width: "30vw" }} className="table">
-            <thead>
-              <tr>
-                <th>Producto</th>
-                <th>Precio</th>
-                <th>Unidades</th>
-              </tr>
-            </thead>
-            <tbody>
-              {selectedOptionsArray.map((item, index) => (
-                <tr key={index}>
-                  <td>
-                    <h4 style={{ color: "black" }}>
-                      {item[0].Producto[0] +
-                        item[0].Producto[1] +
-                        item[0].Producto[2] +
-                        item[0].Producto[3] +
-                        item[0].Producto[4] +
-                        item[0].Producto[5]}
-                    </h4>{" "}
-                  </td>
-                  <td>
-                    <h4 style={{ color: "black" }}>
-                      {parseFloat(item[0].Producto[7]).toFixed(2)}
-                    </h4>{" "}
-                  </td>
-                  <td>
-                    <h4 style={{ color: "black" }}>{item[1].Cantidad}</h4>{" "}
-                  </td>
+          <Grid container spacing={1}>
+            <Grid item xs={12} md={12}>
+              <Box sx={{ height: 300 }}>
+                <DataGrid rows={rows} columns={correctColumns} />
+              </Box>
+              {/* <table style={{ width: "90%" }} className="table">
+              <thead>
+                <tr>
+                  <th>Producto</th>
+                  <th>Precio</th>
+                  <th>Unidades</th>
+                  <th>Acciones</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {selectedOptionsArray.map((item, index) => (
+                  <tr key={index}>
+                    <td style={{ width: "60%" }}>
+                      <h4 style={{ color: "black", fontSize: "2rem" }}>
+                        {item[0].Producto[0] +
+                          item[0].Producto[1] +
+                          item[0].Producto[2] +
+                          item[0].Producto[3] +
+                          item[0].Producto[4] +
+                          item[0].Producto[5]}
+                      </h4>{" "}
+                    </td>
+                    <td style={{ width: "10%" }}>
+                      <h4 style={{ color: "black", fontSize: "2rem" }}>
+                        {parseFloat(item[0].Producto[7]).toFixed(2)}
+                      </h4>{" "}
+                    </td>
+                    <td style={{ width: "10%" }}>
+                      <h4 style={{ color: "black", fontSize: "2rem" }}>
+                        {item[1].Cantidad}
+                      </h4>{" "}
+                    </td>
+                    <td style={{ width: "10%" }}>
+                      <Button onClick={() => eliminarProducto(index)}>
+                        <span class="material-symbols-outlined">delete</span>
+                      </Button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table> */}
+            </Grid>
+          </Grid>
 
           <Button
             onClick={cerrarListadoPedidos}

@@ -9422,6 +9422,1821 @@
         ]
       ],
       "id": 234
+    },
+    {
+      "cliente": [
+        "Almacen km 11"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Alfajor Sin Azucar",
+              " ",
+              "-",
+              "-",
+              " $",
+              3795
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "10"
+          }
+        ]
+      ],
+      "id": 235
+    },
+    {
+      "cliente": [
+        "Auteservicio Uriel"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan De Molde Vegano",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "10"
+          }
+        ]
+      ],
+      "id": 236
+    },
+    {
+      "cliente": [
+        "Autoservicio Girasol"
+      ],
+      "fecha": "31/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan De Molde Vegano",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "10"
+          }
+        ]
+      ],
+      "id": 237
+    },
+    {
+      "cliente": [
+        "Alto Constitucion - Dietetica (*) (A)"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": 0
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Celienergy",
+              "-",
+              "Alfajores Negros de Zapallo",
+              " ",
+              "-",
+              "-",
+              " $",
+              3132
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "5"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Aglu",
+              "-",
+              "Rebozador",
+              " ",
+              450,
+              "Grs",
+              " $",
+              661.95
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": ""
+          }
+        ]
+      ],
+      "id": 238
+    },
+    {
+      "cliente": [
+        "Almacen Brela"
+      ],
+      "fecha": "25/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": 0
+          }
+        ]
+      ],
+      "id": 239
+    },
+    {
+      "cliente": [
+        "Almacen Brela"
+      ],
+      "fecha": "26/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": 0
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "8"
+          },
+          {},
+          {
+            "Descuento": "10"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "ARROCITAS",
+              "-",
+              "Con Sal",
+              " ",
+              101,
+              "Grs",
+              " $",
+              265.73
+            ]
+          },
+          {
+            "Cantidad": 0
+          },
+          {},
+          {
+            "Descuento": "2"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "ARROCITAS",
+              "-",
+              "Con Sal",
+              " ",
+              101,
+              "Grs",
+              " $",
+              265.73
+            ]
+          },
+          {
+            "Cantidad": 0
+          },
+          {},
+          {
+            "Descuento": "2"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "ARROCITAS",
+              "-",
+              "Con Sal",
+              " ",
+              101,
+              "Grs",
+              " $",
+              265.73
+            ]
+          },
+          {
+            "Cantidad": 0
+          },
+          {},
+          {
+            "Descuento": "2"
+          }
+        ]
+      ],
+      "id": 240
+    },
+    {
+      "cliente": [
+        "Almacen Homero"
+      ],
+      "fecha": "28/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": 0
+          }
+        ]
+      ],
+      "id": 241
+    },
+    {
+      "cliente": [
+        "Alto Constitucion - Dietetica (*) (A)"
+      ],
+      "fecha": "31/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": 0
+          }
+        ]
+      ],
+      "id": 242
+    },
+    {
+      "cliente": [
+        "Alto Constitucion - Dietetica (*) (A)"
+      ],
+      "fecha": "31/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": 0
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Delicel",
+              "-",
+              "Galletita Sabor Coco",
+              " ",
+              150,
+              "Grs",
+              " $",
+              403.17
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ]
+      ],
+      "id": 243
+    },
+    {
+      "cliente": [
+        "Alto Constitucion - Dietetica (*) (A)"
+      ],
+      "fecha": "31/8/2023",
+      "productos": [],
+      "id": 244
+    },
+    {
+      "cliente": [
+        "Alto Constitucion - Dietetica (*) (A)"
+      ],
+      "fecha": "31/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "10"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "1"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ]
+      ],
+      "id": 245
+    },
+    {
+      "cliente": [
+        "Alacena Tienda Natural (*) (A)"
+      ],
+      "fecha": "31/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "2"
+          },
+          {},
+          {
+            "Descuento": "1"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "5"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ]
+      ],
+      "id": 246
+    },
+    {
+      "cliente": [
+        "Alto Constitucion - Dietetica (*) (A)"
+      ],
+      "fecha": "31/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "10"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ]
+      ],
+      "id": 247
+    },
+    {
+      "cliente": [
+        "Alto Constitucion - Dietetica (*) (A)"
+      ],
+      "fecha": "31/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cerro Azul",
+              "-",
+              "Pan de Molde Sin Tacc",
+              " ",
+              450,
+              "Grs",
+              " $",
+              966
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "10"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Arytza",
+              "-",
+              "Pimentón Ahumado Dulce",
+              " ",
+              165,
+              "Grs",
+              " $",
+              1143
+            ]
+          },
+          {
+            "Cantidad": "20"
+          },
+          {},
+          {
+            "Descuento": "0"
+          }
+        ]
+      ],
+      "id": 248,
+      "estado": true
+    },
+    {
+      "cliente": [
+        "Kika Gluten Free"
+      ],
+      "fecha": "31/8/2023",
+      "productos": [
+        [
+          {
+            "Producto": [
+              "Cormillot",
+              "-",
+              "Salsa Pizza Light",
+              " ",
+              340,
+              "Grs",
+              " $",
+              272.73
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "5"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "Celienergy",
+              "-",
+              "Alfajores Negros de Zapallo",
+              " ",
+              "-",
+              "-",
+              " $",
+              3132
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "5"
+          }
+        ],
+        [
+          {
+            "Producto": [
+              "ARROCITAS",
+              "-",
+              "Con Sal",
+              " ",
+              101,
+              "Grs",
+              " $",
+              265.73
+            ]
+          },
+          {
+            "Cantidad": "10"
+          },
+          {},
+          {
+            "Descuento": "5"
+          }
+        ]
+      ],
+      "id": 249
     }
   ],
   "pedidosClientes": [
